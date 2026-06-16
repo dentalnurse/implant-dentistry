@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DNT Implant Dentistry for Dental Nurses</title>
+<link rel="stylesheet" href="css/main.css">
+<script>
+(function () {
+  if (localStorage.getItem('implantPinOk') !== 'yes') {
+    document.documentElement.classList.add('pin-locked');
+  }
+})();
+</script>
+</head>
+<body>
+
+<div id="pin-gate">
+  <div class="pin-card">
+    <div class="brand-badge">DI</div>
+    <h1>DNT Implant Dentistry</h1>
+    <p>Enter the 4-digit access code to view this course.</p>
+    <div class="pin-inputs">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+    </div>
+    <div class="pin-error"></div>
+  </div>
+</div>
+
+<div id="site-content">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand"><span class="brand-badge">DI</span> DNT Implant Dentistry</div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="portal.html">Course Portal</a>
+        <button class="lock-btn">Lock site</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <section class="hero">
+      <span class="eyebrow">Dental Nurse Training</span>
+      <h1>Implant Dentistry for Dental Nurses</h1>
+      <p>A comprehensive ten-module course covering the knowledge dental nurses need to support patients through every stage of the implant treatment journey, from assessment through to advanced surgical procedures.</p>
+      <a href="portal.html" class="btn btn-primary">Enter the Course Portal</a>
+    </section>
+
+    <div class="container">
+      <h2>About this course</h2>
+      <p>This course is designed for dental nurses developing their knowledge of implant dentistry. It covers anatomy and physiology, patient assessment and treatment planning, the implant treatment journey, instruments and materials, peri-implant care, infection control, legal and professional responsibilities, medical emergencies, and advanced surgical procedures.</p>
+      <p>Each module includes structured learning content, a glossary of key terms, and a module quiz drawn from a bank of questions. Modules unlock sequentially as you progress, and a final assessment covering the full course is available once all ten modules have been completed.</p>
+
+      <h2 style="margin-top:40px;">Course modules</h2>
+      <div class="card-grid" id="home-module-preview"></div>
+
+      <div style="text-align:center; margin-top:40px;">
+        <a href="portal.html" class="btn btn-solid">Begin the Course</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    &copy; 2026 DNT Implant Dentistry for Dental Nurses. For training purposes only.
+  </footer>
+
+</div>
+
+<script src="js/content.js"></script>
+<script src="js/gate.js"></script>
+<script src="js/app.js"></script>
+<script>
+const preview = document.getElementById('home-module-preview');
+MODULE_CONTENT.forEach((m) => {
+  const card = document.createElement('div');
+  card.className = 'module-card';
+  card.innerHTML = `<span class="module-number">${m.num}</span><h3>${m.title}</h3>`;
+  preview.appendChild(card);
+});
+</script>
+</body>
+</html>

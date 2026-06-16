@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Portal — DNT Implant Dentistry</title>
+<link rel="stylesheet" href="css/main.css">
+<script>
+(function () {
+  if (localStorage.getItem('implantPinOk') !== 'yes') {
+    document.documentElement.classList.add('pin-locked');
+  }
+})();
+</script>
+</head>
+<body>
+
+<div id="pin-gate">
+  <div class="pin-card">
+    <div class="brand-badge">DI</div>
+    <h1>DNT Implant Dentistry</h1>
+    <p>Enter the 4-digit access code to view this course.</p>
+    <div class="pin-inputs">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+    </div>
+    <div class="pin-error"></div>
+  </div>
+</div>
+
+<div id="site-content">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand"><span class="brand-badge">DI</span> DNT Implant Dentistry</div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="portal.html">Course Portal</a>
+        <button class="lock-btn">Lock site</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <div class="container">
+      <h1>Course Portal</h1>
+      <p>Work through the ten modules in order. Each module quiz draws 15 random questions from a pool of 25, and you need 75% to pass and unlock the next module. Once all ten modules are complete, the final assessment becomes available.</p>
+
+      <div class="card" style="margin-top:24px;">
+        <strong id="overall-progress-label">0 of 10 modules complete</strong>
+        <div class="progress-bar-track"><div class="progress-bar-fill" id="overall-progress-fill" style="width:0%"></div></div>
+      </div>
+
+      <div class="card-grid" id="module-list"></div>
+
+      <h2 style="margin-top:48px;">Final Assessment</h2>
+      <div id="final-card-wrap"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    &copy; 2026 DNT Implant Dentistry for Dental Nurses. For training purposes only.
+  </footer>
+
+</div>
+
+<script src="js/content.js"></script>
+<script src="js/gate.js"></script>
+<script src="js/app.js"></script>
+<script src="js/portal.js"></script>
+</body>
+</html>

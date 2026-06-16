@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module — DNT Implant Dentistry</title>
+<link rel="stylesheet" href="css/main.css">
+<script>
+(function () {
+  if (localStorage.getItem('implantPinOk') !== 'yes') {
+    document.documentElement.classList.add('pin-locked');
+  }
+})();
+</script>
+</head>
+<body>
+
+<div id="pin-gate">
+  <div class="pin-card">
+    <div class="brand-badge">DI</div>
+    <h1>DNT Implant Dentistry</h1>
+    <p>Enter the 4-digit access code to view this course.</p>
+    <div class="pin-inputs">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+      <input type="tel" inputmode="numeric" maxlength="1" autocomplete="off">
+    </div>
+    <div class="pin-error"></div>
+  </div>
+</div>
+
+<div id="site-content">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand"><span class="brand-badge">DI</span> DNT Implant Dentistry</div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="portal.html">Course Portal</a>
+        <button class="lock-btn">Lock site</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <div class="container narrow" id="module-root">
+      <div class="empty-state" id="module-not-found" style="display:none;">
+        <h2>Module not found or locked</h2>
+        <p>Please return to the course portal and select an available module.</p>
+        <a href="portal.html" class="btn btn-solid">Back to Portal</a>
+      </div>
+
+      <div id="module-content-view">
+        <div class="breadcrumb"><a href="portal.html">Course Portal</a> &rsaquo; <span id="mc-breadcrumb-title"></span></div>
+        <span class="badge" id="mc-badge"></span>
+        <h1 id="mc-title"></h1>
+        <p id="mc-intro"></p>
+
+        <div class="objectives-list">
+          <strong>By the end of this module you will be able to:</strong>
+          <ul id="mc-objectives"></ul>
+        </div>
+
+        <div id="mc-sections"></div>
+
+        <h2 style="margin-top:40px;">Module Glossary</h2>
+        <dl class="glossary-grid" id="mc-glossary"></dl>
+
+        <div style="text-align:center; margin-top:48px;">
+          <button class="btn btn-solid" id="mc-start-quiz">Start Module Quiz</button>
+        </div>
+      </div>
+
+      <div id="module-quiz-view" style="display:none;">
+        <div class="breadcrumb"><a href="portal.html">Course Portal</a> &rsaquo; <span id="mq-breadcrumb-title"></span> &rsaquo; Quiz</div>
+        <h1 id="mq-title"></h1>
+        <div class="card" id="mq-quiz-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    &copy; 2026 DNT Implant Dentistry for Dental Nurses. For training purposes only.
+  </footer>
+
+</div>
+
+<script src="js/content.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/gate.js"></script>
+<script src="js/app.js"></script>
+<script src="js/quiz-engine.js"></script>
+<script src="js/module.js"></script>
+</body>
+</html>
