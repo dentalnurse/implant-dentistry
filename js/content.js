@@ -623,7 +623,7 @@ const MODULE_CONTENT = [
         "paragraphs": [
           "In a two-stage approach the implant fixture is buried beneath the gingival tissue at the time of placement and left to undergo osseointegration undisturbed. Once osseointegration is confirmed, a second minor surgical appointment is carried out to uncover the implant and attach the abutment in preparation for the restorative stage. This is the more traditional approach and may be preferred in cases where primary stability is less certain.",
           "In a one-stage approach a healing abutment is placed at the time of implant placement so that the implant head remains visible above the gum line throughout healing. This avoids the need for a second surgical appointment to uncover the implant and is increasingly used in straightforward cases with good primary stability."
-        ],
+        ]
       },
       {
         "heading": "Timing of Implant Placement",
