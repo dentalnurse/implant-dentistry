@@ -76,10 +76,12 @@ ul { line-height: 1.65; }
 }
 
 .site-logo {
-  height: 48px;
+  height: 36px;
   width: auto;
   display: block;
-  filter: brightness(0) invert(1);
+  background: #fff;
+  border-radius: 6px;
+  padding: 4px 10px;
 }
 
 .brand .brand-badge {
