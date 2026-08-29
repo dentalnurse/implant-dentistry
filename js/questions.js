@@ -40,7 +40,7 @@ const QUESTION_BANK = {
           "scenario": false
         },
         {
-          "q": "Who is described as the gold standard for tooth replacement?",
+          "q": "What is described as the gold standard for replacing a missing tooth?",
           "options": {
             "A": "Conventional bridge",
             "B": "Adhesive bridge",
