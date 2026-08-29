@@ -63,6 +63,7 @@ function renderModulePage() {
       img.src = section.image.src;
       img.alt = section.image.alt || '';
       img.loading = 'lazy';
+      img.onerror = () => { fig.hidden = true; };
       fig.appendChild(img);
       if (section.image.caption) {
         const cap = document.createElement('figcaption');
@@ -82,6 +83,7 @@ function renderModulePage() {
         img.src = imgData.src;
         img.alt = imgData.alt || '';
         img.loading = 'lazy';
+        img.onerror = () => { fig.hidden = true; };
         fig.appendChild(img);
         if (imgData.caption) {
           const cap = document.createElement('figcaption');
