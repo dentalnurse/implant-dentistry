@@ -484,7 +484,12 @@ const MODULE_CONTENT = [
         "heading": "Cone Beam Computed Tomography",
         "paragraphs": [
           "Cone beam computed tomography, commonly known as CBCT, provides detailed three-dimensional imaging of the jaws and surrounding structures. It allows precise measurement of bone height, width and density at the proposed implant site, and clearly shows the location of anatomical structures including the inferior alveolar nerve canal, the maxillary antrum and adjacent tooth roots. CBCT is increasingly used in implant planning, particularly for more complex cases, though its use involves a higher radiation dose than conventional radiography and must be justified on a case by case basis."
-        ]
+        ],
+        "image": {
+          "src": "images/CT_Scan_for_Dental_Implants.jpg",
+          "alt": "CBCT scan showing 3D mandible reconstruction with planned implant positions and cross-sectional bone views",
+          "caption": "CBCT implant planning software: 3D mandible reconstruction (right) with planned implant positions, alongside cross-sectional views showing bone dimensions and implant depth at each site."
+        }
       },
       {
         "heading": "Dental Photography",
@@ -992,7 +997,12 @@ const MODULE_CONTENT = [
           "Radiographic evidence of bone loss around the implant",
           "In more advanced cases, mobility of the implant indicating significant bone loss",
           "Possible pain or discomfort, though peri-implantitis can be painless in its early stages"
-        ]
+        ],
+        "image": {
+          "src": "images/Periimplantitis_progression_over_5_years_in_heavy_smoker.gif",
+          "alt": "Periapical radiograph showing progressive bone loss around two dental implants in a heavy smoker over 5 years",
+          "caption": "Radiographic progression of peri-implantitis in a heavy smoker: the characteristic angular bone loss around the implant necks worsens over time. Image: Coronation Dental Specialty Group, CC BY-SA 3.0."
+        }
       },
       {
         "heading": "Risk Factors for Peri-Implantitis",
@@ -1455,6 +1465,18 @@ const MODULE_CONTENT = [
         ],
         "closing": [
           "The importance of early, high quality CPR and early defibrillation cannot be overstated. Every minute without CPR following cardiac arrest reduces the chance of survival by approximately ten percent. The dental nurse who is trained and confident in BLS can genuinely save a patient's life."
+        ],
+        "images": [
+          {
+            "src": "images/CPR_on_an_Adult.png",
+            "alt": "Head-tilt chin-lift manoeuvre to open the airway during CPR",
+            "caption": "Step 1: Open the airway using the head-tilt chin-lift technique before checking for breathing. Image: BruceBlaus, CC BY-SA 4.0."
+          },
+          {
+            "src": "images/CPR_Adult_Chest_Compression_Heart.png",
+            "alt": "Correct hand position over the sternum for chest compressions during CPR",
+            "caption": "Step 2: Place hands over the lower half of the sternum and compress to 5–6 cm at 100–120 per minute. Image: BruceBlaus, CC BY-SA 4.0."
+          }
         ]
       }
     ],
@@ -1532,7 +1554,12 @@ const MODULE_CONTENT = [
         "heading": "Barrier Membranes",
         "paragraphs": [
           "Bone grafting procedures are often combined with the use of barrier membranes, a technique known as guided bone regeneration. The membrane is placed over the graft material to exclude faster-growing soft tissue cells from the healing site, allowing the slower-growing bone cells time to populate and replace the graft material with new bone. Membranes may be resorbable, meaning they dissolve naturally over time, or non-resorbable, requiring removal at a second surgical appointment."
-        ]
+        ],
+        "image": {
+          "src": "images/Extraction_socket_with_bone_graft_and_barrier_membrane.jpg",
+          "alt": "Extraction socket packed with bone graft granules and a barrier membrane being secured over the site",
+          "caption": "Socket preservation: bone graft granules fill the extraction socket while a barrier membrane (dotted white material) is positioned over the site to guide bone regeneration. Image: Ian Furst, CC BY-SA 4.0."
+        }
       },
       {
         "heading": "Soft Tissue Grafting",
@@ -1557,7 +1584,12 @@ const MODULE_CONTENT = [
         ],
         "closing": [
           "The Dental Nurse's Role During Sinus Lift Procedures: sinus lift procedures are more complex and time consuming than standard implant placements. The dental nurse must be familiar with the instruments and materials specific to the procedure, maintain an effective sterile field throughout, and provide effective suction and irrigation. Patient monitoring is particularly important during these extended procedures."
-        ]
+        ],
+        "image": {
+          "src": "images/Lateral_window_sinus_lift.jpg",
+          "alt": "Six-stage surgical sequence of a lateral window maxillary sinus lift procedure",
+          "caption": "Lateral window sinus lift: (1) flap raised to expose lateral wall, (2–3) bony window outlined and removed, (4) Schneiderian membrane elevated, (5) access cavity prepared, (6) bone graft material packed into the sinus space. Image: DRosenbach, CC BY-SA 3.0."
+        }
       },
       {
         "heading": "Nerve Repositioning",
