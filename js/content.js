@@ -46,6 +46,11 @@ const MODULE_CONTENT = [
           "Abutment — the connector that attaches to the top of the implant fixture and provides the foundation for the restoration.",
           "Restoration — the visible replacement, which may be a single crown, a bridge spanning several missing teeth, or a denture retained by the implant."
         ],
+        "image": {
+          "src": "images/implant-types-diagram.jpg",
+          "alt": "Diagram showing single unit implant, implant-supported bridge, and All-on-X bridge",
+          "caption": "The three main prosthetic options: single unit crown, implant-supported bridge, and All-on-X implant-supported bridge. (Image: dentalillustration.co.uk)"
+        },
         "closing": [
           "The successful outcome of implant treatment depends on several factors including the quality and volume of available bone, the patient's general and oral health, lifestyle factors such as smoking, and the quality of the surgical and restorative work carried out. Careful patient selection and assessment are therefore central to implant dentistry, as you will explore further in Module 3."
         ]
@@ -463,7 +468,12 @@ const MODULE_CONTENT = [
         "heading": "Orthopantomogram",
         "paragraphs": [
           "The orthopantomogram, commonly abbreviated to OPG or panoramic radiograph, provides a wide-field two-dimensional overview of the entire dentition, both jaws, the temporomandibular joints and surrounding structures. It is useful for identifying the position of the inferior alveolar nerve in the mandible, the floor of the maxillary antrum, and the overall bone volume available at potential implant sites. However the OPG involves a degree of distortion and magnification that must be accounted for during planning."
-        ]
+        ],
+        "image": {
+          "src": "images/opg-xray.jpg",
+          "alt": "OPG panoramic radiograph showing multiple dental implants in upper and lower jaws",
+          "caption": "An OPG showing multiple implants placed in both the maxilla and mandible. Note the visibility of the implant threads and surrounding bone."
+        }
       },
       {
         "heading": "Cone Beam Computed Tomography",
@@ -584,14 +594,23 @@ const MODULE_CONTENT = [
           "The surgical stage involves the placement of the titanium implant fixture into the prepared bone socket. This is carried out under local anaesthetic, with or without conscious sedation depending on the patient and the complexity of treatment.",
           "A mucoperiosteal flap is raised to expose the underlying bone and a series of specially designed low-speed drills are used to prepare the implant socket to the precise width, depth and angulation determined during the planning stage. The drills are used in a sequential order, each one progressively widening the socket. Throughout this process copious sterile irrigation is essential to prevent bone heating.",
           "Once the socket is prepared, the chosen implant fixture is driven into place using torqued insert instruments. The tissue flap is then sutured back over the implant to allow healing to take place beneath the soft tissue. In some cases a healing cap or cover screw is placed over the top of the implant at this stage."
-        ]
+        ],
+        "video": {
+          "src": "videos/implant-surgery.mp4",
+          "caption": "Clinical footage of a dental implant surgical procedure."
+        }
       },
       {
         "heading": "One-Stage and Two-Stage Implant Placement",
         "paragraphs": [
           "In a two-stage approach the implant fixture is buried beneath the gingival tissue at the time of placement and left to undergo osseointegration undisturbed. Once osseointegration is confirmed, a second minor surgical appointment is carried out to uncover the implant and attach the abutment in preparation for the restorative stage. This is the more traditional approach and may be preferred in cases where primary stability is less certain.",
           "In a one-stage approach a healing abutment is placed at the time of implant placement so that the implant head remains visible above the gum line throughout healing. This avoids the need for a second surgical appointment to uncover the implant and is increasingly used in straightforward cases with good primary stability."
-        ]
+        ],
+        "image": {
+          "src": "images/cover-screw-intraoral.jpg",
+          "alt": "Clinical photograph showing a cover screw visible at the implant site between adjacent teeth",
+          "caption": "A cover screw visible at the implant site — the surrounding soft tissue is healing following placement."
+        }
       },
       {
         "heading": "Timing of Implant Placement",
@@ -623,7 +642,23 @@ const MODULE_CONTENT = [
           "In a two-stage case a small incision is made to expose the top of the implant and the cover screw is removed. The abutment is then attached to the implant. Abutments come in a variety of forms depending on the type of restoration planned: a stump shaped abutment for a single crown, a bar or ball attachment for a removable overdenture, or a multi-unit abutment for a bridge.",
           "Impressions are taken of the implant position using impression copings or scan bodies, depending on whether an analogue or digital workflow is being used. These are sent to the dental laboratory along with a prescription for the restoration. The laboratory technician fabricates the restoration and it is returned to the practice for fitting.",
           "The final restoration is then checked for fit, aesthetics and occlusion before being secured in place. The dental nurse has an important role at this stage in mixing impression materials, handling components correctly, and keeping accurate records."
-        ]
+        ],
+        "images": [
+          {
+            "src": "images/ball-abutment.jpg",
+            "alt": "Ball abutment component showing the implant body and ball attachment head",
+            "caption": "A ball abutment — used to retain implant-supported overdentures."
+          },
+          {
+            "src": "images/implant-drivers.jpg",
+            "alt": "Implant screwdriver and abutment driver tools",
+            "caption": "Abutment driver (top) and torque wrench adapter (bottom) — used to seat and tighten components to the correct torque value."
+          }
+        ],
+        "video": {
+          "src": "videos/implant-retained-denture.mp4",
+          "caption": "Demonstration of an implant-retained denture and its attachment mechanism."
+        }
       },
       {
         "heading": "Temporisation",
@@ -717,6 +752,11 @@ const MODULE_CONTENT = [
       {
         "heading": "Core Surgical Instruments",
         "paragraphs": [],
+        "image": {
+          "src": "images/instrument-tray.jpg",
+          "alt": "Implant surgical instrument tray laid out on sterile blue drape showing drill kit, retractors, elevators and handpiece",
+          "caption": "A full implant surgical instrument tray laid out on a sterile blue drape, including the drill kit (top left), retractors, periosteal elevators, needle holders, and the surgical handpiece."
+        },
         "list": [
           "Periosteal elevator — used to raise the mucoperiosteal flap and reflect soft tissue from the underlying bone to expose the surgical site.",
           "Implant drills and drill kit — a sequential set of drills used to prepare the implant socket to the correct width, depth and angulation. Each implant system has its own specific drill sequence and these must be followed precisely.",
@@ -732,6 +772,18 @@ const MODULE_CONTENT = [
         "heading": "The Implant Surgical Irrigation System",
         "paragraphs": [
           "As discussed in Module 4, a sterile irrigation system is a critical piece of equipment in implant surgery. The system delivers sterile saline to the surgical site through the drilling process to prevent overheating of the bone. It must be set up correctly at the start of each implant surgical appointment and maintained throughout the procedure. The dental nurse must be familiar with how to set up and troubleshoot the system used in their practice."
+        ],
+        "images": [
+          {
+            "src": "images/implantmed-unit.jpg",
+            "alt": "W&H Implantmed surgical motor unit with saline irrigation bag on drip stand",
+            "caption": "The W&H Implantmed — a surgical motor unit with integrated irrigation, shown set up ready for use with a 500ml sodium chloride 0.9% bag."
+          },
+          {
+            "src": "images/surgical-setup.jpg",
+            "alt": "Full implant surgical setup showing instrument tray, implantmed motor and irrigation system",
+            "caption": "A fully prepared implant surgical trolley showing instruments, the implant drill kit, the surgical motor and irrigation system laid out on a sterile blue drape."
+          }
         ]
       },
       {
@@ -1076,7 +1128,12 @@ const MODULE_CONTENT = [
         ],
         "closing": [
           "All team members present during the surgical procedure must be appropriately attired. PPE must be changed between patients and disposed of or decontaminated appropriately."
-        ]
+        ],
+        "image": {
+          "src": "images/surgical-ppe.jpg",
+          "alt": "Dental nurse in full surgical PPE including sterile gown, surgical mask, gloves and cap",
+          "caption": "Full surgical PPE for an implant procedure: fluid-resistant gown, surgical mask, sterile gloves, surgical cap and eye protection."
+        }
       },
       {
         "heading": "Decontamination of Implant Instruments",

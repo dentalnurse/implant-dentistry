@@ -538,3 +538,41 @@ html:not(.pin-locked) #pin-gate { display: none; }
   .hero h1 { font-size: 1.7rem; }
   .pin-inputs input { width: 44px; height: 52px; font-size: 1.3rem; }
 }
+
+/* Media: images and videos within module sections */
+.section-media {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+.section-media img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #f0f0f0;
+}
+.section-media figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.section-video video {
+  max-width: 100%;
+  width: 100%;
+  max-height: 480px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #000;
+}
+.section-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.section-gallery .section-media {
+  margin: 0;
+}

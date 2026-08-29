@@ -56,6 +56,59 @@ function renderModulePage() {
       wrap.appendChild(para);
     });
 
+    if (section.image) {
+      const fig = document.createElement('figure');
+      fig.className = 'section-media';
+      const img = document.createElement('img');
+      img.src = section.image.src;
+      img.alt = section.image.alt || '';
+      img.loading = 'lazy';
+      fig.appendChild(img);
+      if (section.image.caption) {
+        const cap = document.createElement('figcaption');
+        cap.textContent = section.image.caption;
+        fig.appendChild(cap);
+      }
+      wrap.appendChild(fig);
+    }
+
+    if (section.images) {
+      const gallery = document.createElement('div');
+      gallery.className = 'section-gallery';
+      section.images.forEach((imgData) => {
+        const fig = document.createElement('figure');
+        fig.className = 'section-media';
+        const img = document.createElement('img');
+        img.src = imgData.src;
+        img.alt = imgData.alt || '';
+        img.loading = 'lazy';
+        fig.appendChild(img);
+        if (imgData.caption) {
+          const cap = document.createElement('figcaption');
+          cap.textContent = imgData.caption;
+          fig.appendChild(cap);
+        }
+        gallery.appendChild(fig);
+      });
+      wrap.appendChild(gallery);
+    }
+
+    if (section.video) {
+      const fig = document.createElement('figure');
+      fig.className = 'section-media section-video';
+      const video = document.createElement('video');
+      video.src = section.video.src;
+      video.controls = true;
+      video.preload = 'metadata';
+      fig.appendChild(video);
+      if (section.video.caption) {
+        const cap = document.createElement('figcaption');
+        cap.textContent = section.video.caption;
+        fig.appendChild(cap);
+      }
+      wrap.appendChild(fig);
+    }
+
     sectionsEl.appendChild(wrap);
   });
 
