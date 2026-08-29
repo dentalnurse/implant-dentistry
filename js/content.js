@@ -47,7 +47,7 @@ const MODULE_CONTENT = [
           "Restoration — the visible replacement, which may be a single crown, a bridge spanning several missing teeth, or a denture retained by the implant."
         ],
         "image": {
-          "src": "images/implant-types-diagram.jpg",
+          "src": "images/implants.jpg",
           "alt": "Diagram showing single unit implant, implant-supported bridge, and All-on-X bridge",
           "caption": "The three main prosthetic options: single unit crown, implant-supported bridge, and All-on-X implant-supported bridge. (Image: dentalillustration.co.uk)"
         },
@@ -606,11 +606,6 @@ const MODULE_CONTENT = [
           "In a two-stage approach the implant fixture is buried beneath the gingival tissue at the time of placement and left to undergo osseointegration undisturbed. Once osseointegration is confirmed, a second minor surgical appointment is carried out to uncover the implant and attach the abutment in preparation for the restorative stage. This is the more traditional approach and may be preferred in cases where primary stability is less certain.",
           "In a one-stage approach a healing abutment is placed at the time of implant placement so that the implant head remains visible above the gum line throughout healing. This avoids the need for a second surgical appointment to uncover the implant and is increasingly used in straightforward cases with good primary stability."
         ],
-        "image": {
-          "src": "images/cover-screw-intraoral.jpg",
-          "alt": "Clinical photograph showing a cover screw visible at the implant site between adjacent teeth",
-          "caption": "A cover screw visible at the implant site — the surrounding soft tissue is healing following placement."
-        }
       },
       {
         "heading": "Timing of Implant Placement",
@@ -645,12 +640,12 @@ const MODULE_CONTENT = [
         ],
         "images": [
           {
-            "src": "images/ball-abutment.jpg",
+            "src": "images/ball implant.jpg",
             "alt": "Ball abutment component showing the implant body and ball attachment head",
             "caption": "A ball abutment — used to retain implant-supported overdentures."
           },
           {
-            "src": "images/implant-drivers.jpg",
+            "src": "images/Magnetic implant.jpg",
             "alt": "Implant screwdriver and abutment driver tools",
             "caption": "Abutment driver (top) and torque wrench adapter (bottom) — used to seat and tighten components to the correct torque value."
           }
@@ -753,7 +748,7 @@ const MODULE_CONTENT = [
         "heading": "Core Surgical Instruments",
         "paragraphs": [],
         "image": {
-          "src": "images/instrument-tray.jpg",
+          "src": "images/implant tray.JPG",
           "alt": "Implant surgical instrument tray laid out on sterile blue drape showing drill kit, retractors, elevators and handpiece",
           "caption": "A full implant surgical instrument tray laid out on a sterile blue drape, including the drill kit (top left), retractors, periosteal elevators, needle holders, and the surgical handpiece."
         },
@@ -775,12 +770,12 @@ const MODULE_CONTENT = [
         ],
         "images": [
           {
-            "src": "images/implantmed-unit.jpg",
+            "src": "images/implant machine.JPG",
             "alt": "W&H Implantmed surgical motor unit with saline irrigation bag on drip stand",
             "caption": "The W&H Implantmed — a surgical motor unit with integrated irrigation, shown set up ready for use with a 500ml sodium chloride 0.9% bag."
           },
           {
-            "src": "images/surgical-setup.jpg",
+            "src": "images/implant tray (2).JPG",
             "alt": "Full implant surgical setup showing instrument tray, implantmed motor and irrigation system",
             "caption": "A fully prepared implant surgical trolley showing instruments, the implant drill kit, the surgical motor and irrigation system laid out on a sterile blue drape."
           }
@@ -1129,11 +1124,18 @@ const MODULE_CONTENT = [
         "closing": [
           "All team members present during the surgical procedure must be appropriately attired. PPE must be changed between patients and disposed of or decontaminated appropriately."
         ],
-        "image": {
-          "src": "images/surgical-ppe.jpg",
-          "alt": "Dental nurse in full surgical PPE including sterile gown, surgical mask, gloves and cap",
-          "caption": "Full surgical PPE for an implant procedure: fluid-resistant gown, surgical mask, sterile gloves, surgical cap and eye protection."
-        }
+        "images": [
+          {
+            "src": "images/Isla.JPG",
+            "alt": "Dental nurse in full surgical PPE including sterile gown, surgical mask, gloves and cap",
+            "caption": "Full surgical PPE: fluid-resistant gown, surgical mask, sterile gloves, surgical cap and eye protection."
+          },
+          {
+            "src": "images/Isla 2.JPG",
+            "alt": "Dental nurse in surgical PPE ready to assist during an implant procedure",
+            "caption": "PPE must be donned before entering the surgical environment and changed between patients."
+          }
+        ]
       },
       {
         "heading": "Decontamination of Implant Instruments",
