@@ -1444,6 +1444,22 @@ const MODULE_CONTENT = [
         "list": [
           "Emergency Drugs: adrenaline (epinephrine) for anaphylaxis given by intramuscular injection; glyceryl trinitrate spray for angina; aspirin 300mg for myocardial infarction; oral glucose or glucagon for hypoglycaemia; midazolam for prolonged epileptic seizures; salbutamol inhaler for asthma",
           "Equipment: oxygen cylinders and delivery equipment including masks and tubing; automated external defibrillator (AED); oropharyngeal airways in a range of sizes; bag valve mask for assisted ventilation; pulse oximeter; blood glucose monitor"
+        ],
+        "images": [
+          { "src": "images/IMG_20211216_191655.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_191707.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_191729.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_191825.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_191901.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_191919.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_192231.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_192326.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_192333.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_192351.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20211216_192458.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20220330_125120.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20220330_125239.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
+          { "src": "images/IMG_20220330_125452.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" }
         ]
       },
       {
