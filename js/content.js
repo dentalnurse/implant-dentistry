@@ -1135,7 +1135,12 @@ const MODULE_CONTENT = [
           "Safe handling and disposal of sharps: all sharps including needles, scalpels and drill burs must be handled with care and disposed of immediately after use in an appropriate sharps container",
           "Safe management of clinical waste: all clinical waste must be correctly identified, segregated, stored and disposed of",
           "Decontamination of instruments and surfaces: all reusable instruments must undergo the full decontamination cycle and clinical surfaces must be disinfected between patients"
-        ]
+        ],
+        "image": {
+          "src": "images/IMG_20220330_125239.jpg",
+          "alt": "NHS handwashing technique poster showing the six-step handwashing method",
+          "caption": "The NHS six-step handwashing technique: all dental team members must follow this method before and after patient contact."
+        }
       },
       {
         "heading": "Personal Protective Equipment in the Implant Setting",
@@ -1168,6 +1173,18 @@ const MODULE_CONTENT = [
           "Inspection: following cleaning, all instruments must be inspected to ensure they are visibly clean and in good working order. Damaged or worn instruments must be removed from service.",
           "Sterilisation: the preferred method of sterilisation for dental instruments is steam sterilisation using a validated autoclave. HTM 01-05 recommends the use of a vacuum (type B) autoclave for instruments with lumens, hollow items and wrapped loads, and a porous load steriliser for porous items. The autoclave cycle must be validated and records kept of each cycle, including the date, cycle parameters and results of any process indicators used.",
           "Storage: sterilised instruments must be stored in a way that maintains their sterility until use. This typically means keeping them in sealed pouches or wrapped packs in a clean, dry environment away from any risk of contamination."
+        ],
+        "images": [
+          {
+            "src": "images/IMG_20220330_125452.jpg",
+            "alt": "Washer disinfector machine used for cleaning dental instruments",
+            "caption": "Washer-disinfector: the preferred method of instrument cleaning — more effective and safer than manual scrubbing."
+          },
+          {
+            "src": "images/IMG_20220330_125120.jpg",
+            "alt": "Dental practice autoclave sterilisers",
+            "caption": "Autoclaves: steam sterilisation is the final and critical step of the decontamination cycle. Cycles must be validated and records kept."
+          }
         ]
       },
       {
@@ -1446,20 +1463,14 @@ const MODULE_CONTENT = [
           "Equipment: oxygen cylinders and delivery equipment including masks and tubing; automated external defibrillator (AED); oropharyngeal airways in a range of sizes; bag valve mask for assisted ventilation; pulse oximeter; blood glucose monitor"
         ],
         "images": [
-          { "src": "images/IMG_20211216_191655.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_191707.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_191729.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_191825.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_191901.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_191919.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_192231.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_192326.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_192333.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_192351.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20211216_192458.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20220330_125120.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20220330_125239.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" },
-          { "src": "images/IMG_20220330_125452.jpg", "alt": "Emergency drug from the dental practice emergency kit", "caption": "Emergency drug kit contents" }
+          { "src": "images/IMG_20211216_191655.jpg", "alt": "EpiPen adrenaline auto-injector", "caption": "EpiPen (adrenaline auto-injector): used for anaphylaxis — administer into the outer mid-thigh." },
+          { "src": "images/IMG_20211216_191825.jpg", "alt": "Glucagon emergency kit", "caption": "Glucagon kit: used for hypoglycaemia when the patient is unconscious and cannot swallow." },
+          { "src": "images/IMG_20211216_191901.jpg", "alt": "Glucagon powder vial close-up", "caption": "Glucagon vial (powder for reconstitution): must be mixed with the provided diluent before intramuscular injection." },
+          { "src": "images/IMG_20211216_191919.jpg", "alt": "Glucagon syringe close-up", "caption": "Glucagon syringe: pre-filled diluent syringe used to reconstitute the glucagon powder." },
+          { "src": "images/IMG_20211216_192231.jpg", "alt": "Aspirin 300mg tablets", "caption": "Aspirin 300mg: given for suspected myocardial infarction — patient chews (not swallows) the tablet." },
+          { "src": "images/IMG_20211216_192326.jpg", "alt": "Adrenaline (epinephrine) ampoule", "caption": "Adrenaline (epinephrine) 1:1000: the primary drug for anaphylaxis, given by intramuscular injection." },
+          { "src": "images/IMG_20211216_192351.jpg", "alt": "Adrenaline (epinephrine) ampoule close-up", "caption": "Adrenaline ampoule close-up: check expiry date during routine emergency kit checks." },
+          { "src": "images/IMG_20211216_192458.jpg", "alt": "Salbutamol inhaler", "caption": "Salbutamol (Ventolin) inhaler: first-line treatment for an acute asthma attack in the dental setting." }
         ]
       },
       {
