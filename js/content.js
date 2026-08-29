@@ -670,7 +670,7 @@ const MODULE_CONTENT = [
         ],
         "video": {
           "src": "videos/implant-retained-denture.mp4",
-          "caption": "Demonstration of an implant-retained denture and its attachment mechanism."
+          "caption": "Demonstration of a fixed implant-retained prosthesis — screwed directly onto the implants and not removable by the patient."
         }
       },
       {
