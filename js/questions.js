@@ -237,7 +237,7 @@ const QUESTION_BANK = {
             "A": "Tell them not to worry as the practice will cover any issues",
             "B": "Advise them to take out personal health insurance",
             "C": "Tell them indemnity is only relevant for dentists, not dental nurses",
-            "D": "Advise them to check their indemnity position with their employer before carry"
+            "D": "Advise them to check their indemnity position with their employer before carrying out any implant nursing duties and to consider personal indemnity if needed"
           },
           "correct": "D",
           "rationale": "Dental nurses must clarify their indemnity position before undertaking implant nursing duties. If employer cover is uncertain or insufficient they should explore personal indemnity through organisations such as the BADN or Dental Protection.",
@@ -301,186 +301,6 @@ const QUESTION_BANK = {
           },
           "correct": "A",
           "rationale": "The alveolar bone grows around the implant and into its structure, fusing directly to the titanium surface through osseointegration. This is what gives the implant its long-term stability.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following best describes an internal-hex implant connection?",
-          "options": {
-            "A": "The abutment post sits inside a hexagonal recess within the implant body",
-            "B": "The abutment clips onto the outside of the implant fixture",
-            "C": "The connection is made using a Morse taper only",
-            "D": "The implant fixture is screwed directly to the restoration"
-          },
-          "correct": "A",
-          "rationale": "An internal-hex connection has a hexagonal recess within the implant body into which the abutment fits, providing stability and rotational resistance. This contrasts with an external-hex design where the hex protrudes above the implant platform.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of a healing abutment (also called a gingival former)?",
-          "options": {
-            "A": "To temporarily support the restoration during osseointegration",
-            "B": "To shape and condition the soft tissue around the implant to create a natural emergence profile",
-            "C": "To protect the implant fixture from occlusal loading during healing",
-            "D": "To measure the depth of the peri-implant sulcus"
-          },
-          "correct": "B",
-          "rationale": "A healing abutment is placed at the time of surgery or at second-stage surgery to shape the peri-implant gingival tissue, creating a natural-looking emergence profile that will guide the final restoration into place.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following is a recognised criterion for implant success as described in the literature?",
-          "options": {
-            "A": "The implant must be removed and replaced after ten years",
-            "B": "Absence of persistent pain, infection, paraesthesia and absence of mobility on clinical testing",
-            "C": "The implant crown must be cemented rather than screw-retained",
-            "D": "Radiographic evidence of complete bone regeneration around the implant"
-          },
-          "correct": "B",
-          "rationale": "Widely accepted implant success criteria include the absence of persistent pain, infection or paraesthesia; no mobility; no radiographic evidence of progressive bone loss; and the patient's satisfaction with the outcome.",
-          "scenario": false
-        },
-        {
-          "q": "A patient has been referred by their GDP to a specialist implantologist. Which member of the implant team is primarily responsible for the overall treatment plan?",
-          "options": {
-            "A": "The dental nurse",
-            "B": "The treatment coordinator",
-            "C": "The implantologist or treating clinician",
-            "D": "The dental laboratory technician"
-          },
-          "correct": "C",
-          "rationale": "The treating clinician (implantologist or restorative dentist) is responsible for formulating and obtaining consent for the treatment plan. Other team members support the delivery of that plan within their own scope of practice.",
-          "scenario": true
-        },
-        {
-          "q": "What is meant by the term 'platform switching' in implant dentistry?",
-          "options": {
-            "A": "Changing from an internal to an external connection mid-treatment",
-            "B": "Using an abutment with a smaller diameter than the implant platform to preserve crestal bone",
-            "C": "Switching between different implant manufacturers' components",
-            "D": "Moving the implant from one site to another"
-          },
-          "correct": "B",
-          "rationale": "Platform switching involves using an abutment with a smaller diameter than the implant platform. This moves the implant-abutment junction inward and is associated with better preservation of crestal bone levels.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following describes a one-stage implant surgical approach?",
-          "options": {
-            "A": "The implant fixture is placed and a healing abutment is fitted so that it is visible at the gum line from day one",
-            "B": "The implant fixture is buried under the gum and uncovered at a separate appointment",
-            "C": "The implant crown is placed immediately at the same appointment as fixture placement",
-            "D": "The implant is placed in two separate jaw bones on the same day"
-          },
-          "correct": "A",
-          "rationale": "In a one-stage approach the implant fixture is placed and a healing abutment is attached at the same visit, remaining visible at the gum level throughout healing. There is no separate uncovering procedure required.",
-          "scenario": false
-        },
-        {
-          "q": "Continuing Professional Development (CPD) is a GDC requirement. For dental nurses, how many hours of verifiable CPD are required over a five-year cycle?",
-          "options": {
-            "A": "50 hours",
-            "B": "75 hours",
-            "C": "100 hours",
-            "D": "150 hours"
-          },
-          "correct": "B",
-          "rationale": "The GDC requires dental nurses to complete 75 hours of CPD over a five-year enhancement cycle, of which a minimum number of hours in specific subject areas must be verifiable.",
-          "scenario": false
-        },
-        {
-          "q": "A dental nurse is asked by a patient what the difference is between titanium and zirconia implants. Which of the following statements is most accurate?",
-          "options": {
-            "A": "Zirconia implants are stronger and more commonly used than titanium",
-            "B": "Titanium implants are the most widely used; zirconia is a tooth-coloured ceramic alternative that may suit patients with metal sensitivities",
-            "C": "Both materials have identical osseointegration rates",
-            "D": "Zirconia implants are only suitable for the lower jaw"
-          },
-          "correct": "B",
-          "rationale": "Titanium remains the most widely used implant material with an extensive evidence base. Zirconia (ceramic) implants are a tooth-coloured alternative increasingly used for patients with aesthetic concerns or metal sensitivities, though they have a smaller evidence base.",
-          "scenario": true
-        },
-        {
-          "q": "What does the term 'osseoconductive' mean in the context of implant surfaces?",
-          "options": {
-            "A": "The material actively generates new bone cells",
-            "B": "The surface encourages bone cells to grow along it",
-            "C": "The surface dissolves slowly to release minerals into the bone",
-            "D": "The material conducts electrical impulses through the bone"
-          },
-          "correct": "B",
-          "rationale": "An osseoconductive material provides a scaffold or surface along which bone cells can grow. Most titanium implant surfaces are osseoconductive, encouraging host bone to grow in close contact with the implant.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following patients would typically require a radiographic stent or surgical guide during implant placement?",
-          "options": {
-            "A": "All implant patients, as guides are mandatory for every case",
-            "B": "Only patients requiring bone grafting",
-            "C": "Patients where the proposed implant position requires precise angulation relative to the planned restoration",
-            "D": "Patients who are medically compromised"
-          },
-          "correct": "C",
-          "rationale": "Surgical guides are used to ensure the implant is placed in the correct position and angulation relative to the planned prosthetic restoration. They are particularly important in complex or aesthetically critical cases.",
-          "scenario": false
-        },
-        {
-          "q": "What is the significance of keratinised mucosa around a dental implant?",
-          "options": {
-            "A": "It provides the blood supply to the implant fixture",
-            "B": "An adequate band of keratinised mucosa helps resist mechanical trauma and may support long-term peri-implant health",
-            "C": "Keratinised mucosa is not relevant to implant outcomes",
-            "D": "It prevents osseointegration from occurring"
-          },
-          "correct": "B",
-          "rationale": "An adequate width of keratinised mucosa around an implant is associated with easier plaque control, reduced tissue movement and potentially better long-term peri-implant health, though the minimum requirement is debated.",
-          "scenario": false
-        },
-        {
-          "q": "A patient who had their implant placed three years ago attends for a routine review. The clinician notes the implant is stable but there is 1.5 mm of bone loss visible on the radiograph compared to placement. How should this finding be interpreted?",
-          "options": {
-            "A": "This is normal physiological remodelling in the first year and requires no action if stable thereafter",
-            "B": "This represents peri-implantitis and the implant must be removed immediately",
-            "C": "Bone loss of any amount around an implant always indicates failure",
-            "D": "This is expected bone gain that confirms successful osseointegration"
-          },
-          "correct": "A",
-          "rationale": "A small amount of crestal bone remodelling (typically up to 1.5\u20132 mm) in the first year after placement is widely considered physiological. Beyond that, progressive bone loss should be investigated as it may indicate peri-implantitis.",
-          "scenario": true
-        },
-        {
-          "q": "Which organisation specifically represents the interests of dental nurses in the UK and provides guidance on implant nursing?",
-          "options": {
-            "A": "British Dental Association",
-            "B": "Association of Dental Implantology",
-            "C": "British Association of Dental Nurses",
-            "D": "Royal College of Surgeons"
-          },
-          "correct": "C",
-          "rationale": "The British Association of Dental Nurses (BADN) is the professional association representing dental nurses in the UK. It provides guidance, support and information relevant to dental nursing including implant nursing duties.",
-          "scenario": false
-        },
-        {
-          "q": "What is meant by the term 'immediate loading' of a dental implant?",
-          "options": {
-            "A": "Placing the implant fixture immediately after tooth extraction",
-            "B": "Attaching a restoration to the implant within 48 hours of fixture placement",
-            "C": "Loading the implant with a temporary crown after six months",
-            "D": "Immediately increasing the torque value at placement"
-          },
-          "correct": "B",
-          "rationale": "Immediate loading means that a restoration is placed and brought into occlusion within 48 hours of implant placement. It is only appropriate in carefully selected cases with good primary stability and adequate bone quality.",
-          "scenario": false
-        },
-        {
-          "q": "Why is primary implant stability important at the time of placement?",
-          "options": {
-            "A": "It ensures the implant fixture is the correct diameter",
-            "B": "It indicates the implant is already osseointegrated",
-            "C": "It provides the mechanical stability needed to prevent micromovement during the early healing phase, supporting successful osseointegration",
-            "D": "It is only important for immediate loading cases"
-          },
-          "correct": "C",
-          "rationale": "Primary stability refers to the initial mechanical fixation of the implant in bone at placement. Adequate primary stability is essential to prevent micromovement during early healing, as movement at this stage can disrupt osseointegration and lead to failure.",
           "scenario": false
         }
       ]
@@ -565,7 +385,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "To supply blood to the tooth root",
             "B": "To form the outer hard surface of the tooth crown",
-            "C": "To connect the root of the tooth to the surrounding alve",
+            "C": "To connect the root of the tooth to the surrounding alveolar bone and act as a shock absorber",
             "D": "To provide sensation to the tooth pulp"
           },
           "correct": "C",
@@ -661,7 +481,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "To remove the maxillary antrum to create space for implants",
             "B": "To reposition the inferior alveolar nerve to allow implant placement",
-            "C": "To augment bone volume in the upper posterior jaw by elevating the antrum memb",
+            "C": "To augment bone volume in the upper posterior jaw by elevating the antrum membrane and placing bone graft material",
             "D": "To graft soft tissue from the palate to the implant site"
           },
           "correct": "C",
@@ -674,7 +494,7 @@ const QUESTION_BANK = {
             "A": "It means a longer implant can be placed to engage more bone",
             "B": "It means the patient will definitely experience numbness after placement",
             "C": "It has no significance as the nerve is protected within the bone",
-            "D": "It means implant placement may not be possible in this region without risking nerve"
+            "D": "It means implant placement may not be possible in this region without risking nerve damage, and alternatives must be considered"
           },
           "correct": "D",
           "rationale": "If the inferior alveolar nerve runs very close to the alveolar crest there may be insufficient safe bone depth for an implant. The risk of nerve damage must be discussed with the patient and alternative options considered, which may include shorter implants, bone augmentation or nerve repositioning in appropriate cases.",
@@ -683,7 +503,7 @@ const QUESTION_BANK = {
         {
           "q": "A patient is concerned about how their implant will be stable without roots like a natural tooth. How would you best explain this to them?",
           "options": {
-            "A": "Explain that the bone grows into and around the titanium surface",
+            "A": "Explain that the bone grows into and around the titanium surface, fusing directly to it through a process called osseointegration",
             "B": "Tell them the implant is glued very firmly into the bone",
             "C": "Explain that the implant is held in place by the surrounding gum tissue",
             "D": "Tell them it works in the same way as a post crown"
@@ -709,7 +529,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Bruxism has no effect on implants as they are made of titanium",
             "B": "The TMJ must be surgically treated before implants can be placed",
-            "C": "Excessive occlusal forces generated by bruxism can stress the implant",
+            "C": "Excessive occlusal forces generated by bruxism can stress the implant and restoration and may compromise osseointegration or cause mechanical complications",
             "D": "Bruxism only affects upper teeth so lower implants are unaffected"
           },
           "correct": "C",
@@ -722,7 +542,7 @@ const QUESTION_BANK = {
             "A": "The mental foramen is a blood vessel that may cause minor bleeding",
             "B": "The mental foramen is the entry point for the lingual nerve",
             "C": "The mental foramen is a harmless anatomical landmark with no clinical significance",
-            "D": "The mental foramen is where branches of the inferior alveolar nerve exit"
+            "D": "The mental foramen is where branches of the inferior alveolar nerve exit and damage to it could cause altered sensation in the lower lip and chin"
           },
           "correct": "D",
           "rationale": "The mental foramen is the exit point for branches of the inferior alveolar nerve. Damage to the nerve at this location can result in temporary or permanent altered sensation, numbness or tingling in the lower lip, chin and skin of the face in the distribution of this nerve.",
@@ -744,7 +564,7 @@ const QUESTION_BANK = {
           "q": "What is the function of the alveolar bone in relation to dental implants?",
           "options": {
             "A": "It provides the blood supply to the implant",
-            "B": "It provides the tissue into which the implant fixtur",
+            "B": "It provides the tissue into which the implant fixture is placed and which fuses to it through osseointegration",
             "C": "It provides the nerve supply to the implant",
             "D": "It forms the crown of the implant restoration"
           },
@@ -787,186 +607,6 @@ const QUESTION_BANK = {
           "correct": "A",
           "rationale": "The periodontal ligament acts as a shock absorber and contains sensory receptors that provide proprioceptive feedback about occlusal forces. Dental implants osseointegrate directly to bone and do not have a periodontal ligament, which means force distribution is different and overloading must be managed carefully.",
           "scenario": false
-        },
-        {
-          "q": "In the Lekholm and Zarb bone quality classification, which type of bone consists almost entirely of compact cortical bone with little cancellous core?",
-          "options": {
-            "A": "Type II",
-            "B": "Type III",
-            "C": "Type IV",
-            "D": "Type I"
-          },
-          "correct": "D",
-          "rationale": "In the Lekholm and Zarb classification, Type I bone is almost entirely homogeneous compact cortical bone. While dense, it has limited vascularity. Types II\u2013IV have progressively thicker cancellous cores and thinner cortical layers, with Type IV being almost entirely thin cancellous bone.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following best describes the blood supply to the mandible?",
-          "options": {
-            "A": "The mandible is supplied entirely by the facial artery",
-            "B": "The inferior alveolar artery, a branch of the maxillary artery, is the main blood supply to the mandible",
-            "C": "The mandible is supplied by the lingual artery alone",
-            "D": "The mandible receives its blood supply from the external carotid artery directly"
-          },
-          "correct": "B",
-          "rationale": "The inferior alveolar artery, which is a branch of the maxillary artery (itself from the external carotid), enters the mandibular foramen and travels within the mandibular canal to supply the teeth, bone and periodontium of the mandible.",
-          "scenario": false
-        },
-        {
-          "q": "What is the nasopalatine canal and why is it relevant to implant planning in the anterior maxilla?",
-          "options": {
-            "A": "It is a minor salivary gland duct and is not relevant to implant planning",
-            "B": "It is a bony canal in the midline of the anterior palate through which the nasopalatine nerve and vessels pass; its position can limit implant placement between the central incisors",
-            "C": "It is the route of the greater palatine nerve to the posterior palate",
-            "D": "It is a sinus connecting the nasal cavity to the maxillary antrum"
-          },
-          "correct": "B",
-          "rationale": "The nasopalatine canal (incisive canal) transmits the nasopalatine nerve and blood vessels in the midline of the anterior palate. Its diameter and position must be assessed on CBCT imaging when planning implants in the upper anterior region, as it can restrict placement or require surgical management.",
-          "scenario": false
-        },
-        {
-          "q": "Which layer of the periosteum contains the osteoblasts responsible for bone formation?",
-          "options": {
-            "A": "The outer fibrous layer",
-            "B": "The inner cambium layer",
-            "C": "The endosteum",
-            "D": "The cortical plate"
-          },
-          "correct": "B",
-          "rationale": "The periosteum has two layers: an outer fibrous layer and an inner cambium (osteogenic) layer. The cambium layer contains osteoblasts responsible for appositional bone growth and plays a vital role in healing following implant surgery.",
-          "scenario": false
-        },
-        {
-          "q": "A patient presents with numbness in their lower lip and chin two days after mandibular implant surgery. Which nerve is most likely affected?",
-          "options": {
-            "A": "Lingual nerve",
-            "B": "Buccal nerve",
-            "C": "Mental nerve (terminal branch of the inferior alveolar nerve)",
-            "D": "Facial nerve"
-          },
-          "correct": "C",
-          "rationale": "The mental nerve is the terminal sensory branch of the inferior alveolar nerve, emerging from the mental foramen to supply the lower lip, chin and labial gingiva of the lower anterior teeth. Damage to or compression of this nerve during surgery can cause numbness or altered sensation in this distribution.",
-          "scenario": true
-        },
-        {
-          "q": "What is the difference between cortical and cancellous bone in terms of their structure?",
-          "options": {
-            "A": "Cortical bone is porous and cancellous bone is dense",
-            "B": "Cortical bone is dense and solid; cancellous bone is a sponge-like lattice of trabeculae with marrow spaces between them",
-            "C": "There is no structural difference; the terms are interchangeable",
-            "D": "Cortical bone is found only in the maxilla; cancellous bone is found only in the mandible"
-          },
-          "correct": "B",
-          "rationale": "Cortical (compact) bone is dense and forms the outer shell of the jaws, providing strength and rigidity. Cancellous (trabecular/spongy) bone forms the interior lattice-work and contains bone marrow. The ratio and quality of these types affects implant stability and surgical approach.",
-          "scenario": false
-        },
-        {
-          "q": "The lingual nerve is at risk during which implant-related surgical procedure?",
-          "options": {
-            "A": "Sinus lift via a lateral window approach",
-            "B": "Implant placement in the upper anterior region",
-            "C": "Lower molar implant placement or lingual plate perforation during mandibular surgery",
-            "D": "Immediate loading of anterior implants"
-          },
-          "correct": "C",
-          "rationale": "The lingual nerve runs close to the lingual surface of the lower molar and wisdom tooth region. It can be damaged during lower implant surgery if the lingual plate is perforated, leading to altered sensation on the affected side of the tongue.",
-          "scenario": false
-        },
-        {
-          "q": "What is the biologic width equivalent around a dental implant?",
-          "options": {
-            "A": "The depth of the sulcus around the natural tooth",
-            "B": "The combined height of the junctional epithelium and connective tissue attachment that forms at the implant-gingival interface",
-            "C": "The thickness of the cortical bone around the implant",
-            "D": "The distance between the implant platform and the crown margin"
-          },
-          "correct": "B",
-          "rationale": "Around implants, a peri-implant equivalent of the biologic width is established, consisting of a sulcular epithelium, a junctional epithelium and a supra-crestal connective tissue zone. Violation of this space by restoration margins can provoke bone loss.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following statements about the masseter muscle is correct?",
-          "options": {
-            "A": "The masseter depresses the mandible to open the mouth",
-            "B": "The masseter is a muscle of facial expression",
-            "C": "The masseter is a powerful elevator of the mandible and is the primary muscle of mastication",
-            "D": "The masseter protrudes the mandible forward only"
-          },
-          "correct": "C",
-          "rationale": "The masseter is a large, powerful muscle of mastication that elevates the mandible (closes the mouth). It originates from the zygomatic arch and inserts into the lateral surface of the ramus and angle of the mandible.",
-          "scenario": false
-        },
-        {
-          "q": "Why is the attached gingiva important in the context of dental implants?",
-          "options": {
-            "A": "It forms the outer layer of the alveolar bone",
-            "B": "It is the tissue that osseointegrates with the implant surface",
-            "C": "It is a firm, bound-down tissue that resists displacement and helps protect the underlying bone; its presence around implants is associated with better hygiene access and tissue stability",
-            "D": "Attached gingiva has no clinical relevance to implant outcomes"
-          },
-          "correct": "C",
-          "rationale": "Attached gingiva is keratinised tissue that is firmly bound to the underlying bone and alveolar mucosa. Around implants, adequate attached gingiva facilitates effective oral hygiene, resists the pull of muscle attachments and is associated with long-term tissue health.",
-          "scenario": false
-        },
-        {
-          "q": "A radiograph for an upper second premolar implant shows that the floor of the maxillary sinus is 4 mm above the crest of the alveolar ridge. Which of the following is the most likely implication for treatment planning?",
-          "options": {
-            "A": "The implant can be placed immediately without modification",
-            "B": "A bone graft to the lateral aspect of the ridge is required",
-            "C": "A sinus augmentation procedure will likely be needed to create sufficient bone height for implant placement",
-            "D": "The implant should be placed horizontally rather than vertically"
-          },
-          "correct": "C",
-          "rationale": "Standard implants require a minimum of 8\u201310 mm of bone height. With only 4 mm available between the ridge crest and sinus floor, a sinus augmentation (sinus lift) procedure is required to increase bone height before or at the time of implant placement.",
-          "scenario": true
-        },
-        {
-          "q": "Which of the following is a branch of the trigeminal nerve's mandibular division (V3) that provides sensory supply to the cheek mucosa?",
-          "options": {
-            "A": "Infraorbital nerve",
-            "B": "Buccal nerve",
-            "C": "Mental nerve",
-            "D": "Greater palatine nerve"
-          },
-          "correct": "B",
-          "rationale": "The buccal nerve is a sensory branch of V3 (mandibular division of the trigeminal nerve) that supplies the buccal mucosa and gingiva of the lower molar region. It does not supply motor fibres to the buccinator muscle.",
-          "scenario": false
-        },
-        {
-          "q": "What is the mylohyoid ridge and why is it clinically relevant during mandibular implant surgery?",
-          "options": {
-            "A": "A bony ridge on the outer surface of the mandible that serves as a landmark for the mental foramen",
-            "B": "A bony ridge on the inner surface of the mandible to which the mylohyoid muscle attaches; concavities below it can cause lingual plate perforation if not identified on CBCT",
-            "C": "The bony prominence at the angle of the mandible used for bone grafting",
-            "D": "The ridge that separates the premolar and molar regions of the lower jaw"
-          },
-          "correct": "B",
-          "rationale": "The mylohyoid ridge runs along the inner (lingual) surface of the mandible. Below it, the submandibular fossa creates a concavity. If this anatomy is not recognised on CBCT imaging, drilling for posterior mandibular implants can inadvertently perforate the lingual plate, risking damage to structures in the floor of the mouth.",
-          "scenario": false
-        },
-        {
-          "q": "How does the absence of a periodontal ligament affect how occlusal forces are transmitted to bone around a dental implant?",
-          "options": {
-            "A": "There is no difference; implants transmit forces in the same way as natural teeth",
-            "B": "Without a periodontal ligament, forces are transmitted directly to the bone-implant interface with no cushioning mechanism, making implants susceptible to occlusal overload",
-            "C": "The absence of a periodontal ligament means less force reaches the bone",
-            "D": "Implants transmit forces via the surrounding gingival fibres instead"
-          },
-          "correct": "B",
-          "rationale": "Natural teeth are suspended in their sockets by the periodontal ligament, which acts as a shock absorber and distributes occlusal loads. Implants lack this structure; forces pass directly to bone at the implant-bone interface. This is why occlusal design and avoiding overloading are particularly important for implant-supported restorations.",
-          "scenario": false
-        },
-        {
-          "q": "Which bone of the skull articulates with the condylar head of the mandible to form the temporomandibular joint?",
-          "options": {
-            "A": "Parietal bone",
-            "B": "Occipital bone",
-            "C": "Temporal bone",
-            "D": "Sphenoid bone"
-          },
-          "correct": "C",
-          "rationale": "The temporomandibular joint is formed by the articulation of the condylar head of the mandible with the mandibular fossa (glenoid fossa) and articular eminence of the temporal bone.",
-          "scenario": false
         }
       ]
     },
@@ -1002,7 +642,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "To test the strength of the alveolar bone before surgery",
             "B": "To record the patient's occlusion for the surgical guide",
-            "C": "To model the planned restoration in wax on a study cast to help",
+            "C": "To model the planned restoration in wax on a study cast to help plan and visualise the treatment outcome",
             "D": "To sterilise the impression materials before use"
           },
           "correct": "C",
@@ -1063,7 +703,7 @@ const QUESTION_BANK = {
             "A": "Signing a form to agree to treatment",
             "B": "The patient agreeing to whatever the dentist recommends",
             "C": "Verbal agreement given at the start of the appointment",
-            "D": "A process ensuring the patient understands"
+            "D": "A process ensuring the patient understands and agrees to treatment after receiving all relevant information including risks, benefits and alternatives"
           },
           "correct": "D",
           "rationale": "Informed consent is a process, not just a signature. The patient must receive and understand all relevant information including the risks, benefits, alternatives, and expected timeline before agreeing to treatment.",
@@ -1072,7 +712,7 @@ const QUESTION_BANK = {
         {
           "q": "What is the primary purpose of study models in implant planning?",
           "options": {
-            "A": "To provide a three-dimensional assessment of the",
+            "A": "To provide a three-dimensional assessment of the dentition, occlusion and space available for the restoration",
             "B": "To sterilise the impression materials",
             "C": "To record the patient's medical history",
             "D": "To measure bone density at the implant site"
@@ -1111,7 +751,7 @@ const QUESTION_BANK = {
             "A": "It has no impact on implant treatment",
             "B": "It only affects the aesthetics of the restoration",
             "C": "It makes the surgical stage more difficult",
-            "D": "The excessive forces generated can compromise osseointeg"
+            "D": "The excessive forces generated can compromise osseointegration and lead to mechanical complications"
           },
           "correct": "D",
           "rationale": "Bruxism generates excessive and prolonged occlusal forces that can stress the implant, compromise osseointegration and lead to mechanical complications such as screw loosening, fracture of components or restoration failure.",
@@ -1133,7 +773,7 @@ const QUESTION_BANK = {
           "q": "Which of the following describes the purpose of dental photography in implant planning?",
           "options": {
             "A": "To replace the need for radiographic assessment",
-            "B": "To document the pre-treatment appearance",
+            "B": "To document the pre-treatment appearance and provide reference throughout the treatment journey",
             "C": "To assess bone density at the implant site",
             "D": "To record the patient's consent"
           },
@@ -1168,7 +808,7 @@ const QUESTION_BANK = {
         {
           "q": "During an implant consultation a patient becomes upset when they discover the treatment will take several months and multiple appointments. How should you respond?",
           "options": {
-            "A": "Acknowledge their concern, provide a clear explanation of the treatment sta",
+            "A": "Acknowledge their concern, provide a clear explanation of the treatment stages and why the timeline is necessary for a successful outcome",
             "B": "Tell them the treatment can be speeded up if they pay more",
             "C": "Tell them they should consider a bridge instead as it is quicker",
             "D": "Document their concern in the notes but do not address it further"
@@ -1181,7 +821,7 @@ const QUESTION_BANK = {
           "q": "A patient mentions that their friend had implants placed the same day as their extractions. They ask why their treatment plan involves waiting three months after extraction before placement. What is the most accurate explanation?",
           "options": {
             "A": "The practice prefers to wait as it is more straightforward administratively",
-            "B": "The timing of implant placement depends on individual factors such as bone quality",
+            "B": "The timing of implant placement depends on individual factors such as bone quality and the clinical situation; different protocols exist and their plan has been chosen based on their specific circumstances",
             "C": "Their friend must have had a different type of implant that does not require healing time",
             "D": "Immediate placement is only available in teaching hospitals"
           },
@@ -1194,7 +834,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Proceed with planning as the patient's enthusiasm should be encouraged",
             "B": "Refer the patient to a hygienist once the implants are placed",
-            "C": "Explain that oral hygiene must be brought to an acceptable standard",
+            "C": "Explain that oral hygiene must be brought to an acceptable standard and any periodontal disease treated before implant planning can be finalised",
             "D": "Place the implants and address the oral hygiene concerns at the first review"
           },
           "correct": "C",
@@ -1229,7 +869,7 @@ const QUESTION_BANK = {
           "q": "A patient taking bisphosphonate medication asks if they are suitable for implants. Which is the most appropriate response from a dental nurse?",
           "options": {
             "A": "Tell them bisphosphonate medication means they are definitely not suitable for implants",
-            "B": "Explain that bisphosphonate medication is a significant consideration that the implantologist will d",
+            "B": "Explain that bisphosphonate medication is a significant consideration that the implantologist will discuss with them and may require liaison with their medical team",
             "C": "Tell them bisphosphonate medication has no effect on implant treatment",
             "D": "Advise them to stop taking bisphosphonates immediately"
           },
@@ -1242,7 +882,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "To protect the adjacent teeth during drilling",
             "B": "To keep the patient's mouth open during surgery",
-            "C": "To transfer the information from the planning stage to",
+            "C": "To transfer the information from the planning stage to the surgical site to ensure the implant is placed in the correct position and angulation",
             "D": "To retract the soft tissue flap during placement"
           },
           "correct": "C",
@@ -1255,7 +895,7 @@ const QUESTION_BANK = {
             "A": "Radiographs are always justified for any dental procedure",
             "B": "Only dentists are required to justify radiographs",
             "C": "Because radiographs are expensive and should be minimised for cost reasons",
-            "D": "Because each radiograph involves exposure to ionising radiation"
+            "D": "Because each radiograph involves exposure to ionising radiation and the benefit must outweigh the risk on a case-by-case basis"
           },
           "correct": "D",
           "rationale": "Under ionising radiation regulations, all dental radiographs must be individually justified, meaning the clinical benefit must outweigh the radiation risk. This applies particularly to CBCT which involves a higher dose than conventional radiography.",
@@ -1271,186 +911,6 @@ const QUESTION_BANK = {
           },
           "correct": "A",
           "rationale": "Valid consent is given by the patient themselves. Agreement from family members is not a required element unless the patient lacks capacity to consent, in which case specific legal frameworks apply.",
-          "scenario": false
-        },
-        {
-          "q": "Which ASA classification would apply to a patient with poorly controlled type 2 diabetes and hypertension who is otherwise ambulatory?",
-          "options": {
-            "A": "ASA I",
-            "B": "ASA II",
-            "C": "ASA III",
-            "D": "ASA IV"
-          },
-          "correct": "C",
-          "rationale": "ASA Class III describes a patient with severe systemic disease that limits activity but is not incapacitating. Poorly controlled diabetes and hypertension together place the patient in this category, warranting careful pre-operative assessment before implant surgery.",
-          "scenario": false
-        },
-        {
-          "q": "What HbA1c level is generally considered the upper threshold for proceeding with elective implant surgery in a diabetic patient?",
-          "options": {
-            "A": "Below 53 mmol/mol (7%)",
-            "B": "Below 64 mmol/mol (8%)",
-            "C": "Below 75 mmol/mol (9%)",
-            "D": "Any level is acceptable if the patient consents"
-          },
-          "correct": "B",
-          "rationale": "While evidence varies, many guidelines suggest that elective implant surgery should ideally be performed when HbA1c is below 8% (64 mmol/mol). Poorly controlled diabetes impairs healing, immune function and osseointegration, significantly increasing the risk of implant failure.",
-          "scenario": false
-        },
-        {
-          "q": "A patient discloses they are taking warfarin for atrial fibrillation. What is the most appropriate pre-operative action regarding their anticoagulation?",
-          "options": {
-            "A": "The warfarin must be stopped four days before surgery",
-            "B": "The INR should be checked close to the time of surgery; implant surgery is generally safe with an INR up to 4 and anticoagulation should not routinely be stopped",
-            "C": "Implant surgery is absolutely contraindicated in patients on warfarin",
-            "D": "The patient should switch to aspirin before the procedure"
-          },
-          "correct": "B",
-          "rationale": "Current guidance recommends that patients on warfarin should not routinely have anticoagulation stopped before dental implant surgery. The INR should be checked and if it is within the therapeutic range (typically up to 4) surgery may proceed with local haemostatic measures. Stopping anticoagulation carries its own risk.",
-          "scenario": true
-        },
-        {
-          "q": "Which of the following imaging modalities provides three-dimensional information about bone volume and density at the proposed implant site?",
-          "options": {
-            "A": "Periapical radiograph",
-            "B": "Bitewing radiograph",
-            "C": "Cone beam computed tomography (CBCT)",
-            "D": "Dental panoramic tomograph (OPG)"
-          },
-          "correct": "C",
-          "rationale": "CBCT provides three-dimensional imaging of the jaws, allowing accurate assessment of bone height, width, density and proximity to vital structures. Unlike the OPG or periapical radiograph, it provides cross-sectional data essential for complex implant planning.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of a diagnostic wax-up in implant treatment planning?",
-          "options": {
-            "A": "To record the patient's bite registration for the laboratory",
-            "B": "To show the patient how their final restoration will look and to guide the surgical guide fabrication",
-            "C": "To measure bone density at the implant site",
-            "D": "To confirm osseointegration has occurred"
-          },
-          "correct": "B",
-          "rationale": "A diagnostic wax-up is a laboratory model of the proposed final restoration in wax, used to visualise the aesthetic and functional outcome before treatment begins. It can also be used to fabricate radiographic or surgical stents to guide accurate implant positioning.",
-          "scenario": false
-        },
-        {
-          "q": "A 17-year-old patient asks about having a dental implant to replace a congenitally absent upper lateral incisor. What is the most appropriate advice?",
-          "options": {
-            "A": "Implants can be placed at any age as long as there is sufficient bone",
-            "B": "Implant placement should generally be deferred until skeletal growth is complete, typically around 18 for females and 20\u201321 for males",
-            "C": "The implant should be placed immediately to prevent bone resorption",
-            "D": "Age is not a relevant factor in implant treatment planning"
-          },
-          "correct": "B",
-          "rationale": "Implants should not be placed until skeletal growth is complete, as ongoing growth can cause the implant to appear submerged as surrounding alveolar bone continues to develop. Growth completion is typically assessed clinically and radiographically and generally occurs later in males than females.",
-          "scenario": true
-        },
-        {
-          "q": "Which of the following is a relative contraindication rather than an absolute contraindication to dental implant treatment?",
-          "options": {
-            "A": "Current head and neck radiotherapy",
-            "B": "Active bisphosphonate therapy for metastatic bone disease",
-            "C": "Uncontrolled diabetes",
-            "D": "Patient refusal of treatment"
-          },
-          "correct": "C",
-          "rationale": "Uncontrolled diabetes is a relative contraindication: when diabetes is well controlled, implants can be placed successfully with appropriate risk management. Active high-dose intravenous bisphosphonate therapy and current head and neck radiotherapy represent higher-risk situations requiring specialist assessment rather than absolute refusal.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of obtaining a full medical history before implant treatment?",
-          "options": {
-            "A": "To satisfy administrative requirements only",
-            "B": "To identify conditions, medications or social factors that may affect healing, osseointegration or surgical safety",
-            "C": "To confirm the patient can afford the treatment",
-            "D": "To assess the patient's ability to maintain oral hygiene"
-          },
-          "correct": "B",
-          "rationale": "A thorough medical history identifies systemic conditions, medications and lifestyle factors that may influence surgical risk, healing capacity, osseointegration success or long-term implant outcomes, allowing the clinician to adapt the treatment plan appropriately.",
-          "scenario": false
-        },
-        {
-          "q": "A study model mounted on an articulator is used during implant planning. What does it allow the clinician to assess?",
-          "options": {
-            "A": "The precise bone density at the proposed implant site",
-            "B": "The occlusal relationship, space available for the restoration and angulation requirements",
-            "C": "The exact position of the inferior alveolar nerve",
-            "D": "The degree of osseointegration achieved"
-          },
-          "correct": "B",
-          "rationale": "Mounted study models allow assessment of the occlusal relationship, inter-arch space, available space for the restoration and the ideal implant angulation. This helps identify potential prosthetic problems before treatment begins.",
-          "scenario": false
-        },
-        {
-          "q": "Which Lekholm and Zarb bone quality classification describes a bone type consisting of a thin cortical shell surrounding a core of low-density trabecular bone?",
-          "options": {
-            "A": "Type I",
-            "B": "Type II",
-            "C": "Type III",
-            "D": "Type IV"
-          },
-          "correct": "D",
-          "rationale": "Type IV bone in the Lekholm and Zarb classification has a thin cortical shell with a sparse low-density trabecular core. This type is most commonly found in the posterior maxilla and is associated with a higher risk of implant failure due to poor primary stability.",
-          "scenario": false
-        },
-        {
-          "q": "Patients who have received radiotherapy to the head and neck region are at risk of which serious complication related to implant surgery?",
-          "options": {
-            "A": "Peri-implant mucositis",
-            "B": "Osteoradionecrosis",
-            "C": "Sinusitis",
-            "D": "Trigeminal neuralgia"
-          },
-          "correct": "B",
-          "rationale": "Radiotherapy to the head and neck damages the vascularity of the bone and impairs healing. Implant surgery in irradiated bone risks osteoradionecrosis \u2013 a painful and difficult-to-treat condition involving exposed, non-healing bone. Hyperbaric oxygen therapy may be used to reduce this risk.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following is the most reliable method for assessing the quantity of available bone at a proposed implant site in three dimensions?",
-          "options": {
-            "A": "Clinical probing with a periodontal probe",
-            "B": "Dental panoramic tomograph with a calibration marker",
-            "C": "Cone beam computed tomography",
-            "D": "Bitewing radiograph"
-          },
-          "correct": "C",
-          "rationale": "CBCT is the most reliable method for three-dimensional assessment of bone height, width and density at the proposed site. It allows measurement in axial, coronal and sagittal planes and helps identify proximity to vital structures such as the inferior alveolar nerve.",
-          "scenario": false
-        },
-        {
-          "q": "A patient on long-term corticosteroid therapy presents for implant assessment. Why might this be of concern?",
-          "options": {
-            "A": "Corticosteroids strengthen bone and may cause implant failure through excessive osseointegration",
-            "B": "Long-term corticosteroids can impair the immune response, reduce healing capacity and increase infection risk, which may affect implant success",
-            "C": "Corticosteroids have no effect on implant outcomes",
-            "D": "The main concern is that corticosteroids interfere with the local anaesthetic"
-          },
-          "correct": "B",
-          "rationale": "Long-term corticosteroid use suppresses the immune system, impairs wound healing and can cause osteoporosis. These effects increase the risk of post-operative infection and may compromise osseointegration and long-term implant stability.",
-          "scenario": false
-        },
-        {
-          "q": "When assessing a patient's expectations during the consultation, which of the following should raise a concern?",
-          "options": {
-            "A": "The patient understands there is a healing phase before the final crown is placed",
-            "B": "The patient expects the implant to last their lifetime without any maintenance",
-            "C": "The patient has realistic expectations about the appearance of the final restoration",
-            "D": "The patient accepts that success cannot be fully guaranteed"
-          },
-          "correct": "B",
-          "rationale": "Unrealistic expectations are a significant concern in implant treatment planning. Patients should understand that implants require lifelong maintenance, that complications can occur and that long-term success depends on ongoing oral hygiene and review appointments.",
-          "scenario": true
-        },
-        {
-          "q": "Which of the following treatment alternatives should always be discussed with the patient as part of the consenting process for implant treatment?",
-          "options": {
-            "A": "Only the implant option needs to be presented if the dentist considers it best",
-            "B": "Bridges, dentures and the option of no treatment must be discussed alongside implants",
-            "C": "Alternative treatments only need to be mentioned if the patient specifically asks",
-            "D": "The NHS pathway is the only alternative that legally must be offered"
-          },
-          "correct": "B",
-          "rationale": "Valid consent requires patients to be informed about all reasonable treatment alternatives, including conventional bridges, dentures and no treatment, as well as the risks and benefits of each option. This allows patients to make a genuinely informed decision.",
           "scenario": false
         }
       ]
@@ -1474,7 +934,7 @@ const QUESTION_BANK = {
           "q": "Why is copious sterile irrigation essential during implant drilling?",
           "options": {
             "A": "To keep the patient comfortable during the procedure",
-            "B": "To prevent overheating of the bone which can damage bone cel",
+            "B": "To prevent overheating of the bone which can damage bone cells and compromise osseointegration",
             "C": "To wash away blood from the surgical site",
             "D": "To sterilise the drill before use"
           },
@@ -1500,7 +960,7 @@ const QUESTION_BANK = {
             "A": "The use of temporary local anaesthetic during surgery",
             "B": "The use of temporary suture materials during flap closure",
             "C": "A temporary consent arrangement",
-            "D": "The provision of a temporary restoration to maintain aesthetics"
+            "D": "The provision of a temporary restoration to maintain aesthetics and function during the healing period"
           },
           "correct": "D",
           "rationale": "Temporisation is the provision of a temporary restoration, such as a denture, adhesive bridge or temporary crown, to maintain the patient's aesthetics and function during the healing period between implant placement and delivery of the final restoration.",
@@ -1631,7 +1091,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "To create a series of holes for multiple implants",
             "B": "To remove bone for grafting purposes",
-            "C": "To progressively widen the implant socket to the correct dimensions",
+            "C": "To progressively widen the implant socket to the correct dimensions using a series of drills of increasing diameter",
             "D": "To test the quality of the bone before placing the implant"
           },
           "correct": "C",
@@ -1644,7 +1104,7 @@ const QUESTION_BANK = {
             "A": "Tell them to go to their local A&E immediately",
             "B": "Advise them to take double their prescribed analgesics",
             "C": "Tell them not to worry and to call back in a week",
-            "D": "Reassure them that some swelling and initial bleeding is norma"
+            "D": "Reassure them that some swelling and initial bleeding is normal after implant surgery, explain what to watch for and advise them to contact the practice if symptoms worsen"
           },
           "correct": "D",
           "rationale": "Moderate swelling and some initial bleeding that has settled is expected following implant surgery. The dental nurse should reassure the patient, reinforce the post-operative instructions and explain the signs that would warrant urgent contact or attendance.",
@@ -1653,7 +1113,7 @@ const QUESTION_BANK = {
         {
           "q": "A patient is three months post-implant placement and attends for their restorative appointment. During the appointment the implantologist cannot remove the cover screw easily. What does this most likely indicate?",
           "options": {
-            "A": "Bone may have grown over the cover screw",
+            "A": "Bone may have grown over the cover screw, which is a positive sign indicating good osseointegration",
             "B": "The cover screw has been overtightened",
             "C": "The implant has failed and needs to be removed",
             "D": "The patient has been cleaning too aggressively"
@@ -1679,7 +1139,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Continue with the procedure as the implantologist can work quickly",
             "B": "Replace the irrigation tubing between drill changes",
-            "C": "Alert the implantologist immediately as adequate sterile irrigation is essen",
+            "C": "Alert the implantologist immediately as adequate sterile irrigation is essential to prevent bone overheating during drilling",
             "D": "Note the issue in the records but continue with the procedure"
           },
           "correct": "C",
@@ -1692,7 +1152,7 @@ const QUESTION_BANK = {
             "A": "Tell them there is nothing that can be done and they will need to wait",
             "B": "Advise them to choose immediate loading so the gap can be filled on the same day",
             "C": "Tell them the gap will not be visible so it is not a concern",
-            "D": "Explain that temporary options such as a removable partial denture or adhesive temporary bri"
+            "D": "Explain that temporary options such as a removable partial denture or adhesive temporary bridge can be provided to maintain aesthetics during the healing period"
           },
           "correct": "D",
           "rationale": "Temporisation options including removable partial dentures, temporary adhesive bridges or in some cases temporary crowns on the implant can be used to maintain aesthetics and function during the osseointegration period. The most appropriate option depends on the individual case.",
@@ -1701,7 +1161,7 @@ const QUESTION_BANK = {
         {
           "q": "What is the primary reason for using a surgical guide during implant placement?",
           "options": {
-            "A": "To ensure the implant is placed in the precise position",
+            "A": "To ensure the implant is placed in the precise position and angulation determined during pre-operative planning",
             "B": "To protect the adjacent teeth from the drill",
             "C": "To keep the patient's mouth open during the procedure",
             "D": "To measure the depth of the socket"
@@ -1727,7 +1187,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Only the name of the implant system used",
             "B": "Only the patient's post-operative condition",
-            "C": "The procedure carried out, the implant system",
+            "C": "The procedure carried out, the implant system, fixture size, batch and lot number, any complications, and post-operative instructions given",
             "D": "A summary of the patient's medical history"
           },
           "correct": "C",
@@ -1740,7 +1200,7 @@ const QUESTION_BANK = {
             "A": "To prevent post-operative pain",
             "B": "To prevent peri-implant mucositis",
             "C": "To ensure the patient is relaxed during surgery",
-            "D": "To reduce the risk of post-surgical infection"
+            "D": "To reduce the risk of post-surgical infection, particularly in patients with certain medical conditions"
           },
           "correct": "D",
           "rationale": "Prophylactic antibiotics may be prescribed before implant surgery to reduce the risk of post-surgical infection. Their use is determined by individual patient factors including medical history and the complexity of the procedure.",
@@ -1756,186 +1216,6 @@ const QUESTION_BANK = {
           },
           "correct": "A",
           "rationale": "A two-stage approach, where the implant is buried during healing, is preferred when primary stability is less certain and a protected undisturbed healing period is required to achieve reliable osseointegration.",
-          "scenario": false
-        },
-        {
-          "q": "What is 'early loading' of a dental implant?",
-          "options": {
-            "A": "Placing a restoration between one week and two months after implant placement",
-            "B": "Placing a temporary crown on the day of surgery",
-            "C": "Loading the implant six months after placement",
-            "D": "Any loading protocol where implants are placed in pairs"
-          },
-          "correct": "A",
-          "rationale": "Early loading refers to connecting a restoration between one week and two months after implant placement, once some initial healing has occurred but before full osseointegration. This protocol sits between immediate and conventional loading.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following is the recommended post-operative instruction regarding diet for the first 24 hours after implant surgery?",
-          "options": {
-            "A": "Eat normally as dietary restriction is unnecessary",
-            "B": "Consume only hot liquids to reduce inflammation",
-            "C": "Eat soft foods and avoid very hot or very cold items on the side of the surgery",
-            "D": "Fast completely for the first 24 hours"
-          },
-          "correct": "C",
-          "rationale": "After implant surgery patients should be advised to eat soft foods and avoid chewing on the surgical site. Hot foods and drinks should be avoided initially as they can increase bleeding and inflammation. Cold foods can cause vasoconstriction and discomfort.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of a radiograph taken immediately after implant placement?",
-          "options": {
-            "A": "To confirm osseointegration has occurred",
-            "B": "To verify the implant position, depth and proximity to vital structures",
-            "C": "To check the torque value applied to the implant",
-            "D": "To assess bone density for loading protocol selection"
-          },
-          "correct": "B",
-          "rationale": "A post-placement radiograph is taken to verify the implant has been placed at the correct depth and position, to confirm no proximity to vital structures such as the inferior alveolar canal, and to serve as a baseline record.",
-          "scenario": false
-        },
-        {
-          "q": "A patient attending for their second-stage surgery (implant uncovering) asks why the implant was left under the gum for three months. What is the most appropriate explanation?",
-          "options": {
-            "A": "To allow the anaesthetic to wear off fully before the abutment is fitted",
-            "B": "To protect the implant from being visible and causing the patient embarrassment",
-            "C": "To allow the implant to osseointegrate with the surrounding bone in a protected environment before it is loaded",
-            "D": "This is a legal requirement before any restoration can be placed"
-          },
-          "correct": "C",
-          "rationale": "In a two-stage approach the implant is buried beneath the gingiva during the osseointegration phase to protect it from premature loading and microbial contamination. Once osseointegration is confirmed the implant is uncovered and the restorative phase begins.",
-          "scenario": true
-        },
-        {
-          "q": "What does 'insertion torque' measure at the time of implant placement?",
-          "options": {
-            "A": "The force required to remove a failed implant",
-            "B": "The rotational force required to seat the implant to its final position, reflecting primary stability in bone",
-            "C": "The tension in the sutures after wound closure",
-            "D": "The torque applied when tightening the crown screw"
-          },
-          "correct": "B",
-          "rationale": "Insertion torque is the rotational force (measured in Ncm) needed to seat the implant to its final depth. It reflects the frictional engagement between the implant and bone and is used as one measure of primary stability.",
-          "scenario": false
-        },
-        {
-          "q": "In which of the following clinical scenarios is immediate implant placement (placing the implant at the same appointment as extraction) most appropriate?",
-          "options": {
-            "A": "When there is active periapical infection at the extraction site",
-            "B": "When the socket walls are intact, there is no acute infection and there is sufficient bone apical and palatal to the socket for primary stability",
-            "C": "When the patient insists on immediate placement regardless of site condition",
-            "D": "Only in the lower anterior region where bone is densest"
-          },
-          "correct": "B",
-          "rationale": "Immediate placement is most appropriate when the socket is free from acute infection, socket walls are substantially intact and there is sufficient bone beyond the socket apex to achieve primary stability. Sites with active infection or severely damaged socket walls are not suitable.",
-          "scenario": false
-        },
-        {
-          "q": "What is temporisation in the context of the implant restorative journey?",
-          "options": {
-            "A": "The process of scheduling the patient's appointments",
-            "B": "Providing a temporary restoration (such as a temporary crown, denture or Essix retainer) to fill the space during the osseointegration phase",
-            "C": "Applying a temporary dressing to the surgical site after implant placement",
-            "D": "Taking a temporary impression at the first restorative visit"
-          },
-          "correct": "B",
-          "rationale": "Temporisation refers to providing the patient with a temporary aesthetic and functional solution to fill the space while the implant osseointegrates. Options include temporary dentures, Essix retainers, adhesive bridges or temporary crowns on the implant itself depending on the protocol.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following best describes 'delayed implant placement'?",
-          "options": {
-            "A": "Placing the implant six or more months after extraction once full bone healing has occurred",
-            "B": "Placing the implant on the same day as extraction",
-            "C": "Placing the implant three to eight weeks after extraction when soft tissue has healed but before full bone fill",
-            "D": "Any placement that occurs after the patient changes their mind and requests an implant later than planned"
-          },
-          "correct": "A",
-          "rationale": "Delayed placement refers to placing the implant after full healing of the extraction socket, typically three to six months or more after tooth loss. Full bone fill has occurred, allowing accurate assessment of available bone volume. Early placement (3\u20138 weeks) is a separate category.",
-          "scenario": false
-        },
-        {
-          "q": "A patient who had an implant placed six weeks ago attends and reports persistent deep-seated pain and the implant feeling loose. What is the most likely explanation?",
-          "options": {
-            "A": "The healing abutment has become loose",
-            "B": "This is normal post-operative discomfort at the six-week stage",
-            "C": "Failed osseointegration; the implant has not integrated with the surrounding bone",
-            "D": "The patient is not cleaning the implant correctly"
-          },
-          "correct": "C",
-          "rationale": "Persistent pain and clinical mobility at six weeks post-placement are signs of failed osseointegration. A successfully integrating implant should be immobile and comfortable by this stage. The clinician would need to confirm this finding and plan accordingly.",
-          "scenario": true
-        },
-        {
-          "q": "Which of the following statements about the impression stage in implant restorations is correct?",
-          "options": {
-            "A": "Impressions for implant crowns are always taken with alginate",
-            "B": "An impression coping is used to record the precise position of the implant in the arch so the laboratory can fabricate a correctly fitting restoration",
-            "C": "The final impression is taken at the same appointment as implant placement",
-            "D": "No impression is needed if a digital intraoral scanner is not available"
-          },
-          "correct": "B",
-          "rationale": "Impression copings (open or closed tray) are placed on the implant head and incorporated into the impression to record the exact position and orientation of the implant in three dimensions, allowing the laboratory technician to fabricate a precisely fitting restoration.",
-          "scenario": false
-        },
-        {
-          "q": "At the restorative stage, the clinician applies a torque wrench to tighten the abutment screw. What is the purpose of tightening to the manufacturer's specified torque?",
-          "options": {
-            "A": "To ensure the abutment is visible above the gingival margin",
-            "B": "To achieve the correct clamping force that prevents screw loosening without risking screw fracture",
-            "C": "To measure primary stability of the implant",
-            "D": "To check osseointegration by applying rotational force"
-          },
-          "correct": "B",
-          "rationale": "Each manufacturer specifies a torque value (typically 15\u201335 Ncm) for tightening abutment and prosthetic screws. Applying the correct torque achieves the clamping force needed to prevent loosening under occlusal load without over-tightening to the point of screw fracture.",
-          "scenario": false
-        },
-        {
-          "q": "What information should post-operative instructions given to the patient after implant surgery include?",
-          "options": {
-            "A": "Instructions to return to normal diet immediately and resume all activities",
-            "B": "Information on normal versus concerning signs, pain management, oral hygiene around the site, diet advice and an emergency contact number",
-            "C": "Only the date of the next appointment",
-            "D": "Instructions not to contact the practice unless the pain is severe"
-          },
-          "correct": "B",
-          "rationale": "Comprehensive post-operative instructions should cover what to expect (swelling, mild discomfort), signs of concern requiring urgent contact (increasing pain, signs of infection, uncontrolled bleeding), pain management, dietary advice, oral hygiene guidance and a contact number for emergencies.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following pre-operative instructions is typically given before implant surgery for a patient under intravenous sedation?",
-          "options": {
-            "A": "The patient should eat a large meal immediately before the appointment",
-            "B": "The patient must be fasted for a minimum of six hours prior to the appointment and must be accompanied by a responsible adult",
-            "C": "The patient may drive themselves home after sedation if they feel well",
-            "D": "Pre-operative fasting is only required for general anaesthesia, not sedation"
-          },
-          "correct": "B",
-          "rationale": "Before intravenous sedation patients must fast (nil by mouth for solids and most fluids for six hours prior, clear fluids up to two hours prior as per local protocol). They must be accompanied by a responsible adult to take them home and must not drive or operate machinery for 24 hours.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of ISQ (implant stability quotient) measurement using resonance frequency analysis?",
-          "options": {
-            "A": "To measure the occlusal force applied to the implant restoration",
-            "B": "To objectively quantify implant stability at placement and during healing to guide loading decisions",
-            "C": "To assess the torque value needed to remove the implant",
-            "D": "To measure the depth of the peri-implant pocket"
-          },
-          "correct": "B",
-          "rationale": "ISQ measurement via resonance frequency analysis (using devices such as Osstell) provides an objective, non-invasive measure of implant stability at placement and during healing. Higher ISQ values indicate greater stability and can inform decisions about loading timing.",
-          "scenario": false
-        },
-        {
-          "q": "During the restorative phase, a screw-retained crown is preferred to a cement-retained crown in which situation?",
-          "options": {
-            "A": "When the patient prefers the appearance of a cement-retained crown",
-            "B": "When retrievability is important, such as in cases where peri-implant monitoring is needed or if the restoration may need to be removed for maintenance",
-            "C": "When the implant has a very shallow emergence profile",
-            "D": "Cement-retained crowns are always preferred as they are stronger"
-          },
-          "correct": "B",
-          "rationale": "Screw-retained crowns are preferred when retrievability is a clinical priority. Excess cement from cement-retained crowns can be difficult to remove subgingivally and is associated with peri-implant disease. Screw-retained restorations can be removed easily for maintenance or if complications arise.",
           "scenario": false
         }
       ]
@@ -1972,7 +1252,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Parallel implants are used only in the upper jaw",
             "B": "Tapered implants are always longer than parallel implants",
-            "C": "A parallel implant has a uniform diameter along its length while a",
+            "C": "A parallel implant has a uniform diameter along its length while a tapered implant is wider at the top and narrower at the apex",
             "D": "Parallel implants can only support single crowns"
           },
           "correct": "C",
@@ -1994,7 +1274,7 @@ const QUESTION_BANK = {
         {
           "q": "Which impression material is most commonly used in implant dentistry and why?",
           "options": {
-            "A": "Polyvinyl siloxane, because it offers excellent dimensional s",
+            "A": "Polyvinyl siloxane, because it offers excellent dimensional stability, accuracy and tear resistance",
             "B": "Alginate, because it is inexpensive",
             "C": "Zinc oxide eugenol paste, because it sets very slowly",
             "D": "Plaster of Paris, because it is easy to mix"
@@ -2042,7 +1322,7 @@ const QUESTION_BANK = {
         {
           "q": "What distinguishes an internal connection implant from an external connection implant?",
           "options": {
-            "A": "An external connection has a protruding hex on top; an internal connection has the abut",
+            "A": "An external connection has a protruding hex on top; an internal connection has the abutment fitting down inside the fixture",
             "B": "An internal connection implant is longer than an external connection implant",
             "C": "Internal connection implants can only be used in the lower jaw",
             "D": "External connection implants are more expensive to manufacture"
@@ -2055,7 +1335,7 @@ const QUESTION_BANK = {
           "q": "What is the key difference between an open tray and a closed tray impression technique in implant dentistry?",
           "options": {
             "A": "An open tray impression is taken in the lower jaw and a closed tray in the upper jaw",
-            "B": "In an open tray technique the impression coping remains in the impression when it is removed",
+            "B": "In an open tray technique the impression coping remains in the impression when it is removed; in a closed tray technique it remains in the mouth",
             "C": "A closed tray technique uses digital scanning rather than physical impressions",
             "D": "The open tray technique is only used for multiple implants"
           },
@@ -2081,7 +1361,7 @@ const QUESTION_BANK = {
             "A": "Only denture adhesives require careful stock management",
             "B": "Implant components do not have expiry dates",
             "C": "Stock management is the sole responsibility of the practice manager",
-            "D": "Implant components are highly specific to each system"
+            "D": "Implant components are highly specific to each system and must be available in the correct sizes for planned procedures"
           },
           "correct": "D",
           "rationale": "Implant components are specific to each system and each fixture size. The correct components must be available for each planned procedure. Checking stock before appointments, managing expiry dates and maintaining accurate records are all important responsibilities.",
@@ -2103,7 +1383,7 @@ const QUESTION_BANK = {
           "q": "What is the primary advantage of digital impressions over conventional impressions in implant dentistry?",
           "options": {
             "A": "Digital impressions are always more accurate than conventional impressions",
-            "B": "Digital workflows eliminate some of the variability associated with conventional impression taking",
+            "B": "Digital workflows eliminate some of the variability associated with conventional impression taking and allow direct data transfer to the laboratory",
             "C": "Digital impressions can be taken by a dental nurse without the implantologist present",
             "D": "Digital impressions do not require scan bodies"
           },
@@ -2138,7 +1418,7 @@ const QUESTION_BANK = {
         {
           "q": "During an impression appointment a dental nurse mixes the PVS light-body material but it begins to set before the impression coping is in place. What is the most likely reason and what should happen next?",
           "options": {
-            "A": "The material may have been contaminated with sulphur-containing compounds or the m",
+            "A": "The material may have been contaminated with sulphur-containing compounds or the mixing time exceeded; the impression must be retaken",
             "B": "The impression was taken correctly and this is normal behaviour for PVS",
             "C": "The impression should be removed immediately and sent to the laboratory",
             "D": "PVS always sets quickly and this is not a problem"
@@ -2164,7 +1444,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Use any available torque wrench as they all function the same way",
             "B": "Proceed without the torque wrench and hand tighten the components",
-            "C": "Inform the implantologist before the patient is seated so that the correct",
+            "C": "Inform the implantologist before the patient is seated so that the correct instrument can be located or the appointment rescheduled",
             "D": "Use a standard dental screwdriver as an alternative"
           },
           "correct": "C",
@@ -2177,7 +1457,7 @@ const QUESTION_BANK = {
             "A": "Proceed with the appointment as the implantologist can use any available implant",
             "B": "Note the discrepancy but proceed as the implantologist will check",
             "C": "Try to source the correct implant from another practice",
-            "D": "Inform the implantologist immediately so that the appointment can be rescheduled or the corr"
+            "D": "Inform the implantologist immediately so that the appointment can be rescheduled or the correct component obtained before proceeding"
           },
           "correct": "D",
           "rationale": "Implant length and diameter are specifically planned based on available bone and the intended restoration. Using an incorrect fixture could compromise the outcome and risks patient safety. This must be reported to the implantologist immediately before the patient is seated.",
@@ -2186,7 +1466,7 @@ const QUESTION_BANK = {
         {
           "q": "A practice is using a new implant system for the first time. What is the most important step the dental team should take before the first appointment?",
           "options": {
-            "A": "Read the manufacturer's instructions, ensure all relevant components are available",
+            "A": "Read the manufacturer's instructions, ensure all relevant components are available and familiarise themselves with the specific instruments and drilling protocol",
             "B": "Order extra stock of all components in case they are needed",
             "C": "Ask a colleague from another practice to assist",
             "D": "Order the components the day before and unbox them during the appointment"
@@ -2199,7 +1479,7 @@ const QUESTION_BANK = {
           "q": "Why must single-use implant components never be reprocessed or reused?",
           "options": {
             "A": "They are too small to be cleaned effectively in an ultrasonic bath",
-            "B": "Reusing single-use items risks patient safety, breaches infection control re",
+            "B": "Reusing single-use items risks patient safety, breaches infection control requirements and is a GDC fitness to practise concern",
             "C": "Single-use items are only labelled that way for cost reasons",
             "D": "Reprocessing single-use items is acceptable if they are autoclaved"
           },
@@ -2225,7 +1505,7 @@ const QUESTION_BANK = {
             "A": "Only the appointment date and procedure carried out",
             "B": "The cost of the components used",
             "C": "Only the patient's post-operative condition",
-            "D": "The implant system, component details, batch numbers"
+            "D": "The implant system, component details, batch numbers, lot numbers and any relevant clinical observations"
           },
           "correct": "D",
           "rationale": "Comprehensive records including implant system, component details, batch and lot numbers must be maintained at every appointment where components are used. This enables traceability and provides a complete clinical record.",
@@ -2242,186 +1522,6 @@ const QUESTION_BANK = {
           "correct": "A",
           "rationale": "Polyvinyl siloxane is an addition-cured silicone impression material. It offers excellent dimensional stability, accuracy and tear resistance, making it the most widely used material for implant impressions.",
           "scenario": false
-        },
-        {
-          "q": "What is the function of a torque wrench in implant dentistry?",
-          "options": {
-            "A": "To measure the depth of the osteotomy during drilling",
-            "B": "To apply a precisely measured rotational force when tightening implant and prosthetic screws",
-            "C": "To assess primary stability of the implant at placement",
-            "D": "To tighten sutures after wound closure"
-          },
-          "correct": "B",
-          "rationale": "A torque wrench applies a specific, measurable rotational force (in Ncm) to implant and prosthetic screws to meet the manufacturer's specifications. This prevents under-tightening (leading to screw loosening) or over-tightening (leading to screw fracture).",
-          "scenario": false
-        },
-        {
-          "q": "Which type of impression coping is used with an open-tray impression technique?",
-          "options": {
-            "A": "Closed-tray coping, which stays in the impression when removed",
-            "B": "Open-tray coping, which is accessed through a hole in the tray and unscrewed before the tray is removed",
-            "C": "Snap-on coping, which clicks onto the healing abutment",
-            "D": "Transfer coping, which is removed with the tray and repositioned in the laboratory"
-          },
-          "correct": "B",
-          "rationale": "Open-tray impression copings have a screw accessible through a window cut in the impression tray. Once the impression material has set, the screw is undone through the hole and the coping remains in the impression as the tray is removed, accurately recording the implant position.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of saline irrigation during implant osteotomy preparation?",
-          "options": {
-            "A": "To sterilise the implant before placement",
-            "B": "To cool the drills and surrounding bone, preventing thermal necrosis which can impair osseointegration",
-            "C": "To lubricate the drill to prevent breakage",
-            "D": "To flush debris from the patient's mouth"
-          },
-          "correct": "B",
-          "rationale": "Bone is highly sensitive to heat. If drilling temperatures exceed approximately 47\u00b0C for more than one minute, thermal necrosis of bone cells can occur, which significantly impairs osseointegration. Copious saline irrigation keeps the drill and bone cool during osteotomy preparation.",
-          "scenario": false
-        },
-        {
-          "q": "An implant nurse notices that a drill from the surgical kit has a small nick in its cutting edge. What is the appropriate action?",
-          "options": {
-            "A": "Continue using it as minor nicks do not affect function",
-            "B": "Remove it from use, record the damage and replace it following the practice's instrument management protocol",
-            "C": "Sharpen the drill with a fine stone before use",
-            "D": "Use the drill for the first osteotomy only, then replace it"
-          },
-          "correct": "B",
-          "rationale": "Damaged instruments, including implant drills, must be taken out of service immediately. A nicked cutting edge affects drilling efficiency, generates more heat and represents a risk of instrument fracture. Damaged items should be documented and replaced.",
-          "scenario": true
-        },
-        {
-          "q": "What does the term 'stock abutment' mean?",
-          "options": {
-            "A": "An abutment stored in the implant fixture during transit",
-            "B": "A pre-manufactured abutment from the implant manufacturer, available in standard sizes, as opposed to a custom-milled abutment",
-            "C": "An abutment that has been previously used and re-sterilised",
-            "D": "An emergency replacement abutment kept in reserve"
-          },
-          "correct": "B",
-          "rationale": "Stock abutments are standardised, pre-manufactured components supplied by the implant manufacturer in various heights, angulations and diameters. Custom abutments are individually designed and milled (often in zirconia or titanium) to match a patient's specific anatomy and restoration requirements.",
-          "scenario": false
-        },
-        {
-          "q": "Why is it essential to use components from the same implant system rather than mixing components from different manufacturers?",
-          "options": {
-            "A": "It is only a preference; mixing components is generally safe",
-            "B": "Components from different manufacturers are not designed to fit together and using them risks an imprecise fit, screw loosening, component fracture or implant damage",
-            "C": "Using components from another manufacturer invalidates the dental nurse's registration",
-            "D": "Mixed components always require a different impression technique"
-          },
-          "correct": "B",
-          "rationale": "Each implant system has proprietary connections, thread specifications and tolerances. Components from different manufacturers are not interchangeable and attempting to use them together risks poor fit, biological and mechanical complications and can damage expensive implant fixtures.",
-          "scenario": false
-        },
-        {
-          "q": "What is a surgical stent (guide) used for during implant placement?",
-          "options": {
-            "A": "To protect the patient's airway during surgery",
-            "B": "To guide the drill to the correct position, angulation and depth based on the treatment plan",
-            "C": "To retract the soft tissue during osteotomy preparation",
-            "D": "To mix and dispense bone grafting material"
-          },
-          "correct": "B",
-          "rationale": "A surgical stent or guide is fabricated based on the treatment plan (often from a diagnostic wax-up or CBCT data) and guides the surgeon to drill in the correct position, angulation and depth, ensuring the implant is placed in the ideal prosthetic and anatomical position.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following describes the role of the implant motor during surgery?",
-          "options": {
-            "A": "It powers the suction unit to maintain a clear surgical field",
-            "B": "It controls the speed and torque of the implant drills, allowing drilling at the correct rotational speed and then placing the implant at a reduced controlled speed",
-            "C": "It sterilises the drills in situ using UV light",
-            "D": "It monitors the patient's vital signs during the procedure"
-          },
-          "correct": "B",
-          "rationale": "The implant motor (surgical unit) provides variable speed and torque control. High-speed drilling with irrigation prepares the osteotomy; the motor then slows to place the implant at a low speed and specified insertion torque, protecting the bone and ensuring controlled placement.",
-          "scenario": false
-        },
-        {
-          "q": "A stock of implant components has been delivered to the practice. Which of the following is the most important check before the components are added to the inventory?",
-          "options": {
-            "A": "Check the colour of the packaging only",
-            "B": "Check that the items match the delivery note, are within their expiry date, packaging is intact and sterile barriers are undamaged",
-            "C": "Open all packages and place items in the surgical kit immediately",
-            "D": "Only check the items if the dentist has requested a specific brand"
-          },
-          "correct": "B",
-          "rationale": "On receipt, all clinical stock should be checked against the delivery note for accuracy, inspected for intact packaging and undamaged sterile barriers, and checked for expiry dates. Any damaged or expired items must not be used and should be returned.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of an implant-level impression versus an abutment-level impression?",
-          "options": {
-            "A": "They are identical; the terms are interchangeable",
-            "B": "An implant-level impression records the position of the implant fixture itself (used when the abutment will be chosen or made by the lab); an abutment-level impression records the shape of a pre-placed abutment (used when a stock abutment is already fitted)",
-            "C": "Abutment-level impressions are taken before surgery; implant-level impressions are taken after surgery",
-            "D": "An implant-level impression uses alginate; an abutment-level impression uses polyether"
-          },
-          "correct": "B",
-          "rationale": "The level at which the impression is taken determines how the laboratory fabricates the restoration. An implant-level impression (using an implant coping) records implant position and allows the lab to choose or design the abutment. An abutment-level impression (using an abutment coping or conventional impression technique) records the shape of a pre-placed abutment.",
-          "scenario": false
-        },
-        {
-          "q": "When handling a sterile implant package in the operating field, which technique should the scrub nurse use to pass the implant to the surgeon?",
-          "options": {
-            "A": "The outer packaging can be torn open and the implant handed directly",
-            "B": "The circulating nurse peels the outer packaging open and the scrub nurse tips the sterile inner component onto the sterile field without touching the inner packaging",
-            "C": "The implant should be removed from all packaging before being brought into the theatre",
-            "D": "Either team member may open the packaging in any manner as long as gloves are worn"
-          },
-          "correct": "B",
-          "rationale": "Maintaining the sterile field is critical. The circulating nurse peels back the outer packaging and the scrub nurse receives the sterile inner component onto the sterile field (tips it out or picks it up without contaminating it). The circulating nurse must not reach onto the sterile field.",
-          "scenario": true
-        },
-        {
-          "q": "What is a cover screw used for in two-stage implant surgery?",
-          "options": {
-            "A": "To cover the healing abutment during the restorative phase",
-            "B": "To close the top of the implant fixture at first-stage surgery, protecting the internal thread during the submerged healing phase",
-            "C": "To connect the abutment to the implant at the second stage",
-            "D": "To cover the surgical site wound after grafting"
-          },
-          "correct": "B",
-          "rationale": "At first-stage surgery in a two-stage protocol a cover screw is placed in the implant's internal thread to close and protect it. The gingiva is sutured over the implant. At second-stage surgery the cover screw is removed and replaced with a healing abutment.",
-          "scenario": false
-        },
-        {
-          "q": "Why are most implant drills single-patient-use or limited to a small number of uses?",
-          "options": {
-            "A": "They are single-use for marketing reasons only",
-            "B": "Repeated use causes work-hardening of the drill cutting edges, reducing cutting efficiency and increasing the heat generated during osteotomy preparation, which risks thermal bone necrosis",
-            "C": "Dental regulations require all surgical instruments to be single-use",
-            "D": "Multiple uses do not affect drill performance but increase infection risk"
-          },
-          "correct": "B",
-          "rationale": "Implant drills lose cutting efficiency with use. Dull drills generate significantly more frictional heat during bone preparation, increasing the risk of thermal necrosis. Most manufacturers specify a maximum number of uses and drills should be retired according to the manufacturer's instructions.",
-          "scenario": false
-        },
-        {
-          "q": "What is the function of a bone spreader (osteotome) as used in implant surgery?",
-          "options": {
-            "A": "To remove bone during osteotomy preparation",
-            "B": "To expand and compress cancellous bone laterally rather than removing it, used in sites with limited bone width or to improve bone density",
-            "C": "To graft bone from the patient's chin to the implant site",
-            "D": "To measure the depth of the osteotomy"
-          },
-          "correct": "B",
-          "rationale": "Osteotomes (bone spreaders) are used to expand and condense the cancellous bone by lateral pressure rather than drilling it away. They can be used to widen a narrow ridge or to condensed low-density bone, potentially improving primary stability, particularly in the posterior maxilla.",
-          "scenario": false
-        },
-        {
-          "q": "A patient presents for impression taking and the nurse cannot find the impression coping in the standard kit. Which is the most appropriate action?",
-          "options": {
-            "A": "Use a conventional crown and bridge impression coping as a substitute",
-            "B": "Postpone the impression, inform the clinician and reorder the correct coping before the appointment is rescheduled",
-            "C": "Take the impression without a coping and hope the laboratory can work from it",
-            "D": "Ask the patient to hold the healing abutment in place while the impression is taken"
-          },
-          "correct": "B",
-          "rationale": "The correct impression coping is essential to accurately record implant position. Using an incorrect component or taking an impression without a coping will result in an ill-fitting restoration. The appointment should be rescheduled once the correct components are available.",
-          "scenario": true
         }
       ]
     },
@@ -2479,7 +1579,7 @@ const QUESTION_BANK = {
         {
           "q": "Why is a history of periodontal disease significant when assessing peri-implant disease risk?",
           "options": {
-            "A": "Patients with a history of periodontal disease have significantly higher risk o",
+            "A": "Patients with a history of periodontal disease have significantly higher risk of developing peri-implant disease",
             "B": "Patients with a history of periodontal disease must not have implants",
             "C": "A history of periodontal disease only affects lower implants",
             "D": "Periodontal disease history has no bearing on implant health"
@@ -2527,7 +1627,7 @@ const QUESTION_BANK = {
         {
           "q": "What is the first line of treatment for peri-implant mucositis?",
           "options": {
-            "A": "Non-surgical mechanical debrid",
+            "A": "Non-surgical mechanical debridement combined with improved patient oral hygiene",
             "B": "Systemic antibiotics",
             "C": "Surgical bone regeneration",
             "D": "Removal of the implant"
@@ -2553,7 +1653,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "To check the fit of the restoration",
             "B": "To assess the quality of the patient's oral hygiene",
-            "C": "To monitor bone levels around the implant",
+            "C": "To monitor bone levels around the implant and detect bone loss compared to baseline and previous radiographs",
             "D": "To check the position of the inferior alveolar nerve"
           },
           "correct": "C",
@@ -2575,7 +1675,7 @@ const QUESTION_BANK = {
         {
           "q": "What instruments should be used for professional debridement of implant surfaces during maintenance?",
           "options": {
-            "A": "Instruments appropriate for use on implant surfaces",
+            "A": "Instruments appropriate for use on implant surfaces that will not damage the titanium, such as plastic or titanium-tipped instruments or certain ultrasonic tips",
             "B": "Standard stainless steel scalers and curettes",
             "C": "Steel burs on a slow-speed handpiece",
             "D": "Ultrasonic scalers with standard metal tips"
@@ -2588,7 +1688,7 @@ const QUESTION_BANK = {
           "q": "What information should be provided to all implant patients at their maintenance appointments?",
           "options": {
             "A": "A detailed description of the surgical procedure they underwent",
-            "B": "Personalised oral hygiene instruction, clinical assessment findings",
+            "B": "Personalised oral hygiene instruction, clinical assessment findings and any changes to their maintenance plan",
             "C": "Information about the cost of implant replacement",
             "D": "A reminder about the original consent they signed"
           },
@@ -2601,7 +1701,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "It is too expensive for long-term use",
             "B": "It is not effective against the bacteria causing peri-implant disease",
-            "C": "It can stain teeth with long-term use and is not a substitute for mechanical pl",
+            "C": "It can stain teeth with long-term use and is not a substitute for mechanical plaque removal which is more effective",
             "D": "It damages the titanium implant surface"
           },
           "correct": "C",
@@ -2614,7 +1714,7 @@ const QUESTION_BANK = {
             "A": "This is normal variation and no action is required",
             "B": "Systemic antibiotics should be prescribed",
             "C": "The implant should be removed immediately",
-            "D": "This is consistent with peri-implant mucositis. The impla"
+            "D": "This is consistent with peri-implant mucositis. The implantologist should be informed, professional debridement should be carried out and oral hygiene instruction reinforced"
           },
           "correct": "D",
           "rationale": "Bleeding on probing with increased probing depth but no radiographic bone loss is consistent with peri-implant mucositis. This requires professional debridement and improved patient oral hygiene. If addressed promptly it is reversible.",
@@ -2623,7 +1723,7 @@ const QUESTION_BANK = {
         {
           "q": "A patient phones the practice concerned about a bad taste and some swelling around their implant. They had their implant placed eight months ago. What should the dental nurse advise?",
           "options": {
-            "A": "Advise them to attend the practice promptly for clinical assessment as these sympt",
+            "A": "Advise them to attend the practice promptly for clinical assessment as these symptoms may indicate peri-implant disease",
             "B": "Advise them to increase their use of mouthwash and call back in a month",
             "C": "Tell them this is normal and not to worry",
             "D": "Advise them to take over-the-counter antibiotics"
@@ -2636,7 +1736,7 @@ const QUESTION_BANK = {
           "q": "A patient with implants tells you they have been told by a friend that they do not need to bother with interdental cleaning now they have implants. How would you respond?",
           "options": {
             "A": "Agree that implants make cleaning easier and interdental aids are less important",
-            "B": "Explain that implants require just as rigorous daily cleaning as natural teeth",
+            "B": "Explain that implants require just as rigorous daily cleaning as natural teeth, including interdental cleaning, to prevent peri-implant disease",
             "C": "Suggest they use more mouthwash instead of interdental brushes",
             "D": "Tell them their friend is probably right as implants cannot decay"
           },
@@ -2649,7 +1749,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Excess cement is purely an aesthetic problem",
             "B": "The bleeding is coincidental and unrelated to the cement",
-            "C": "Residual cement at the implant-abutment junction is a recognised risk factor for peri-implant disease",
+            "C": "Residual cement at the implant-abutment junction is a recognised risk factor for peri-implant disease and should be brought to the implantologist's attention",
             "D": "Excess cement is only a problem if it extends beneath the gingival margin"
           },
           "correct": "C",
@@ -2662,7 +1762,7 @@ const QUESTION_BANK = {
             "A": "Tell them their implants are fine and their smoking is a personal choice",
             "B": "Make a note in the records but do not raise the issue with them again",
             "C": "Tell them they should have been told not to get implants if they smoked",
-            "D": "Explain that smoking significantly increases the risk of peri-implant disease"
+            "D": "Explain that smoking significantly increases the risk of peri-implant disease and bone loss even when implants appear healthy clinically, and offer to support them in accessing cessation services"
           },
           "correct": "D",
           "rationale": "Smoking is a significant ongoing risk factor for peri-implant disease even when implants appear clinically healthy. Reinforcing this information at maintenance appointments and offering signposting to cessation support is an important part of the dental nurse's role.",
@@ -2671,7 +1771,7 @@ const QUESTION_BANK = {
         {
           "q": "What is peri-implantitis and why is it considered more serious than peri-implant mucositis?",
           "options": {
-            "A": "Peri-implantitis involves progressive bone loss around the implant",
+            "A": "Peri-implantitis involves progressive bone loss around the implant and is more difficult to treat and less predictable in outcome than peri-implant mucositis",
             "B": "Peri-implantitis is a soft tissue condition that responds well to simple treatment",
             "C": "Peri-implantitis is the same as peri-implant mucositis but in a different location",
             "D": "Peri-implantitis only occurs in the first year after implant placement"
@@ -2697,7 +1797,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "For financial records only",
             "B": "Probing depths are not recorded around implants",
-            "C": "To provide a reference point for future comparisons to detect any changes in",
+            "C": "To provide a reference point for future comparisons to detect any changes in probing depth that may indicate peri-implant disease",
             "D": "Baseline probing depths are only needed for multiple implant cases"
           },
           "correct": "C",
@@ -2710,7 +1810,7 @@ const QUESTION_BANK = {
             "A": "The cost of the original implant treatment",
             "B": "How to contact the implant manufacturer",
             "C": "Details of the surgical procedure",
-            "D": "The importance of twice-daily brushing"
+            "D": "The importance of twice-daily brushing, interdental cleaning and regular professional maintenance"
           },
           "correct": "D",
           "rationale": "The most important information to reinforce at every maintenance appointment is the need for twice-daily thorough brushing including around implants, effective interdental cleaning and regular professional maintenance. These are the foundations of long-term implant success.",
@@ -2719,193 +1819,13 @@ const QUESTION_BANK = {
         {
           "q": "What is the clinical significance of implant mobility?",
           "options": {
-            "A": "Implant mobility indicates loss of osseointegration",
+            "A": "Implant mobility indicates loss of osseointegration and is a serious finding requiring assessment and likely implant removal",
             "B": "Some implant mobility is normal and acceptable",
             "C": "Implant mobility only occurs immediately after placement",
             "D": "Implant mobility is expected in patients who brux"
           },
           "correct": "A",
           "rationale": "A successfully osseointegrated implant should have no mobility. Mobility indicates that osseointegration has failed or has been lost, often due to significant bone loss. This is a serious clinical finding that requires urgent assessment.",
-          "scenario": false
-        },
-        {
-          "q": "What is the key clinical difference between peri-implant mucositis and peri-implantitis?",
-          "options": {
-            "A": "Peri-implant mucositis causes bone loss; peri-implantitis does not",
-            "B": "Peri-implant mucositis is a reversible inflammatory condition confined to the soft tissues; peri-implantitis involves progressive bone loss around the implant",
-            "C": "Peri-implantitis only occurs in the first year after placement",
-            "D": "There is no clinical difference; the terms are interchangeable"
-          },
-          "correct": "B",
-          "rationale": "Peri-implant mucositis is an inflammatory reaction in the peri-implant soft tissues without bone loss and is reversible with improved oral hygiene. Peri-implantitis involves progressive bone loss around a functioning implant and is more difficult to treat.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following interdental cleaning tools is most appropriate for cleaning around a dental implant?",
-          "options": {
-            "A": "Dental floss only, as it most closely mimics natural tooth cleaning",
-            "B": "Interdental brushes of an appropriate size, as they effectively clean the concave surfaces and wider spaces around implant restorations",
-            "C": "Toothpicks, as they are gentle on the implant surface",
-            "D": "High-pressure water flossers are the only effective tool for implant cleaning"
-          },
-          "correct": "B",
-          "rationale": "Interdental brushes are highly effective for cleaning around implant restorations as they can adapt to the concave implant surface and wider embrasure spaces. They should be sized to fit the space without force. Floss can also be used but may be less effective in wider spaces.",
-          "scenario": false
-        },
-        {
-          "q": "A patient attends their routine maintenance appointment eighteen months after final restoration. Probing around the implant reveals 5 mm pockets with bleeding on probing. A radiograph shows 2 mm of bone loss since the last review. What is the most appropriate clinical response?",
-          "options": {
-            "A": "Reassure the patient this is normal and continue routine review",
-            "B": "Record the findings, inform the clinician and document that peri-implantitis may be developing; enhanced treatment and possibly specialist referral may be required",
-            "C": "Extract the implant immediately",
-            "D": "Increase the patient's maintenance interval to annually"
-          },
-          "correct": "B",
-          "rationale": "Peri-implant pocket depths of 5 mm with bleeding on probing and progressive radiographic bone loss are indicative of peri-implantitis. This should be carefully documented, the clinician informed and an appropriate management plan formulated, which may include intensive professional cleaning, antimicrobial therapy or specialist referral.",
-          "scenario": true
-        },
-        {
-          "q": "How frequently should patients with implants attend for routine supportive peri-implant maintenance?",
-          "options": {
-            "A": "Once every five years",
-            "B": "Only when they notice a problem",
-            "C": "At least annually, but often every three to six months depending on individual risk factors",
-            "D": "Every two weeks for professional cleaning"
-          },
-          "correct": "C",
-          "rationale": "The frequency of maintenance appointments for implant patients should be tailored to individual risk. Most patients are recalled every three to six months in the first years, then annually if stable. Patients with risk factors such as previous peri-implant disease, poor oral hygiene or smoking require more frequent review.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following is a modifiable risk factor for peri-implant disease?",
-          "options": {
-            "A": "Implant surface characteristics chosen by the manufacturer",
-            "B": "The patient's genetic predisposition to periodontitis",
-            "C": "Tobacco smoking",
-            "D": "The patient's age"
-          },
-          "correct": "C",
-          "rationale": "Modifiable risk factors are those a patient can change. Tobacco smoking significantly increases the risk of peri-implant disease, impairs healing and reduces blood supply to the peri-implant tissues. Patients should be strongly encouraged to stop smoking. Genetic predisposition and age are non-modifiable.",
-          "scenario": false
-        },
-        {
-          "q": "What type of toothbrush and technique should be recommended for a patient with a single implant-supported crown?",
-          "options": {
-            "A": "A hard-bristled brush with a vigorous horizontal scrub technique",
-            "B": "A soft to medium-bristled brush using a modified Bass technique (angling the bristles towards the gingival margin) to disrupt plaque at the gingival crevice around the implant",
-            "C": "An electric toothbrush should never be used on implants",
-            "D": "Any technique is acceptable as implants are not susceptible to plaque accumulation"
-          },
-          "correct": "B",
-          "rationale": "A soft to medium-bristled brush using the modified Bass technique is recommended to effectively displace plaque at the peri-implant gingival margin without causing tissue trauma. Electric toothbrushes (oscillating or sonic) are also suitable and can improve plaque removal for many patients.",
-          "scenario": false
-        },
-        {
-          "q": "Why is bleeding on probing around a dental implant considered a significant finding?",
-          "options": {
-            "A": "Bleeding on probing is always normal and does not indicate disease",
-            "B": "Bleeding on probing indicates the presence of active inflammation in the peri-implant tissues and is an early sign of peri-implant mucositis or peri-implantitis",
-            "C": "Implants cannot bleed on probing as there are no blood vessels nearby",
-            "D": "Bleeding on probing only indicates that the patient has brushed too hard"
-          },
-          "correct": "B",
-          "rationale": "Healthy peri-implant tissues should not bleed on gentle probing. Bleeding on probing is a clinical sign of active inflammation and is used as a diagnostic indicator of peri-implant disease, alongside pocket depth measurements and radiographic bone levels.",
-          "scenario": false
-        },
-        {
-          "q": "A patient with implants tells you they use a metal-tipped interdental brush around their implants because they find it cleans better. What advice should you give?",
-          "options": {
-            "A": "Metal tips are fine to use around implants",
-            "B": "Metal-tipped interdental brushes should be avoided around titanium implants as they can scratch the implant surface, potentially increasing plaque adhesion and tissue irritation",
-            "C": "Any interdental brush is acceptable regardless of the tip material",
-            "D": "Advise the patient to use the brush less frequently to reduce potential damage"
-          },
-          "correct": "B",
-          "rationale": "Plastic-coated or entirely plastic-tipped interdental brushes should be used around implants. Metal wires or tips can scratch the titanium implant surface, creating a rougher surface that may increase plaque adhesion and make cleaning more difficult, potentially contributing to peri-implant disease.",
-          "scenario": true
-        },
-        {
-          "q": "What is the recommended approach for professional cleaning of implant surfaces during a maintenance appointment?",
-          "options": {
-            "A": "Use stainless steel scalers and curettes as used on natural teeth",
-            "B": "Use plastic, titanium-specific or PEEK-tipped instruments, or air polishing with non-abrasive powder, to avoid scratching the implant surface",
-            "C": "Ultrasonic scalers with standard metal tips are the most effective method",
-            "D": "Implant surfaces cannot be professionally cleaned and only patient home care matters"
-          },
-          "correct": "B",
-          "rationale": "Standard metal scalers can scratch implant surfaces. Instruments made from plastic, PEEK, carbon fibre or specifically designed titanium tips, along with air polishing using glycine or erythritol powder, are recommended for professional debridement of peri-implant tissues without damaging the implant surface.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following is the most important factor in preventing peri-implant mucositis?",
-          "options": {
-            "A": "Taking a course of antibiotics after implant placement",
-            "B": "The patient attending for six-monthly professional cleaning only",
-            "C": "Effective daily plaque removal by the patient around all implant surfaces",
-            "D": "Using a prescription-strength mouthwash permanently"
-          },
-          "correct": "C",
-          "rationale": "The primary cause of peri-implant mucositis is plaque accumulation. Effective daily plaque removal by the patient is the single most important preventive factor. Professional maintenance supports patient homecare but cannot compensate for inadequate daily hygiene.",
-          "scenario": false
-        },
-        {
-          "q": "What does probing depth around an implant tell the clinician, and what is considered a normal probing depth?",
-          "options": {
-            "A": "Probing depth measures bone density and a normal value is 10 mm",
-            "B": "Probing depth measures the depth of the peri-implant sulcus; normal probing depths around implants are typically 2\u20134 mm, though this varies with restoration design and implant depth",
-            "C": "Probing around implants is contraindicated as it always damages the implant",
-            "D": "Probing depth is irrelevant for implant monitoring"
-          },
-          "correct": "B",
-          "rationale": "Probing depth measures the distance from the peri-implant gingival margin to the base of the peri-implant sulcus. Normal depths are typically 2\u20134 mm but vary. Serial measurements over time are more informative than a single reading; increasing depths with bleeding suggest disease progression.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following lifestyle factors, in addition to smoking, is associated with increased risk of peri-implant disease?",
-          "options": {
-            "A": "Regular aerobic exercise",
-            "B": "Drinking herbal tea",
-            "C": "Excessive alcohol consumption and a diet high in refined sugars",
-            "D": "Using an electric toothbrush"
-          },
-          "correct": "C",
-          "rationale": "Excessive alcohol consumption is associated with impaired immune function, poor oral hygiene compliance and an increased risk of peri-implant disease. A diet high in refined sugars promotes a dysbiotic microbiome. Both factors are modifiable and should be discussed as part of the risk assessment.",
-          "scenario": false
-        },
-        {
-          "q": "A patient whose implant-retained lower denture has been in situ for four years attends for review. The nurse notices the bar attachment has accumulations of calculus underneath the denture base. What is the priority action?",
-          "options": {
-            "A": "Note it in the records and review in six months",
-            "B": "Remove and clean the denture thoroughly, record the findings, and inform the clinician so professional debridement can be performed around the implants and bar attachment",
-            "C": "Advise the patient to clean more carefully and discharge",
-            "D": "Send the patient back to the laboratory for a new denture bar immediately"
-          },
-          "correct": "B",
-          "rationale": "Calculus accumulation on implant-retained prostheses indicates inadequate plaque control and creates a reservoir for pathogenic bacteria at the gingival margin. The denture should be removed, findings documented, and professional debridement arranged. Patient oral hygiene instruction should be reinforced.",
-          "scenario": true
-        },
-        {
-          "q": "What is the purpose of recording baseline peri-implant probing depths at the time of final restoration placement?",
-          "options": {
-            "A": "To confirm osseointegration has been successful",
-            "B": "To establish reference values against which future readings can be compared to detect any changes over time",
-            "C": "To check that the restoration is not causing occlusal interference",
-            "D": "Baseline probing is only needed if the patient reports symptoms"
-          },
-          "correct": "B",
-          "rationale": "Baseline probing depths at the time of final restoration provide reference values for all future maintenance appointments. Changes in probing depth over time are a key indicator of peri-implant health or disease progression and cannot be identified without baseline records.",
-          "scenario": false
-        },
-        {
-          "q": "A patient asks whether they can use a standard mouthwash long-term around their implants. What is the most appropriate advice?",
-          "options": {
-            "A": "Standard fluoride mouthwash should never be used around implants",
-            "B": "A chlorhexidine mouthwash should be used twice daily permanently as the only hygiene measure",
-            "C": "Standard fluoride mouthwash can be used as part of a routine; chlorhexidine is useful short-term but long-term use should be guided by the clinician due to staining and potential effects on the microbiome",
-            "D": "Mouthwash has no benefit around implants and should be avoided entirely"
-          },
-          "correct": "C",
-          "rationale": "Fluoride mouthwash is beneficial for overall oral health and is appropriate for regular use. Chlorhexidine has proven anti-plaque activity and is useful peri-operatively or during disease treatment, but long-term daily use causes staining and may disrupt the healthy oral microbiome. Its use long-term should be clinician-directed.",
           "scenario": false
         }
       ]
@@ -2977,7 +1897,7 @@ const QUESTION_BANK = {
           "q": "Why should instruments not be allowed to dry before cleaning?",
           "options": {
             "A": "Dry instruments are damaged by the ultrasonic cleaner",
-            "B": "Dried blood and debris are more difficult to remove",
+            "B": "Dried blood and debris are more difficult to remove and may shield micro-organisms from the sterilisation process",
             "C": "Wet instruments cannot be placed in a sealed pouch",
             "D": "The autoclave cannot sterilise instruments with any residual moisture"
           },
@@ -2990,7 +1910,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "No additional PPE is required",
             "B": "Only a more expensive pair of gloves",
-            "C": "A fluid-resistant surgical mask, eye protection",
+            "C": "A fluid-resistant surgical mask, eye protection, surgical cap and fluid-resistant gown or protective clothing",
             "D": "A face shield in place of a standard mask"
           },
           "correct": "C",
@@ -3003,7 +1923,7 @@ const QUESTION_BANK = {
             "A": "To make the surgery room look more professional",
             "B": "To insulate electrical equipment from moisture",
             "C": "To prevent the instruments from sliding off surfaces",
-            "D": "To protect surfaces that cannot be easily disinfected from c"
+            "D": "To protect surfaces that cannot be easily disinfected from contamination, allowing them to be removed and replaced between patients"
           },
           "correct": "D",
           "rationale": "Barrier protection such as cling film or disposable covers is applied to surfaces that are difficult to disinfect between patients, such as light handles and dental chair controls. The barrier is removed and discarded following the procedure and a fresh barrier applied for the next patient.",
@@ -3012,7 +1932,7 @@ const QUESTION_BANK = {
         {
           "q": "What is the COSHH Regulations 2002?",
           "options": {
-            "A": "Regulations requiring employers to assess",
+            "A": "Regulations requiring employers to assess and control the risks posed by hazardous substances in the workplace",
             "B": "A guidance document for managing dental waste",
             "C": "A standard for clinical record keeping",
             "D": "A GDC standard for dental nurse registration"
@@ -3038,7 +1958,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Packaging material from implant components",
             "B": "Empty impression material cartridges",
-            "C": "Soft clinical waste including bloodstained gauze",
+            "C": "Soft clinical waste including bloodstained gauze, disposable drapes and contaminated PPE",
             "D": "Unused suture materials"
           },
           "correct": "C",
@@ -3051,7 +1971,7 @@ const QUESTION_BANK = {
             "A": "It must be the cheapest method available",
             "B": "It must be completed in under five minutes",
             "C": "It must allow instruments to be cleaned and sterilised in the same cycle",
-            "D": "It must be validated, effective at removing debris from complex surfaces"
+            "D": "It must be validated, effective at removing debris from complex surfaces and minimise the risk of sharps injury to staff"
           },
           "correct": "D",
           "rationale": "Validated methods such as ultrasonic cleaners and washer-disinfectors are preferred because they are effective at removing debris from complex instrument surfaces and minimise the risk of sharps injuries associated with manual cleaning.",
@@ -3073,7 +1993,7 @@ const QUESTION_BANK = {
           "q": "What should the dental nurse check on the autoclave before relying on its cycle to sterilise instruments?",
           "options": {
             "A": "Only that it is plugged in and switched on",
-            "B": "That it has been validated, that test results ar",
+            "B": "That it has been validated, that test results are within acceptable parameters and that records of cycles are maintained",
             "C": "That it is the correct colour",
             "D": "Only that the chamber is not full"
           },
@@ -3099,7 +2019,7 @@ const QUESTION_BANK = {
             "A": "Leave it and mention it to the implantologist after the procedure",
             "B": "Note it in the records but continue with the procedure",
             "C": "Cover the item with a sterile swab and continue",
-            "D": "Remove the non-sterile item immediately and alert the implantologist that t"
+            "D": "Remove the non-sterile item immediately and alert the implantologist that the sterile field has been compromised"
           },
           "correct": "D",
           "rationale": "Any breach of the sterile field must be recognised and addressed immediately. The implantologist must be informed so that any necessary action can be taken to maintain the integrity of the procedure and protect the patient from infection risk.",
@@ -3121,7 +2041,7 @@ const QUESTION_BANK = {
           "q": "At the start of an implant appointment you discover that the autoclave has completed a cycle but the process indicator inside the pouch has not changed colour. What should you do?",
           "options": {
             "A": "Proceed with the instruments as the autoclave appeared to complete its cycle normally",
-            "B": "Do not use the instruments, quarantine the load and report the issue to the implantologist immedia",
+            "B": "Do not use the instruments, quarantine the load and report the issue to the implantologist immediately so the appointment can be rescheduled",
             "C": "Re-run the instruments through the autoclave and check the indicator again",
             "D": "Use the instruments but document the indicator failure in the records"
           },
@@ -3134,7 +2054,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "No additional precautions are needed for manual cleaning",
             "B": "Ask a colleague to clean the instruments instead",
-            "C": "Wear puncture-resistant gloves and use instruments designed for",
+            "C": "Wear puncture-resistant gloves and use instruments designed for manual cleaning to minimise the risk of sharps injury, and report the ultrasonic cleaner fault so it can be repaired",
             "D": "Place the instruments in disinfectant solution overnight"
           },
           "correct": "C",
@@ -3182,7 +2102,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Wiped with a dry cloth and stored in a drawer",
             "B": "Soaked in disinfectant between cases",
-            "C": "Maintained in accordance with the manufacturer's gui",
+            "C": "Maintained in accordance with the manufacturer's guidelines, which typically includes lubrication and sterilisation",
             "D": "Replaced after every three procedures"
           },
           "correct": "C",
@@ -3195,7 +2115,7 @@ const QUESTION_BANK = {
             "A": "Only the sterilisation stage of the instrument processing cycle",
             "B": "Only the disposal of clinical waste",
             "C": "Only the cleaning of clinical surfaces",
-            "D": "The complete process of rendering instruments safe for reuse"
+            "D": "The complete process of rendering instruments safe for reuse, encompassing cleaning, inspection, sterilisation and storage"
           },
           "correct": "D",
           "rationale": "Decontamination is the complete process of rendering instruments safe for reuse. It encompasses cleaning to remove debris, inspection, sterilisation to destroy micro-organisms, and appropriate storage to maintain sterility until use.",
@@ -3204,193 +2124,13 @@ const QUESTION_BANK = {
         {
           "q": "What is the significance of maintaining records of autoclave cycles?",
           "options": {
-            "A": "Records provide evidence that sterilisation conditions have been a",
+            "A": "Records provide evidence that sterilisation conditions have been achieved and allow traceability if an issue is identified",
             "B": "Records are only required for financial auditing purposes",
             "C": "Records are only required when the autoclave is serviced",
             "D": "Records are optional but recommended"
           },
           "correct": "A",
           "rationale": "Maintaining records of autoclave cycles, including cycle parameters, process indicator results and any failures, provides evidence that sterilisation conditions have been achieved and enables traceability. If a sterilisation failure is discovered, records allow identification of the affected loads.",
-          "scenario": false
-        },
-        {
-          "q": "What is the correct sequence of the decontamination process for reusable dental instruments?",
-          "options": {
-            "A": "Sterilise, clean, inspect, package",
-            "B": "Clean, inspect, package, sterilise",
-            "C": "Package, sterilise, clean, inspect",
-            "D": "Inspect, clean, sterilise, package"
-          },
-          "correct": "B",
-          "rationale": "The correct decontamination sequence is: clean (remove gross contamination), inspect (check instruments are intact and clean), package (wrap or bag for sterilisation), then sterilise (autoclave). Packaging after cleaning and before sterilisation ensures items remain sterile until use.",
-          "scenario": false
-        },
-        {
-          "q": "Which HTM document provides guidance on the decontamination of dental instruments in England?",
-          "options": {
-            "A": "HTM 07-01",
-            "B": "HTM 01-05",
-            "C": "HTM 04-01",
-            "D": "HTM 02-01"
-          },
-          "correct": "B",
-          "rationale": "HTM 01-05 (Health Technical Memorandum 01-05) is the guidance document produced by NHS England for the decontamination of instruments in primary dental care settings. It sets out standards for cleaning, inspection, packaging and sterilisation.",
-          "scenario": false
-        },
-        {
-          "q": "What does 'standard precautions' mean in the context of infection control?",
-          "options": {
-            "A": "Precautions applied only to patients known to have a blood-borne virus",
-            "B": "Precautions applied to all patients regardless of known infection status, treating all blood and body fluids as potentially infectious",
-            "C": "The minimum PPE requirements for non-surgical dental procedures only",
-            "D": "Precautions specific to patients in high-risk categories"
-          },
-          "correct": "B",
-          "rationale": "Standard precautions are applied universally to every patient and every procedure, regardless of known infection status. This approach recognises that infection status is not always known and that any blood or body fluid should be treated as potentially infectious.",
-          "scenario": false
-        },
-        {
-          "q": "Which category of waste would a used implant drill contaminated with blood be classified as in England?",
-          "options": {
-            "A": "Municipal solid waste (general black bag waste)",
-            "B": "Offensive waste (tiger stripe bag)",
-            "C": "Infectious clinical waste (yellow bag or sharps container)",
-            "D": "Pharmaceutical waste (blue lid container)"
-          },
-          "correct": "C",
-          "rationale": "Instruments contaminated with blood or other body fluids are classified as infectious clinical waste. Used sharps and contaminated instruments must be placed in appropriate containers (sharps bin or yellow clinical waste bags) and disposed of through a licensed clinical waste contractor.",
-          "scenario": false
-        },
-        {
-          "q": "What additional PPE is required for an implant surgical procedure compared to a standard dental appointment?",
-          "options": {
-            "A": "No additional PPE is required",
-            "B": "A face shield or goggles in addition to standard mask, gloves and apron; sterile surgical gloves replace standard examination gloves; a surgical gown or sterile drapes are also typically used",
-            "C": "Only a higher-filtration mask (FFP3) is additionally required",
-            "D": "Double gloves and a waterproof apron are the only additional requirements"
-          },
-          "correct": "B",
-          "rationale": "Implant surgery requires full surgical PPE: sterile gown, sterile gloves (double-gloving is often recommended), surgical mask (often an FFP2 or higher), and eye protection (goggles or face shield). This level of protection is required to maintain a sterile field and protect the team.",
-          "scenario": false
-        },
-        {
-          "q": "An implant is delivered from the manufacturer in a sterile double-sealed pouch. At what point does it become non-sterile?",
-          "options": {
-            "A": "When it is placed into the patient's mouth",
-            "B": "When the outer seal is broken",
-            "C": "When either seal is broken or compromised",
-            "D": "Only when exposed to non-sterile instruments"
-          },
-          "correct": "C",
-          "rationale": "Sterility is maintained only while the entire packaging seal is intact. If either the inner or outer seal is broken or compromised (e.g., by a tear, puncture, moisture or failed seal), the item must be considered non-sterile and must not be used.",
-          "scenario": false
-        },
-        {
-          "q": "A dental nurse accidentally sustains a needlestick injury during an implant surgical procedure. What is the immediate first-aid action?",
-          "options": {
-            "A": "Squeeze the wound vigorously to encourage bleeding, then apply an antiseptic spray",
-            "B": "Encourage free bleeding by gently squeezing (do not suck), wash with soap and running water, cover with a waterproof dressing and report according to local protocol",
-            "C": "Apply a tourniquet above the site immediately",
-            "D": "Continue with the procedure and report the injury at the end of the day"
-          },
-          "correct": "B",
-          "rationale": "Immediate management of a needlestick injury includes encouraging free bleeding (never sucking), washing thoroughly under running water with soap, covering with a waterproof dressing and reporting immediately to the designated person, seeking occupational health advice as soon as possible as post-exposure prophylaxis may be needed.",
-          "scenario": true
-        },
-        {
-          "q": "What is the minimum temperature and holding time required in a porous-load autoclave (vacuum autoclave) for a sterilisation cycle at 134\u00b0C?",
-          "options": {
-            "A": "134\u00b0C for 18 minutes",
-            "B": "134\u00b0C for 3 minutes",
-            "C": "121\u00b0C for 15 minutes",
-            "D": "134\u00b0C for 1 minute"
-          },
-          "correct": "B",
-          "rationale": "In a vacuum-assisted (porous-load) autoclave at 134\u00b0C the minimum holding time for sterilisation is 3 minutes. At 121\u00b0C a longer hold time of 15 minutes is required. Most dental autoclaves operate at 134\u00b0C with a 3-minute hold.",
-          "scenario": false
-        },
-        {
-          "q": "What is the role of the 'clean zone' and 'dirty zone' in a dental decontamination room?",
-          "options": {
-            "A": "The clean and dirty zones are interchangeable; instruments can flow in any direction",
-            "B": "Instruments flow in one direction from dirty (contaminated instruments received) to clean (cleaned, inspected, packaged, sterilised) to prevent cross-contamination",
-            "C": "The dirty zone is used for waste disposal only",
-            "D": "The clean zone is where clinical treatment takes place"
-          },
-          "correct": "B",
-          "rationale": "The decontamination room should have a logical, unidirectional workflow from the dirty zone (where contaminated instruments are received and cleaned) through to the clean zone (where instruments are inspected, packaged and sterilised). This prevents cross-contamination of clean items.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following items used in implant surgery is classified as single-use and must not be reprocessed?",
-          "options": {
-            "A": "The metal implant driver",
-            "B": "The stainless steel retractor",
-            "C": "The implant fixture itself",
-            "D": "The metal abutment"
-          },
-          "correct": "C",
-          "rationale": "The implant fixture (and most implant components such as cover screws and healing abutments) are supplied sterile and are single-patient-use items. They must not be resterilised or reused. Many surgical instruments are reusable, but single-use designation must always be respected.",
-          "scenario": false
-        },
-        {
-          "q": "A dental nurse notices that the autoclave cycle has failed mid-cycle. What action should be taken?",
-          "options": {
-            "A": "Remove the instruments and use them as the partial cycle will have provided some sterilisation",
-            "B": "Restart the cycle immediately without removing the load",
-            "C": "Remove the load, treat all items as unsterile and non-usable, document the failure, and arrange service or engineer review before further use",
-            "D": "Check the manual and attempt to reset the autoclave without recording the failure"
-          },
-          "correct": "C",
-          "rationale": "A failed autoclave cycle means items must be treated as non-sterile. All items from the failed cycle must be removed and reprocessed. The failure must be documented in the autoclave log, and the machine should be checked by an engineer before further use is permitted.",
-          "scenario": true
-        },
-        {
-          "q": "What is the purpose of biological indicators (Helix test or Bowie-Dick test) used in autoclave validation?",
-          "options": {
-            "A": "To check the autoclave reaches the correct temperature on the thermometer",
-            "B": "To test whether steam penetration has reached all parts of the load, verifying the autoclave is functioning correctly",
-            "C": "To measure the pH of the water in the autoclave reservoir",
-            "D": "To sterilise test instruments before the main cycle"
-          },
-          "correct": "B",
-          "rationale": "Biological or process challenge indicators such as the Helix test (for vacuum-assisted autoclaves) or Bowie-Dick test check that steam penetrates all parts of a porous or hollow load. They are run at the start of each day and results must be recorded. A failed test means the autoclave should not be used until investigated.",
-          "scenario": false
-        },
-        {
-          "q": "Personal protective equipment worn during implant surgery should be changed between patients. When else should gloves be changed during a single procedure?",
-          "options": {
-            "A": "Only between patients, never during a procedure",
-            "B": "Gloves should be changed if they become torn, if moving from the sterile field to a non-sterile area and back, or if there is a risk of cross-contamination during the procedure",
-            "C": "Gloves only need to be changed if visibly contaminated with blood",
-            "D": "Gloves should be changed every 30 minutes regardless of condition"
-          },
-          "correct": "B",
-          "rationale": "Gloves must be changed if torn or punctured, and when moving from a sterile or clean area to a contaminated area or vice versa during a procedure. Double-gloving allows the outer glove to be removed to maintain sterility if contamination occurs.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following describes the correct management of a used local anaesthetic cartridge after an implant surgical procedure?",
-          "options": {
-            "A": "Re-cap the needle and place the entire assembly in the clinical waste bag",
-            "B": "Remove the needle using a resheathing device or scoop technique and place the needle in an approved sharps container; the cartridge goes in clinical waste",
-            "C": "Place the entire syringe in the sharps bin without removing the needle",
-            "D": "Bend the needle to make it safe and dispose in a general waste bin"
-          },
-          "correct": "B",
-          "rationale": "Needles should never be manually re-sheathed by hand. Use a single-handed scoop technique or a needle-resheathing device. The needle is then placed in an approved, puncture-resistant sharps container. The glass cartridge is disposed of as clinical waste. Sharps should never go in general waste.",
-          "scenario": false
-        },
-        {
-          "q": "What does cross-infection control aim to prevent in the implant surgical environment?",
-          "options": {
-            "A": "Only the transmission of blood-borne viruses between patients",
-            "B": "The transfer of micro-organisms from any source (patient, environment, instruments) to the patient, operator or other team members, preventing healthcare-associated infection",
-            "C": "Cross-contamination between instruments of the same type",
-            "D": "Only the spread of airborne infection"
-          },
-          "correct": "B",
-          "rationale": "Cross-infection control encompasses the prevention of transmission of any micro-organism (bacterial, viral or fungal) from any source to any person in the clinical environment. This includes patient-to-patient, patient-to-team, team-to-patient and environment-to-patient routes.",
           "scenario": false
         }
       ]
@@ -3440,7 +2180,7 @@ const QUESTION_BANK = {
             "A": "To assess the financial performance of the practice",
             "B": "To assess patient satisfaction only",
             "C": "To monitor individual dental nurses' attendance records",
-            "D": "To systematically review clinical practice against defined stan"
+            "D": "To systematically review clinical practice against defined standards to identify areas for improvement"
           },
           "correct": "D",
           "rationale": "Clinical audit involves systematically reviewing clinical practice against defined standards, identifying gaps and implementing improvements. It is a key component of clinical governance and is expected of all dental team members.",
@@ -3488,7 +2228,7 @@ const QUESTION_BANK = {
             "A": "To ensure dental practices are profitable",
             "B": "To set the minimum number of CPD hours required per year",
             "C": "To provide a framework for dental nursing qualifications only",
-            "D": "To set out the professional standards that all GDC registrants must me"
+            "D": "To set out the professional standards that all GDC registrants must meet to protect patients and maintain public confidence in the dental profession"
           },
           "correct": "D",
           "rationale": "The GDC's nine standards set out the professional and ethical standards that all registrants must meet. They exist to protect patients and maintain public confidence in the dental profession.",
@@ -3497,7 +2237,7 @@ const QUESTION_BANK = {
         {
           "q": "What is clinical governance in the context of a dental practice?",
           "options": {
-            "A": "The framework through which practices are accountable for",
+            "A": "The framework through which practices are accountable for continuously improving quality and safeguarding high standards of care",
             "B": "A financial management system for dental practices",
             "C": "A national inspection programme run by NHS England",
             "D": "A set of guidelines for managing clinical waste"
@@ -3545,7 +2285,7 @@ const QUESTION_BANK = {
         {
           "q": "What is the Care Quality Commission's role in relation to dental practices in England?",
           "options": {
-            "A": "To independently regulate health",
+            "A": "To independently regulate health and social care in England, including inspecting dental practices",
             "B": "To train and register dental nurses",
             "C": "To provide funding for dental practices",
             "D": "To set the fees charged by dental practices"
@@ -3571,7 +2311,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "It is required only for administrative purposes",
             "B": "It is needed to calculate the CPD hours awarded",
-            "C": "It links the sign-off directly to the registrant making it a profe",
+            "C": "It links the sign-off directly to the registrant making it a professional declaration for which they are accountable to the GDC",
             "D": "It is only required if the implantologist is a specialist"
           },
           "correct": "C",
@@ -3584,7 +2324,7 @@ const QUESTION_BANK = {
             "A": "Follow the implantologist's instructions as they are senior to you",
             "B": "Ignore the situation as it is not your responsibility",
             "C": "Tell the patient everything you know immediately",
-            "D": "Consider your own duty of candour obligation and seek guidance"
+            "D": "Consider your own duty of candour obligation and seek guidance; if you believe the patient has a right to information about what happened, this should be raised through appropriate channels"
           },
           "correct": "D",
           "rationale": "All GDC registrants have a duty of candour. If you have concerns that a patient is not being properly informed about a complication, you should seek guidance through appropriate channels. This may include speaking to the practice manager, your indemnity provider or in serious cases the GDC.",
@@ -3593,7 +2333,7 @@ const QUESTION_BANK = {
         {
           "q": "A patient requests a copy of their clinical records. What should happen?",
           "options": {
-            "A": "The patient has the right to access their records under UK GDPR",
+            "A": "The patient has the right to access their records under UK GDPR and the request should be fulfilled within the required timeframe",
             "B": "Records are the property of the dentist and need not be shared",
             "C": "Records can only be shared with the patient's GP",
             "D": "The request should be referred to the GDC"
@@ -3606,7 +2346,7 @@ const QUESTION_BANK = {
           "q": "A dental nurse working in an implant practice is asked to assist with a procedure they have not been trained in. They are told it is simple and there will be no problem. What is the correct response?",
           "options": {
             "A": "Assist with the procedure as the implantologist has said it will be fine",
-            "B": "Politely decline and explain that they are not trained or competent in this procedure",
+            "B": "Politely decline and explain that they are not trained or competent in this procedure and therefore cannot assist with it within their scope of practice",
             "C": "Assist but stay close to the door in case something goes wrong",
             "D": "Assist and then complete some online training about the procedure afterwards"
           },
@@ -3619,7 +2359,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "No action is needed as the patients are already in treatment",
             "B": "The forms should be amended retrospectively",
-            "C": "The audit finding should be documented, a new consent process implemented",
+            "C": "The audit finding should be documented, a new consent process implemented and affected patients should be provided with the missing risk information at their next appointment",
             "D": "The audit finding should be kept confidential within the practice"
           },
           "correct": "C",
@@ -3632,7 +2372,7 @@ const QUESTION_BANK = {
             "A": "Tell them all dental records are automatically shared with their GP",
             "B": "Tell them their records are shared with NHS England",
             "C": "Tell them to ask the implantologist",
-            "D": "Explain that records are kept confidentially within the practice"
+            "D": "Explain that records are kept confidentially within the practice and shared with others only with the patient's consent or in specific legally defined circumstances"
           },
           "correct": "D",
           "rationale": "Patient records are held confidentially and are not shared automatically with GPs or other third parties. Information may be shared with the patient's consent, or in limited legally defined circumstances such as child protection concerns or court orders.",
@@ -3654,7 +2394,7 @@ const QUESTION_BANK = {
           "q": "Under the Health and Safety at Work Act 1974, what is a dental nurse's personal responsibility?",
           "options": {
             "A": "No personal responsibility; the employer is solely responsible",
-            "B": "To take reasonable care for their own health and safety",
+            "B": "To take reasonable care for their own health and safety and that of others who may be affected by their actions",
             "C": "To carry out risk assessments for all clinical procedures",
             "D": "Only to report hazards to the practice manager"
           },
@@ -3696,186 +2436,6 @@ const QUESTION_BANK = {
           },
           "correct": "A",
           "rationale": "GDC Standard 8 requires dental professionals to raise concerns if patients are at risk. This should initially be done through the appropriate channels within the practice. If concerns are not addressed appropriately, further escalation may be required.",
-          "scenario": false
-        },
-        {
-          "q": "What does the duty of candour require of dental professionals?",
-          "options": {
-            "A": "Professionals must inform patients about their fees before treatment",
-            "B": "Professionals must be open and honest with patients when things go wrong, apologise and explain what happened without waiting to be asked",
-            "C": "Professionals must report all errors to the GDC within 24 hours",
-            "D": "Professionals must maintain patient confidentiality at all times"
-          },
-          "correct": "B",
-          "rationale": "The duty of candour requires dental professionals to be open and honest with patients when a treatment or care causes or could cause significant harm. This includes an apology, an explanation of what happened and an outline of what will be done to address it. It does not require admitting legal liability.",
-          "scenario": false
-        },
-        {
-          "q": "Under the UK General Data Protection Regulation (UK GDPR), for how long must dental records generally be retained for adult patients?",
-          "options": {
-            "A": "5 years",
-            "B": "10 years from the date of last treatment",
-            "C": "10 years from the date of last treatment for adults (or until the patient's 25th birthday if they were a child, whichever is longer), though practices should follow their indemnifier's guidance",
-            "D": "Permanently"
-          },
-          "correct": "C",
-          "rationale": "NHS guidance and most indemnity bodies recommend retaining adult dental records for a minimum of 10 years from the date of last treatment. Records relating to children should be kept until they are 25 or for 10 years from last treatment, whichever is longer. Local and NHS policies may specify longer retention periods.",
-          "scenario": false
-        },
-        {
-          "q": "Which GDC standard specifically addresses the requirement for dental professionals to raise concerns if they believe patient safety may be at risk?",
-          "options": {
-            "A": "Standard 1",
-            "B": "Standard 4",
-            "C": "Standard 8",
-            "D": "Standard 9"
-          },
-          "correct": "C",
-          "rationale": "Standard 8 of the GDC Standards for the Dental Team requires registrants to raise concerns if they believe patient safety or the safety of a colleague may be at risk. This includes concerns about a colleague's health, behaviour or professional performance.",
-          "scenario": false
-        },
-        {
-          "q": "A patient wishes to proceed with implant surgery but their English is limited. Which of the following is the most appropriate approach to obtaining valid consent?",
-          "options": {
-            "A": "Ask a family member who is present to translate and sign the consent form on the patient's behalf",
-            "B": "Use a professional interpreter (in person or via telephone) to ensure the patient is provided with full information and can ask questions before signing the consent form themselves",
-            "C": "Provide the patient with a written consent form to sign as this removes the language barrier",
-            "D": "Proceed if the patient nods when shown the consent form"
-          },
-          "correct": "B",
-          "rationale": "Valid consent requires the patient to have sufficient information to make an informed decision and to be able to ask questions. Using a professional interpreter ensures accuracy and impartiality. Relying on a family member risks bias, inaccuracy and potential coercion; the patient must sign their own consent form.",
-          "scenario": true
-        },
-        {
-          "q": "What is the purpose of clinical governance in a dental practice?",
-          "options": {
-            "A": "To manage the financial accounts of the practice",
-            "B": "To ensure the practice is physically clean and tidy",
-            "C": "To provide a framework through which organisations are accountable for continuously improving quality of patient care and maintaining high standards",
-            "D": "To regulate the hours that dental nurses work"
-          },
-          "correct": "C",
-          "rationale": "Clinical governance encompasses the systems and processes by which healthcare organisations are accountable for the quality and safety of their services. In dentistry this includes audit, risk management, complaints handling, significant event analysis and CPD.",
-          "scenario": false
-        },
-        {
-          "q": "A patient declines to proceed with an implant treatment they were originally planning. They are mentally competent and have been given all the relevant information. What should the dental team do?",
-          "options": {
-            "A": "Arrange for the patient to see a different clinician who may persuade them to proceed",
-            "B": "Respect the patient's decision, document it in the clinical records and ensure they are aware of the alternative options available",
-            "C": "Tell the patient they are making a mistake and recommend they reconsider",
-            "D": "Delay treatment to give the patient time to change their mind"
-          },
-          "correct": "B",
-          "rationale": "A competent adult has the absolute right to refuse any treatment. The duty of the dental professional is to ensure the patient is fully informed, to respect their decision and to document it clearly. Attempting to override or pressure a competent refusal is a breach of the patient's autonomy.",
-          "scenario": false
-        },
-        {
-          "q": "Which legislation in England currently governs the use and protection of personal data in a dental practice?",
-          "options": {
-            "A": "The Freedom of Information Act 2000",
-            "B": "The Data Protection Act 1998",
-            "C": "The UK General Data Protection Regulation (UK GDPR) and Data Protection Act 2018",
-            "D": "The Access to Health Records Act 1990"
-          },
-          "correct": "C",
-          "rationale": "The UK GDPR, retained in UK law after Brexit and supplemented by the Data Protection Act 2018, governs how patient data must be collected, stored, used and protected. The Data Protection Act 1998 has been superseded. Practices must be registered with the Information Commissioner's Office (ICO).",
-          "scenario": false
-        },
-        {
-          "q": "What is a significant event analysis (SEA) and why is it important in implant practice?",
-          "options": {
-            "A": "An analysis of the financial performance of the practice",
-            "B": "A structured review of an incident or near-miss to identify what happened, why it happened and what changes can be made to prevent recurrence",
-            "C": "A patient satisfaction survey completed after treatment",
-            "D": "A GDC requirement to report every clinical complication"
-          },
-          "correct": "B",
-          "rationale": "Significant event analysis is a structured, blame-free review process used to understand how and why significant events (including near-misses) occurred. It identifies learning opportunities and drives improvements in systems and procedures, contributing to clinical governance and patient safety.",
-          "scenario": false
-        },
-        {
-          "q": "A dental nurse witnesses a colleague disposing of a used needle in the general waste bin. What should they do?",
-          "options": {
-            "A": "Say nothing to avoid causing conflict",
-            "B": "Dispose of the needle correctly themselves and say nothing",
-            "C": "Report the matter to the practice manager or infection control lead, as incorrect sharps disposal is a patient and staff safety issue",
-            "D": "Send an anonymous note to the colleague"
-          },
-          "correct": "C",
-          "rationale": "Incorrect sharps disposal poses a serious risk of needlestick injury to waste handlers and others. A dental nurse has a professional responsibility under GDC Standards to raise patient and staff safety concerns. This should be reported through the practice's governance processes.",
-          "scenario": true
-        },
-        {
-          "q": "What must a clinical record for an implant patient contain to be considered adequate?",
-          "options": {
-            "A": "Only the treatment carried out and the date",
-            "B": "A comprehensive contemporaneous record including medical history, examination findings, treatment planning discussion, consent, treatment carried out with materials used, radiographs, and post-operative instructions given",
-            "C": "Only the radiographs and prescription details",
-            "D": "A brief summary written after the patient leaves"
-          },
-          "correct": "B",
-          "rationale": "Adequate clinical records must be contemporaneous, accurate and comprehensive. For implant patients this includes the full medical history, consent documentation, treatment plan, details of all procedures (components used, torque values, surgical notes), radiographs, and all advice or instructions given to the patient.",
-          "scenario": false
-        },
-        {
-          "q": "What does 'Montgomery ruling' (Montgomery v Lanarkshire Health Board 2015) require of clinicians when obtaining consent?",
-          "options": {
-            "A": "Clinicians must use a standardised national consent form",
-            "B": "Clinicians must disclose any material risk that a reasonable patient in the patient's position would want to know about, even if the risk is small",
-            "C": "Consent must always be obtained in writing",
-            "D": "Consent is only valid if witnessed by a third party"
-          },
-          "correct": "B",
-          "rationale": "The Montgomery ruling established that clinicians must disclose all material risks \u2013 those a reasonable patient in their position would consider significant \u2013 not merely risks that a reasonable doctor would consider relevant. This places the patient's perspective at the centre of the consent process and has major implications for implant consent.",
-          "scenario": false
-        },
-        {
-          "q": "A patient complains about the outcome of their implant treatment. What is the appropriate first step in managing their complaint?",
-          "options": {
-            "A": "Tell the patient to raise the complaint directly with the GDC",
-            "B": "Acknowledge the complaint promptly, thank the patient for raising it, listen carefully to their concerns without being defensive, and follow the practice's complaints procedure",
-            "C": "Refer the patient to another practice to manage the complaint",
-            "D": "Offer an immediate refund without investigation"
-          },
-          "correct": "B",
-          "rationale": "Complaints should be acknowledged promptly and professionally. Patients should be listened to, their concerns taken seriously and the practice's formal complaints procedure followed. Good complaint handling can resolve concerns before they escalate and demonstrates commitment to quality.",
-          "scenario": false
-        },
-        {
-          "q": "What is the purpose of maintaining an adrenaline (epinephrine) and other emergency drugs register in the dental practice?",
-          "options": {
-            "A": "To satisfy CQC requirements only",
-            "B": "To ensure drugs are checked regularly for expiry, are available and in date for emergency use, and that records are maintained as evidence of compliance",
-            "C": "To record which patients have been given emergency drugs",
-            "D": "To track drug usage for ordering purposes"
-          },
-          "correct": "B",
-          "rationale": "Emergency drug registers ensure that all drugs are regularly checked, remain in date and are available for immediate use. Regular checks (typically monthly) and records demonstrate due diligence and compliance with practice safety requirements. Expired drugs in an emergency could be ineffective.",
-          "scenario": false
-        },
-        {
-          "q": "In the context of consent, what does the term 'Gillick competence' refer to?",
-          "options": {
-            "A": "The competence of an adult to make complex medical decisions",
-            "B": "The legal principle that a child under 16 may be competent to consent to their own treatment if they demonstrate sufficient understanding and maturity to understand what is proposed",
-            "C": "A specific level of mental capacity required for elective surgical procedures",
-            "D": "The requirement for a Gillick assessment before any implant is placed"
-          },
-          "correct": "B",
-          "rationale": "Gillick competence (established in Gillick v West Norfolk and Wisbech AHA 1986) means that children under 16 who demonstrate sufficient maturity and intelligence to understand the nature and consequences of a proposed treatment may consent to it without parental involvement. This is relevant if a young person presents for implant consultation.",
-          "scenario": false
-        },
-        {
-          "q": "Which regulatory body, separate from the GDC, oversees the quality and safety of dental services in England?",
-          "options": {
-            "A": "NHS England",
-            "B": "The Care Quality Commission (CQC)",
-            "C": "Public Health England",
-            "D": "The British Dental Association"
-          },
-          "correct": "B",
-          "rationale": "The Care Quality Commission (CQC) is the independent regulator of health and social care in England. Dental practices must be registered with the CQC, which inspects services against its fundamental standards of quality and safety. Equivalent bodies exist in the devolved nations.",
           "scenario": false
         }
       ]
@@ -4069,7 +2629,7 @@ const QUESTION_BANK = {
             "A": "Administer adrenaline immediately then call 999",
             "B": "Wait to see if the patient recovers before calling for help",
             "C": "Give a sugary drink and lay the patient flat",
-            "D": "Call 999, lay the patient flat, begin 30 chest compressions followed"
+            "D": "Call 999, lay the patient flat, begin 30 chest compressions followed by 2 rescue breaths, attach the AED as soon as it is available"
           },
           "correct": "D",
           "rationale": "A patient who is unresponsive and not breathing normally is in cardiac arrest until proven otherwise. 999 should be called immediately, CPR begun at 30 compressions to 2 breaths and the AED attached as soon as possible.",
@@ -4078,7 +2638,7 @@ const QUESTION_BANK = {
         {
           "q": "During an implant surgical procedure a patient complains of crushing chest pain radiating to their left arm. They look pale and sweaty. The pain is not relieved by their GTN spray. What does this suggest and what should happen?",
           "options": {
-            "A": "This suggests a myocardial infarction; call 999, stop treatment, keep the patient comfortable",
+            "A": "This suggests a myocardial infarction; call 999, stop treatment, keep the patient comfortable, administer 300mg aspirin if not contraindicated and oxygen, and prepare for BLS",
             "B": "This is likely to be anxiety related; reassure the patient and continue with treatment",
             "C": "This is likely a panic attack; encourage the patient to breathe slowly",
             "D": "Give the patient water and see if the pain settles"
@@ -4104,7 +2664,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "This is not relevant to the dental appointment and no specific precautions are needed",
             "B": "Ask the patient to take double their medication before the appointment starts",
-            "C": "The patient is at increased risk of a seizure; the implantologist should be informed",
+            "C": "The patient is at increased risk of a seizure; the implantologist should be informed, the appointment may need to be deferred and the team should be prepared to manage a seizure",
             "D": "Seat the patient immediately to save time as the appointment will be straightforward"
           },
           "correct": "C",
@@ -4117,7 +2677,7 @@ const QUESTION_BANK = {
             "A": "Proceed immediately to avoid the anaesthetic wearing off",
             "B": "This is not a concern for implant procedures as they are completed quickly",
             "C": "Give the patient a glucose drink halfway through the procedure",
-            "D": "Ensure the patient has eaten before treatment begins"
+            "D": "Ensure the patient has eaten before treatment begins, check their blood glucose if possible and ensure the emergency kit includes glucose; the appointment should be deferred if they have not eaten"
           },
           "correct": "D",
           "rationale": "A type 1 diabetic who has injected insulin without eating is at significant risk of hypoglycaemia. Treatment should not begin until they have eaten. Blood glucose should be checked if possible and glucose must be available in the emergency kit. The appointment should be deferred if eating is not possible.",
@@ -4174,193 +2734,13 @@ const QUESTION_BANK = {
         {
           "q": "What is the most important reason for the dental team to practise medical emergency scenarios regularly?",
           "options": {
-            "A": "So that all team members know their role",
+            "A": "So that all team members know their role and can respond quickly and effectively in the event of a real emergency",
             "B": "To satisfy the GDC CPD requirements",
             "C": "Because the practice manager requires it",
             "D": "To reduce the practice's insurance premiums"
           },
           "correct": "A",
           "rationale": "Regular practice ensures that all team members know their individual role in an emergency, can respond quickly and confidently, and work effectively as a team. In a real emergency there is no time to work out who does what; this must be automatic.",
-          "scenario": false
-        },
-        {
-          "q": "What is the correct sequence of actions for an adult who has collapsed and is unresponsive in the dental practice?",
-          "options": {
-            "A": "Shout for help, start chest compressions immediately, call 999 after two minutes",
-            "B": "Check for danger, check for response, shout for help, open airway, check for normal breathing, call 999 and start CPR if not breathing normally",
-            "C": "Check the patient's pulse for ten seconds before starting CPR",
-            "D": "Give two rescue breaths before starting chest compressions"
-          },
-          "correct": "B",
-          "rationale": "The correct BLS sequence is DR ABC: Danger, Response, Shout for help, Airway, Breathing (check for normal breathing for up to 10 seconds). If not breathing normally, call 999 and start CPR (30 compressions : 2 rescue breaths). Do not delay calling 999 to check the pulse.",
-          "scenario": false
-        },
-        {
-          "q": "A patient undergoing implant surgery suddenly becomes pale, sweaty, bradycardic and loses consciousness briefly. They recover rapidly on lying flat with legs raised. What medical emergency has most likely occurred?",
-          "options": {
-            "A": "Anaphylaxis",
-            "B": "Vasovagal syncope (simple faint)",
-            "C": "Epileptic seizure",
-            "D": "Hypoglycaemia"
-          },
-          "correct": "B",
-          "rationale": "Vasovagal syncope is the most common medical emergency in dental practice. It is characterised by a brief prodrome of pallor, nausea and sweating, bradycardia, and loss of consciousness. Recovery is rapid when the patient is laid supine with legs elevated, restoring cerebral blood flow.",
-          "scenario": true
-        },
-        {
-          "q": "What is the correct adrenaline (epinephrine) dose for an adult experiencing anaphylaxis, given as an intramuscular injection?",
-          "options": {
-            "A": "0.1 mg (1:1,000 solution, 0.1 mL)",
-            "B": "0.5 mg (1:1,000 solution, 0.5 mL)",
-            "C": "1 mg (1:10,000 solution, 10 mL) intravenous",
-            "D": "0.3 mg (1:10,000 solution, 3 mL)"
-          },
-          "correct": "B",
-          "rationale": "The recommended adult dose of adrenaline for anaphylaxis is 0.5 mg (500 micrograms) intramuscularly, given as 0.5 mL of 1:1,000 solution. It is administered into the mid-outer thigh. An auto-injector (e.g. EpiPen) delivering 0.3 mg is acceptable if the 0.5 mg dose is unavailable.",
-          "scenario": false
-        },
-        {
-          "q": "What is the recommended compression-to-ventilation ratio for adult CPR?",
-          "options": {
-            "A": "15:2",
-            "B": "30:2",
-            "C": "5:1",
-            "D": "10:1"
-          },
-          "correct": "B",
-          "rationale": "Current Resuscitation Council UK guidelines recommend a compression-to-ventilation ratio of 30:2 for adult BLS. Compressions should be at a depth of 5\u20136 cm at a rate of 100\u2013120 per minute. If the rescuer is unwilling or unable to give rescue breaths, hands-only CPR should be performed.",
-          "scenario": false
-        },
-        {
-          "q": "A patient with known asthma becomes wheezy and short of breath during an implant appointment. Their reliever inhaler is in their bag. What is the correct immediate management?",
-          "options": {
-            "A": "Administer 10 mg of oral prednisolone from the emergency drug kit",
-            "B": "Stop treatment, sit the patient upright, assist them in using their own reliever inhaler (salbutamol), call 999 if there is no improvement after five minutes or symptoms worsen",
-            "C": "Lay the patient flat and give oxygen via a face mask",
-            "D": "Ask the patient to breathe into a paper bag to correct hyperventilation"
-          },
-          "correct": "B",
-          "rationale": "For an acute asthma attack, the patient should be sat upright and encouraged to use their own salbutamol reliever inhaler. If there is no improvement after five minutes (or the attack is severe), 999 should be called. Oxygen may also be given if available. Laying the patient flat makes breathing harder.",
-          "scenario": true
-        },
-        {
-          "q": "Which of the following is NOT a required item in the emergency drug and equipment kit for dental practices in the UK?",
-          "options": {
-            "A": "Adrenaline (epinephrine)",
-            "B": "Aspirin",
-            "C": "Morphine",
-            "D": "Midazolam"
-          },
-          "correct": "C",
-          "rationale": "The Resuscitation Council UK guidance for dental practices requires adrenaline, aspirin, glyceryl trinitrate (GTN) spray, salbutamol inhaler, glucagon or oral glucose, oxygen and midazolam (or buccal midazolam for seizures). Morphine (an opioid analgesic) is not a required emergency drug in primary care dentistry.",
-          "scenario": false
-        },
-        {
-          "q": "A patient with type 1 diabetes becomes confused, aggressive and sweaty twenty minutes into a long implant surgical appointment. What emergency is most likely and what is the immediate management?",
-          "options": {
-            "A": "Hyperglycaemia; administer insulin immediately",
-            "B": "Hypoglycaemia; give oral glucose gel, glucose tablets or a sugary drink if the patient can swallow; if unconscious give glucagon intramuscularly",
-            "C": "A panic attack; reassure and continue the procedure",
-            "D": "Anaphylaxis to the local anaesthetic; administer adrenaline"
-          },
-          "correct": "B",
-          "rationale": "Confusion, aggression and sweating in a diabetic patient during a dental procedure strongly suggest hypoglycaemia. If conscious and able to swallow, give fast-acting carbohydrate (glucose gel, glucose tablets, sugary drink). If unconscious, administer intramuscular glucagon. Do not give anything orally to an unconscious patient.",
-          "scenario": true
-        },
-        {
-          "q": "At what rate should chest compressions be delivered during adult CPR?",
-          "options": {
-            "A": "60\u201380 per minute",
-            "B": "80\u2013100 per minute",
-            "C": "100\u2013120 per minute",
-            "D": "120\u2013140 per minute"
-          },
-          "correct": "C",
-          "rationale": "Current Resuscitation Council UK BLS guidance specifies a compression rate of 100\u2013120 per minute at a depth of 5\u20136 cm for adult CPR. Compressions should allow full chest recoil between each compression.",
-          "scenario": false
-        },
-        {
-          "q": "What is the role of the automated external defibrillator (AED) in cardiac arrest management?",
-          "options": {
-            "A": "It is used to restart the heart by compressing the chest automatically",
-            "B": "It analyses the cardiac rhythm and, if a shockable rhythm is present, delivers an electrical shock to attempt to restore a normal rhythm",
-            "C": "It delivers oxygen directly to the patient's lungs",
-            "D": "It monitors the patient's blood pressure during CPR"
-          },
-          "correct": "B",
-          "rationale": "An AED analyses the cardiac rhythm automatically and advises whether a shock is needed. If a shockable rhythm (ventricular fibrillation or pulseless ventricular tachycardia) is detected, it charges and delivers an electrical shock. AEDs are designed for use by non-medical personnel and guide the operator with voice instructions.",
-          "scenario": false
-        },
-        {
-          "q": "A patient attending for implant surgery discloses they take GTN spray for stable angina. During the appointment they complain of central chest pain. What is the first action?",
-          "options": {
-            "A": "Give aspirin 300 mg immediately and call 999",
-            "B": "Stop treatment, sit the patient upright, administer their own GTN spray sublingually and call 999 if pain is not relieved within five minutes",
-            "C": "Lay the patient flat and continue the procedure",
-            "D": "Reassure the patient that dental pain can cause chest discomfort and continue treatment"
-          },
-          "correct": "B",
-          "rationale": "Central chest pain in a patient with known angina may represent an acute anginal episode or an evolving myocardial infarction. Stop treatment, sit the patient upright, administer their GTN spray and monitor. If pain is not relieved within five minutes, call 999 and give aspirin 300 mg (chewed if no contraindication) as this may indicate MI.",
-          "scenario": true
-        },
-        {
-          "q": "What is the purpose of maintaining a written medical emergency protocol in the dental practice?",
-          "options": {
-            "A": "It is a GDC administrative requirement with no practical purpose",
-            "B": "To ensure all team members know their roles and the procedures to follow in any medical emergency, so responses are coordinated and effective",
-            "C": "To satisfy the requirements of the practice accountant",
-            "D": "Only the dentist needs to know the emergency protocol"
-          },
-          "correct": "B",
-          "rationale": "A written medical emergency protocol ensures that every team member understands their role in an emergency (e.g., who calls 999, who fetches the emergency kit, who performs CPR). Regular rehearsal of these protocols improves team performance and patient outcomes.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following is a sign that distinguishes anaphylaxis from a simple vasovagal syncope?",
-          "options": {
-            "A": "Loss of consciousness",
-            "B": "Bradycardia",
-            "C": "Urticaria (hives), angioedema, bronchospasm and hypotension",
-            "D": "Pallor and sweating"
-          },
-          "correct": "C",
-          "rationale": "Anaphylaxis typically presents with urticaria, angioedema, bronchospasm (wheeze), severe hypotension and tachycardia. Vasovagal syncope presents with pallor, sweating, bradycardia and brief LOC that resolves rapidly with position change. The skin and respiratory features of anaphylaxis are key distinguishing features.",
-          "scenario": false
-        },
-        {
-          "q": "Following a medical emergency in the practice, what is the most important post-event action?",
-          "options": {
-            "A": "Ensure the patient signs a revised consent form before leaving",
-            "B": "Conduct a team debrief, complete a significant event report, restock emergency supplies and document everything in the patient's clinical record",
-            "C": "Restart the dental procedure as soon as possible",
-            "D": "Inform the GDC immediately by telephone"
-          },
-          "correct": "B",
-          "rationale": "After a medical emergency the team should debrief to review what happened and what could be improved. A significant event report should be completed, emergency supplies restocked and checked, and a detailed contemporaneous note made in the clinical record including what happened, actions taken and the outcome.",
-          "scenario": false
-        },
-        {
-          "q": "What is the minimum recommended frequency for medical emergency training and BLS practice for the dental team?",
-          "options": {
-            "A": "Every five years",
-            "B": "Once upon employment only",
-            "C": "Annually",
-            "D": "Every two years"
-          },
-          "correct": "C",
-          "rationale": "The Resuscitation Council UK and the GDC recommend that all members of the dental team participate in medical emergency training, including BLS, at least annually. Regular practice maintains competence and helps the team respond effectively under pressure.",
-          "scenario": false
-        },
-        {
-          "q": "A patient has a tonic-clonic seizure in the dental chair during implant surgery. They have a known diagnosis of epilepsy. Which action is correct?",
-          "options": {
-            "A": "Restrain the patient's movements to prevent them from injuring themselves",
-            "B": "Place a bite block between the teeth to protect the airway",
-            "C": "Do not restrain the patient; protect them from injury by moving objects away, time the seizure and call 999 if it lasts more than five minutes or the patient does not recover fully",
-            "D": "Administer oxygen by placing the mask firmly over the face immediately"
-          },
-          "correct": "C",
-          "rationale": "During a tonic-clonic seizure do not restrain the patient or put anything in their mouth. Protect them from injury by clearing the surroundings. Time the seizure: if it lasts more than five minutes, is the patient's first seizure, or they do not recover, call 999 and administer buccal midazolam if available and trained to do so.",
           "scenario": false
         }
       ]
@@ -4371,7 +2751,7 @@ const QUESTION_BANK = {
         {
           "q": "What is guided bone regeneration?",
           "options": {
-            "A": "A technique combining bone graft material with a barrier membrane",
+            "A": "A technique combining bone graft material with a barrier membrane to allow new bone to form while excluding soft tissue cells",
             "B": "A digital technology used for implant planning",
             "C": "A non-surgical method of improving bone quality",
             "D": "A technique for repositioning the inferior alveolar nerve"
@@ -4384,7 +2764,7 @@ const QUESTION_BANK = {
           "q": "What is autogenous bone and why is it considered the gold standard for grafting?",
           "options": {
             "A": "Bone from an animal source processed for use in humans",
-            "B": "Bone harvested from the patient's own body",
+            "B": "Bone harvested from the patient's own body, which contains living bone cells capable of generating new bone",
             "C": "Synthetic bone substitute material",
             "D": "Bone from a human donor that has been sterilised"
           },
@@ -4397,7 +2777,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "Bone derived from the patient's own body",
             "B": "A synthetic bone substitute",
-            "C": "Bone derived from an animal source",
+            "C": "Bone derived from an animal source, most commonly bovine, processed for clinical use",
             "D": "Bone from another human donor"
           },
           "correct": "C",
@@ -4410,7 +2790,7 @@ const QUESTION_BANK = {
             "A": "To provide the bone graft material",
             "B": "To cover the implant surface during osseointegration",
             "C": "To replace the need for bone graft material",
-            "D": "To dissolve naturally over time, excluding soft tissue while"
+            "D": "To dissolve naturally over time, excluding soft tissue while allowing bone regeneration, and eliminating the need for a second procedure to remove it"
           },
           "correct": "D",
           "rationale": "Resorbable membranes break down naturally over time in the body. This allows them to fulfil their role of excluding soft tissue during the critical early healing phase without requiring a second surgical appointment for removal, unlike non-resorbable membranes.",
@@ -4432,7 +2812,7 @@ const QUESTION_BANK = {
           "q": "When is the transcrestal sinus lift technique typically used rather than the lateral window approach?",
           "options": {
             "A": "When the residual bone height is less than 3mm",
-            "B": "When the residual bone height is 5mm or more",
+            "B": "When the residual bone height is 5mm or more, allowing a less invasive approach through the implant socket",
             "C": "When no bone graft material is needed",
             "D": "When the patient is medically compromised"
           },
@@ -4458,7 +2838,7 @@ const QUESTION_BANK = {
             "A": "To increase the volume of alveolar bone at the implant site",
             "B": "To cover the implant during the healing period",
             "C": "To replace the bone graft material",
-            "D": "To provide additional keratinised tissue or volume at the implant si"
+            "D": "To provide additional keratinised tissue or volume at the implant site, which is associated with better long-term peri-implant health and aesthetics"
           },
           "correct": "D",
           "rationale": "Adequate keratinised tissue around implants is associated with better long-term health outcomes and aesthetics. Where insufficient keratinised tissue exists, or where tissue volume has been lost following tooth extraction, soft tissue grafting can address these deficiencies.",
@@ -4467,7 +2847,7 @@ const QUESTION_BANK = {
         {
           "q": "What is inferior alveolar nerve lateralisation?",
           "options": {
-            "A": "A surgical procedure in which the inferior alveolar nerve is displaced laterall",
+            "A": "A surgical procedure in which the inferior alveolar nerve is displaced laterally to create space for implant placement",
             "B": "A procedure to increase bone height above the inferior alveolar nerve",
             "C": "A procedure to remove the inferior alveolar nerve",
             "D": "A technique for placing short implants above the nerve"
@@ -4506,7 +2886,7 @@ const QUESTION_BANK = {
             "A": "The surgical enlargement of the maxillary sinus during a sinus lift",
             "B": "A type of sinus infection seen after implant placement",
             "C": "A post-operative complication of sinus surgery",
-            "D": "The natural downward expansion of the maxillary sinus following tooth loss"
+            "D": "The natural downward expansion of the maxillary sinus following tooth loss, which can reduce available bone height and necessitate a sinus lift"
           },
           "correct": "D",
           "rationale": "Pneumatisation is the natural downward enlargement of the maxillary sinus following the loss of upper posterior teeth. It can significantly reduce the available bone height between the sinus floor and the alveolar crest, making a sinus lift necessary before implant placement.",
@@ -4528,7 +2908,7 @@ const QUESTION_BANK = {
           "q": "What is an alloplast in bone augmentation?",
           "options": {
             "A": "Bone donated by a human",
-            "B": "A synthetic bone substitute material such a",
+            "B": "A synthetic bone substitute material such as hydroxyapatite or beta-tricalcium phosphate",
             "C": "Bone from an animal source",
             "D": "Bone harvested from the patient's hip"
           },
@@ -4563,7 +2943,7 @@ const QUESTION_BANK = {
         {
           "q": "A patient who underwent a sinus lift three days ago phones the practice. They sneezed forcefully and now have some bleeding from their nose. They are worried. What should the dental nurse advise?",
           "options": {
-            "A": "Advise them to attend the practice promptly for assessment as snee",
+            "A": "Advise them to attend the practice promptly for assessment as sneezing forcefully following a sinus lift may have disrupted the sinus membrane",
             "B": "Tell them this is normal and not to worry",
             "C": "Tell them to blow their nose gently to clear the bleeding",
             "D": "Advise them to go to A&E immediately"
@@ -4576,7 +2956,7 @@ const QUESTION_BANK = {
           "q": "A patient undergoing an advanced bone augmentation procedure becomes increasingly anxious during the procedure, which is taking longer than expected. How should the dental nurse respond?",
           "options": {
             "A": "Tell the patient to be patient as the procedure is nearly finished",
-            "B": "Provide calm reassurance, communicate what is happening, monitor the patient's wellbeing",
+            "B": "Provide calm reassurance, communicate what is happening, monitor the patient's wellbeing and alert the implantologist if their condition changes",
             "C": "Offer the patient their phone to distract them",
             "D": "Ask the patient to wait in the waiting room until the next stage of the procedure"
           },
@@ -4589,7 +2969,7 @@ const QUESTION_BANK = {
           "options": {
             "A": "The risk of the implant failing to osseointegrate",
             "B": "The risk of needing a sinus lift at the same time",
-            "C": "The significant risk of temporary or permanent numbness",
+            "C": "The significant risk of temporary or permanent numbness or altered sensation in the lower lip and chin due to manipulation of the inferior alveolar nerve",
             "D": "The risk of needing two appointments"
           },
           "correct": "C",
@@ -4602,7 +2982,7 @@ const QUESTION_BANK = {
             "A": "Full arch implant treatment is always completed in one day",
             "B": "The one-day approach is only available in specialist hospital settings",
             "C": "Full arch implant treatment is not possible for patients with bone loss",
-            "D": "While some full arch protocols do allow for immediate loading of the restoration o"
+            "D": "While some full arch protocols do allow for immediate loading of the restoration on the day of surgery, many patients with significant bone loss require augmentation procedures that extend the overall timeline"
           },
           "correct": "D",
           "rationale": "While immediate loading protocols exist for some full arch cases, patients with significant bone loss often require augmentation procedures that extend the treatment timeline. Full arch implant treatment requires careful planning and the approach depends on the individual patient's bone volume and anatomy.",
@@ -4624,7 +3004,7 @@ const QUESTION_BANK = {
           "q": "What is the primary reason that inferior alveolar nerve lateralisation is only used as a last resort?",
           "options": {
             "A": "It is the most expensive implant procedure",
-            "B": "It carries a significant risk of temporary or per",
+            "B": "It carries a significant risk of temporary or permanent altered sensation and should only be used when no other option exists",
             "C": "It always results in permanent nerve damage",
             "D": "It is only available in teaching hospitals"
           },
@@ -4666,186 +3046,6 @@ const QUESTION_BANK = {
           },
           "correct": "A",
           "rationale": "The transcrestal technique is generally considered appropriate when there is at least 5mm of residual bone height. Below this, the lateral window technique is typically required as it provides more controlled access to the sinus.",
-          "scenario": false
-        },
-        {
-          "q": "What is the primary purpose of guided bone regeneration (GBR)?",
-          "options": {
-            "A": "To improve the aesthetic appearance of the gingival margin",
-            "B": "To prevent bacteria from entering the surgical site",
-            "C": "To create a protected space using a membrane that allows bone-forming cells to repopulate a defect while excluding faster-growing soft tissue cells",
-            "D": "To increase the torque achievable at implant placement"
-          },
-          "correct": "C",
-          "rationale": "Guided bone regeneration uses a membrane (resorbable or non-resorbable) to physically exclude fast-proliferating soft tissue cells from a bone defect, allowing slower-migrating osteogenic cells time to fill the space with new bone. It is used to augment bone volume before or alongside implant placement.",
-          "scenario": false
-        },
-        {
-          "q": "What is the difference between a crestal (internal) and a lateral window sinus lift approach?",
-          "options": {
-            "A": "A lateral window approach is used for large volume sinus augmentation (typically >4 mm bone height needed); a crestal approach is used where there is at least 4\u20136 mm of residual bone and a smaller augmentation volume is needed",
-            "B": "A crestal sinus lift removes the sinus membrane; a lateral window approach preserves it",
-            "C": "The lateral window approach is performed under general anaesthesia only",
-            "D": "There is no clinical difference between the two approaches"
-          },
-          "correct": "A",
-          "rationale": "When there is very limited residual bone height (typically less than 4\u20135 mm), a lateral window sinus lift provides greater access and augmentation volume. The crestal (transalveolar or internal) approach, using osteotomes or a crestal kit, is used when residual bone height is greater (\u22654\u20135 mm) and a more modest lift is required.",
-          "scenario": false
-        },
-        {
-          "q": "A patient presents two days after a sinus lift procedure with increasing facial pain, purulent nasal discharge and elevated temperature. What complication has most likely occurred?",
-          "options": {
-            "A": "Normal post-operative swelling and discomfort",
-            "B": "Sinusitis or infection of the maxillary sinus",
-            "C": "Failure of the bone graft",
-            "D": "Peri-implant mucositis"
-          },
-          "correct": "B",
-          "rationale": "Sinusitis following a sinus lift presents with facial pain over the sinus, purulent discharge from the nose, nasal congestion and fever. It results from contamination of the sinus during surgery or from bacteria ascending from the mouth. It requires prompt antibiotic treatment and may need ENT referral.",
-          "scenario": true
-        },
-        {
-          "q": "Which of the following graft materials used in bone augmentation is classified as autogenous?",
-          "options": {
-            "A": "Deproteinised bovine bone mineral (Bio-Oss)",
-            "B": "Beta-tricalcium phosphate (\u03b2-TCP)",
-            "C": "Bone taken from the patient's own body",
-            "D": "Demineralised freeze-dried bone allograft (DFDBA)"
-          },
-          "correct": "C",
-          "rationale": "Autogenous bone is taken from the patient's own body (e.g., from the chin, ramus, or iliac crest). It is osteogenic (contains live bone-forming cells), osteoinductive and osteoconductive and remains the gold standard graft material. Bovine bone and \u03b2-TCP are xenografts and alloplasts respectively; DFDBA is an allograft.",
-          "scenario": false
-        },
-        {
-          "q": "What is the All-on-4 concept?",
-          "options": {
-            "A": "A technique placing four implants in each jaw to support four separate crowns",
-            "B": "A full-arch rehabilitation concept using four implants to support a fixed prosthesis, with the two posterior implants placed at an angle to avoid anatomical structures and maximise bone-to-implant contact",
-            "C": "An implant-retained denture using four ball attachments",
-            "D": "A four-stage surgical protocol for edentulous jaw rehabilitation"
-          },
-          "correct": "B",
-          "rationale": "The All-on-4 concept places four implants (two anterior, two posterior at up to 45\u00b0 to avoid the sinus or inferior alveolar nerve) to support a full-arch fixed prosthesis. The angled posterior implants increase the anterior-posterior spread, improving biomechanics and avoiding major anatomical structures.",
-          "scenario": false
-        },
-        {
-          "q": "Following a bone grafting procedure, a patient telephones to report that a small piece of white granular material has come out of the wound. What is the most likely explanation and appropriate response?",
-          "options": {
-            "A": "This indicates the graft has failed completely; the patient should attend immediately for revision surgery",
-            "B": "Small amounts of graft material can occasionally extrude through the wound in the early healing phase; the patient should be advised to attend for review so the clinician can assess the site and wound integrity",
-            "C": "This is normal and requires no follow-up",
-            "D": "The patient must not rinse their mouth until the next scheduled appointment"
-          },
-          "correct": "B",
-          "rationale": "Minor extrusion of bone graft particles can occur during early healing if wound dehiscence occurs. While often self-limiting, the patient should attend for clinical review to assess the extent of wound breakdown and graft integrity. The clinician will decide whether intervention is required.",
-          "scenario": true
-        },
-        {
-          "q": "What is the role of a resorbable membrane in GBR compared to a non-resorbable membrane?",
-          "options": {
-            "A": "Resorbable membranes are stronger and last longer in situ",
-            "B": "Resorbable membranes (e.g., collagen) do not require a second surgical procedure to remove them; non-resorbable membranes (e.g., PTFE) require surgical removal once bone regeneration is complete",
-            "C": "Non-resorbable membranes are always preferred as they provide better bone regeneration",
-            "D": "There is no clinical difference in outcome between the two types"
-          },
-          "correct": "B",
-          "rationale": "Resorbable membranes (typically collagen-based) break down naturally and are resorbed by the body, avoiding a second operation for removal. Non-resorbable membranes (e.g., expanded PTFE or titanium mesh) offer greater mechanical stability for large defects but require a second surgery to remove them.",
-          "scenario": false
-        },
-        {
-          "q": "What is a connective tissue graft used for in implant dentistry?",
-          "options": {
-            "A": "To provide bone volume for implant placement",
-            "B": "To augment the volume and quality of soft tissue around an implant, improving aesthetics and creating a thicker band of tissue for long-term stability",
-            "C": "To connect the implant fixture to the abutment",
-            "D": "To prevent peri-implantitis by sealing the peri-implant sulcus"
-          },
-          "correct": "B",
-          "rationale": "Subepithelial connective tissue grafts (typically harvested from the palate) are used to increase soft tissue volume and thickness around implants or prior to placement. This improves the aesthetic pink tissue frame around the restoration and creates a more resilient peri-implant tissue environment.",
-          "scenario": false
-        },
-        {
-          "q": "Following inferior alveolar nerve lateralisation surgery, the patient asks how long the altered sensation in their lower lip may last. Which of the following is the most accurate response?",
-          "options": {
-            "A": "Sensation always returns to normal within 48 hours",
-            "B": "Altered sensation (paraesthesia or hypoesthesia) may be temporary and resolve within weeks to months, but in some cases it may be permanent",
-            "C": "There is no risk of altered sensation from this procedure",
-            "D": "Altered sensation lasts exactly six months in all cases"
-          },
-          "correct": "B",
-          "rationale": "Nerve lateralisation involves surgical mobilisation of the inferior alveolar nerve and carries a significant risk of temporary or permanent altered sensation. Recovery is variable; some patients recover fully within weeks to months, but a proportion experience permanent numbness or paraesthesia. This must be fully discussed in the consent process.",
-          "scenario": false
-        },
-        {
-          "q": "What post-operative instruction is particularly important after a sinus lift procedure?",
-          "options": {
-            "A": "The patient should blow their nose vigorously to keep the nasal airway clear",
-            "B": "The patient must avoid blowing their nose, should sneeze with their mouth open and avoid creating negative pressure in the nasal cavity to prevent disruption of the sinus membrane",
-            "C": "The patient should use a decongestant nasal spray every two hours",
-            "D": "The patient may return to normal activities including swimming immediately"
-          },
-          "correct": "B",
-          "rationale": "After a sinus lift the sinus membrane is elevated and supported by graft material. Blowing the nose, sneezing forcefully or creating negative pressure (e.g., using a straw) risks displacing the membrane and graft material. Patients must be given these specific instructions clearly in verbal and written form.",
-          "scenario": false
-        },
-        {
-          "q": "Which of the following best describes the concept of zygomatic implants?",
-          "options": {
-            "A": "Short implants placed in the zygomatic bone of the lower jaw",
-            "B": "Extra-long implants that anchor in the zygoma (cheekbone) as an alternative to extensive bone grafting in the severely resorbed maxilla",
-            "C": "Mini-implants used for orthodontic anchorage",
-            "D": "Implants placed through the zygomatic arch for full-face reconstruction"
-          },
-          "correct": "B",
-          "rationale": "Zygomatic implants are extra-long implants (typically 30\u201350 mm) that are anchored in the dense cortical bone of the zygoma. They are used in patients with severe maxillary atrophy where there is insufficient bone for conventional implants, avoiding the need for extensive bone augmentation.",
-          "scenario": false
-        },
-        {
-          "q": "A patient who had a block bone graft performed six months ago attends for their pre-implant placement appointment. The clinician mentions that the graft has integrated well. What does integration of the bone graft mean?",
-          "options": {
-            "A": "The graft has dissolved and left a space for the implant",
-            "B": "The graft material has been incorporated into the patient's own bone through vascularisation and remodelling, providing viable bone for implant placement",
-            "C": "The graft has formed a fibrous union with the surrounding bone",
-            "D": "Integration means the graft has doubled in volume"
-          },
-          "correct": "B",
-          "rationale": "Successful graft integration means the transplanted bone has become vascularised and remodelled into viable host bone. The graft is initially avascular; over several months new blood vessels grow in, osteoclasts resorb the graft and osteoblasts replace it with new bone, creating a site suitable for implant placement.",
-          "scenario": false
-        },
-        {
-          "q": "What is the main advantage of placing implants using a fully guided (computer-aided design / computer-aided manufacture) surgical approach?",
-          "options": {
-            "A": "It is faster and less expensive than conventional placement",
-            "B": "It transfers the virtual treatment plan precisely to the patient, improving accuracy of implant position and reducing the risk of damage to vital structures",
-            "C": "It allows the dentist to skip the treatment planning stage",
-            "D": "Guided surgery is only used for immediate loading cases"
-          },
-          "correct": "B",
-          "rationale": "Fully guided implant surgery uses a CAD/CAM surgical guide fabricated from CBCT data and a digital treatment plan to precisely translate the planned implant position into the surgical field. This improves positional accuracy, reduces intraoperative risk to vital structures and supports more predictable prosthetic outcomes.",
-          "scenario": false
-        },
-        {
-          "q": "Following a full-arch implant procedure (such as All-on-4), why is the immediate provisional restoration typically made out of an acrylic-based material rather than porcelain?",
-          "options": {
-            "A": "Acrylic is more aesthetic than porcelain",
-            "B": "Acrylic is lighter, can be easily adjusted chairside and has some impact-absorbing properties that help protect the implants from excessive loading during the healing phase",
-            "C": "Porcelain cannot be sterilised for immediate use",
-            "D": "Acrylic bonds more strongly to titanium abutments"
-          },
-          "correct": "B",
-          "rationale": "During the osseointegration phase following immediate loading, the bone-implant interface is still maturing. Acrylic provisional restorations can be adjusted easily to reduce occlusal loading, are lighter than porcelain and have some shock-absorbing qualities. The definitive restoration in a more durable material is placed once integration is confirmed.",
-          "scenario": true
-        },
-        {
-          "q": "What is the significance of the incisive (nasopalatine) canal when planning implants to replace the upper central incisors?",
-          "options": {
-            "A": "It is a purely cosmetic concern and does not affect implant placement",
-            "B": "The canal's diameter, position and proximity to the proposed implant site must be assessed on CBCT; a large or anteriorly positioned canal may compromise bone availability and implant position, sometimes requiring canal management",
-            "C": "The canal always necessitates a bone graft before any anterior maxillary implant",
-            "D": "The canal is only relevant if the patient has previously had an injury to the anterior teeth"
-          },
-          "correct": "B",
-          "rationale": "The nasopalatine (incisive) canal transmits the nasopalatine nerve and vessels in the anterior midline of the palate. Its size, shape and relationship to planned implant sites must be assessed on CBCT when planning upper anterior implants. A wide or anteriorly displaced canal can limit bone availability and may require grafting or angulation adjustment.",
           "scenario": false
         }
       ]
