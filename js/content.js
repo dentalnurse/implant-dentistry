@@ -25,10 +25,10 @@ const MODULE_CONTENT = [
           "It helps to understand how implants fit alongside the other tooth replacement options available to patients:"
         ],
         "list": [
-          "Dentures — removable acrylic or metal frameworks that replace one or all teeth, held in place by suction or metal clasps. The most affordable option, but can become loose, may affect speech and eating, and are not suitable for everyone, for example patients with a strong gag reflex.",
-          "Conventional bridges — fixed replacements involving cutting down adjacent healthy teeth for support. Good aesthetics and longevity but require preparation of healthy tooth structure; if the bridge fails there can be damage to supporting teeth.",
-          "Adhesive bridges — use a minimal preparation technique, bonding to the back of adjacent teeth without cutting them. Generally used for single tooth replacement; can be dislodged more easily than conventional bridges.",
-          "Implants — fixed replacements that do not rely on adjacent teeth for support. Placed directly into the jawbone and incorporated through osseointegration. Excellent aesthetics and longevity, the most expensive option, involve a surgical procedure, but preserve surrounding teeth and help maintain bone volume."
+          "Dentures  -  removable acrylic or metal frameworks that replace one or all teeth, held in place by suction or metal clasps. The most affordable option, but can become loose, may affect speech and eating, and are not suitable for everyone, for example patients with a strong gag reflex.",
+          "Conventional bridges  -  fixed replacements involving cutting down adjacent healthy teeth for support. Good aesthetics and longevity but require preparation of healthy tooth structure; if the bridge fails there can be damage to supporting teeth.",
+          "Adhesive bridges  -  use a minimal preparation technique, bonding to the back of adjacent teeth without cutting them. Generally used for single tooth replacement; can be dislodged more easily than conventional bridges.",
+          "Implants  -  fixed replacements that do not rely on adjacent teeth for support. Placed directly into the jawbone and incorporated through osseointegration. Excellent aesthetics and longevity, the most expensive option, involve a surgical procedure, but preserve surrounding teeth and help maintain bone volume."
         ],
         "image": {
           "src": "images/implants.png",
@@ -47,9 +47,9 @@ const MODULE_CONTENT = [
         "heading": "The Three Main Components of a Dental Implant",
         "paragraphs": [],
         "list": [
-          "Implant fixture — the titanium screw inserted into the jawbone, acting as the artificial tooth root.",
-          "Abutment — the connector that attaches to the top of the implant fixture and provides the foundation for the restoration.",
-          "Restoration — the visible replacement, which may be a single crown, a bridge spanning several missing teeth, or a denture retained by the implant."
+          "Implant fixture  -  the titanium screw inserted into the jawbone, acting as the artificial tooth root.",
+          "Abutment  -  the connector that attaches to the top of the implant fixture and provides the foundation for the restoration.",
+          "Restoration  -  the visible replacement, which may be a single crown, a bridge spanning several missing teeth, or a denture retained by the implant."
         ],
         "image": {
           "src": "images/Gemini_Generated_Image_moercvmoercvmoer - Edited.jpg",
@@ -66,11 +66,11 @@ const MODULE_CONTENT = [
           "The desire to replace missing teeth is not new. Ancient civilisations developed creative approaches to tooth replacement, some of which demonstrate a remarkable understanding of what we now call osseointegration."
         ],
         "list": [
-          "Around 2500 BC — Egyptian writings describe attempts to stabilise loose teeth using gold wire.",
-          "Around 1000 BC — copper pegs were hammered into the jaw of an Egyptian king, though whether this occurred during life or after death is not entirely clear.",
-          "Around 500 BC — the Etruscans fashioned fixed bridges using gold bands to hold teeth in place.",
-          "Around 300 AD — the Phoenicians crafted fixed bridges from ivory and gold pins.",
-          "Around 100 AD — the Mayans used carved seashells as tooth replacements. A mandible discovered in 1931 showed shell fragments that had become fused to the surrounding bone, providing early evidence of natural osseointegration."
+          "Around 2500 BC  -  Egyptian writings describe attempts to stabilise loose teeth using gold wire.",
+          "Around 1000 BC  -  copper pegs were hammered into the jaw of an Egyptian king, though whether this occurred during life or after death is not entirely clear.",
+          "Around 500 BC  -  the Etruscans fashioned fixed bridges using gold bands to hold teeth in place.",
+          "Around 300 AD  -  the Phoenicians crafted fixed bridges from ivory and gold pins.",
+          "Around 100 AD  -  the Mayans used carved seashells as tooth replacements. A mandible discovered in 1931 showed shell fragments that had become fused to the surrounding bone, providing early evidence of natural osseointegration."
         ]
       },
       {
@@ -112,11 +112,11 @@ const MODULE_CONTENT = [
           "Implant dentistry is a team effort. Understanding the roles of each team member helps you work more effectively and contributes to high quality patient care."
         ],
         "list": [
-          "The Implantologist — the clinician responsible for planning and delivering implant treatment. May be a general dentist who has undertaken additional postgraduate training, or a specialist such as an oral surgeon or periodontist. Carries full clinical responsibility for assessment, treatment planning, surgical placement and restorative stages.",
-          "The Dental Nurse — provides clinical support throughout the full patient journey. A skilled and demanding role requiring specific knowledge and training.",
-          "The Treatment Coordinator — guides patients through the financial and logistical aspects of treatment, often the patient's first point of contact, and provides psychological support during the decision-making process.",
-          "The Dental Laboratory Technician — constructs the restoration attached to the implant. Close communication between implantologist and laboratory is essential.",
-          "The Wider Practice Team — receptionists and practice managers support scheduling and records; patients may also be referred to or from specialists such as periodontists."
+          "The Implantologist  -  the clinician responsible for planning and delivering implant treatment. May be a general dentist who has undertaken additional postgraduate training, or a specialist such as an oral surgeon or periodontist. Carries full clinical responsibility for assessment, treatment planning, surgical placement and restorative stages.",
+          "The Dental Nurse  -  provides clinical support throughout the full patient journey. A skilled and demanding role requiring specific knowledge and training.",
+          "The Treatment Coordinator  -  guides patients through the financial and logistical aspects of treatment, often the patient's first point of contact, and provides psychological support during the decision-making process.",
+          "The Dental Laboratory Technician  -  constructs the restoration attached to the implant. Close communication between implantologist and laboratory is essential.",
+          "The Wider Practice Team  -  receptionists and practice managers support scheduling and records; patients may also be referred to or from specialists such as periodontists."
         ]
       },
       {
@@ -232,10 +232,10 @@ const MODULE_CONTENT = [
           "The periodontium is the collective name for the supporting structures that anchor and protect the teeth. It consists of four components:"
         ],
         "list": [
-          "The gingiva — the soft tissue that surrounds and protects the neck of the tooth and the underlying bone.",
-          "The periodontal ligament — a network of fibres that connects the root of the tooth to the surrounding alveolar bone and acts as a shock absorber during biting and chewing.",
-          "The cementum — the hard tissue covering the root of the tooth to which the periodontal ligament fibres are attached.",
-          "The alveolar bone — the specialised bone of the jaw that forms the sockets in which the tooth roots sit."
+          "The gingiva  -  the soft tissue that surrounds and protects the neck of the tooth and the underlying bone.",
+          "The periodontal ligament  -  a network of fibres that connects the root of the tooth to the surrounding alveolar bone and acts as a shock absorber during biting and chewing.",
+          "The cementum  -  the hard tissue covering the root of the tooth to which the periodontal ligament fibres are attached.",
+          "The alveolar bone  -  the specialised bone of the jaw that forms the sockets in which the tooth roots sit."
         ],
         "closing": [
           "When a tooth is lost, the alveolar bone that previously supported it begins to resorb. This is one of the key reasons why dental implants are considered superior to other replacement options. The mechanical stimulation provided by an osseointegrated implant helps to maintain alveolar bone volume in a way that dentures and bridges cannot."
@@ -280,9 +280,9 @@ const MODULE_CONTENT = [
           "The trigeminal nerve is the fifth cranial nerve and provides sensation to the teeth, jaws, and surrounding soft tissues. It divides into three branches:"
         ],
         "list": [
-          "The ophthalmic division — supplies the forehead and upper face.",
-          "The maxillary division — provides sensation to the upper teeth, the maxilla, and the middle area of the face.",
-          "The mandibular division — provides sensation to the lower teeth and jaw, and also provides the motor supply to the muscles of mastication."
+          "The ophthalmic division  -  supplies the forehead and upper face.",
+          "The maxillary division  -  provides sensation to the upper teeth, the maxilla, and the middle area of the face.",
+          "The mandibular division  -  provides sensation to the lower teeth and jaw, and also provides the motor supply to the muscles of mastication."
         ],
         "closing": [
           "The inferior alveolar nerve, a branch of the mandibular division, runs through the mandibular canal before exiting at the mental foramen. Maintaining a safe distance from this nerve during implant placement in the lower jaw is critical. A minimum safety margin of 1 to 2mm is generally recommended between the inferior alveolar nerve and the apex of the implant."
@@ -308,10 +308,10 @@ const MODULE_CONTENT = [
           "The muscles of mastication are responsible for jaw closing and chewing movements. There are four pairs:"
         ],
         "list": [
-          "Temporalis — originates from the temporal bone and inserts into the coronoid process of the mandible; pulls the mandible backwards and closed.",
-          "Masseter — originates from the zygomatic arch and inserts into the ramus and angle of the mandible; closes the mandible.",
-          "Lateral pterygoid — brings the mandible forwards when both contract, or produces lateral movement when only one contracts.",
-          "Medial pterygoid — originates from the medial pterygoid plate and inserts into the inner surface of the ramus; closes the mandible."
+          "Temporalis  -  originates from the temporal bone and inserts into the coronoid process of the mandible; pulls the mandible backwards and closed.",
+          "Masseter  -  originates from the zygomatic arch and inserts into the ramus and angle of the mandible; closes the mandible.",
+          "Lateral pterygoid  -  brings the mandible forwards when both contract, or produces lateral movement when only one contracts.",
+          "Medial pterygoid  -  originates from the medial pterygoid plate and inserts into the inner surface of the ramus; closes the mandible."
         ],
         "closing": [
           "All four muscles are innervated by the motor branch of the mandibular division of the trigeminal nerve. Their bulk and attachment points are relevant to surgical planning, particularly in the posterior mandible."
@@ -407,12 +407,12 @@ const MODULE_CONTENT = [
         "heading": "Conditions That May Contraindicate or Complicate Implant Treatment",
         "paragraphs": [],
         "list": [
-          "Osteoporosis — affects bone density and quality and may compromise osseointegration. Patients taking bisphosphonate medication require particularly careful assessment as these drugs can significantly impair bone healing and are associated with medication-related osteonecrosis of the jaw.",
-          "Diabetes — uncontrolled diabetes impairs wound healing and increases susceptibility to infection, significantly increasing the risk of implant failure. Well-controlled diabetes is less of a concern but still requires careful monitoring.",
-          "Haemophilia and anticoagulant therapy — bleeding disorders and anticoagulant medications such as warfarin or newer anticoagulants may complicate the surgical aspects of implant placement.",
-          "Immunosuppression — patients on immunosuppressant medication, for example following organ transplantation, or with conditions affecting immune function, are at higher risk of infection.",
-          "Radiotherapy to the head and neck — can compromise blood supply to the jaws and significantly impairs bone healing and osseointegration.",
-          "Cardiovascular conditions — certain heart conditions and medications may require liaison with the patient's physician before proceeding."
+          "Osteoporosis  -  affects bone density and quality and may compromise osseointegration. Patients taking bisphosphonate medication require particularly careful assessment as these drugs can significantly impair bone healing and are associated with medication-related osteonecrosis of the jaw.",
+          "Diabetes  -  uncontrolled diabetes impairs wound healing and increases susceptibility to infection, significantly increasing the risk of implant failure. Well-controlled diabetes is less of a concern but still requires careful monitoring.",
+          "Haemophilia and anticoagulant therapy  -  bleeding disorders and anticoagulant medications such as warfarin or newer anticoagulants may complicate the surgical aspects of implant placement.",
+          "Immunosuppression  -  patients on immunosuppressant medication, for example following organ transplantation, or with conditions affecting immune function, are at higher risk of infection.",
+          "Radiotherapy to the head and neck  -  can compromise blood supply to the jaws and significantly impairs bone healing and osseointegration.",
+          "Cardiovascular conditions  -  certain heart conditions and medications may require liaison with the patient's physician before proceeding."
         ],
         "closing": [
           "It is important to note that many of these conditions represent relative rather than absolute contraindications. The decision to proceed with implant treatment in a medically complex patient is made by the implantologist, often in consultation with the patient's medical team."
@@ -516,10 +516,10 @@ const MODULE_CONTENT = [
           "Consent must be:"
         ],
         "list": [
-          "Voluntary — given freely without pressure or coercion.",
-          "Informed — the patient must be provided with all relevant information in a form they can understand, including the benefits, risks, alternatives, the number of appointments involved, the expected healing time, and the long term maintenance requirements.",
-          "Specific — covering the agreed treatment plan.",
-          "Ongoing — consent is a continuing process and patients must be kept informed of any changes throughout their treatment."
+          "Voluntary  -  given freely without pressure or coercion.",
+          "Informed  -  the patient must be provided with all relevant information in a form they can understand, including the benefits, risks, alternatives, the number of appointments involved, the expected healing time, and the long term maintenance requirements.",
+          "Specific  -  covering the agreed treatment plan.",
+          "Ongoing  -  consent is a continuing process and patients must be kept informed of any changes throughout their treatment."
         ],
         "closing": [
           "The consent form itself is documentation of this process, not a substitute for it. The patient should be given adequate time to consider the information provided and ask questions before signing. As a dental nurse you play an important role in supporting the consent process by reinforcing information given by the implantologist and ensuring patients feel able to ask questions."
@@ -614,12 +614,12 @@ const MODULE_CONTENT = [
           {
             "src": "images/volodymyr007-dental-3754769.jpg",
             "alt": "Clinical photograph of a dental implant being placed into the jaw during surgery",
-            "caption": "An implant fixture mid-placement — the socket has been prepared and the titanium screw is being driven into position."
+            "caption": "An implant fixture mid-placement  -  the socket has been prepared and the titanium screw is being driven into position."
           },
           {
             "src": "images/implants.jpg",
             "alt": "Clinical photograph of a dental implant fixture in the jaw with no crown attached",
-            "caption": "A fully placed implant fixture — the titanium screw is visible at the gum line prior to osseointegration and crown attachment."
+            "caption": "A fully placed implant fixture  -  the titanium screw is visible at the gum line prior to osseointegration and crown attachment."
           }
         ]
       },
@@ -636,10 +636,10 @@ const MODULE_CONTENT = [
           "When a tooth is extracted, the socket goes through a predictable sequence of healing. The timing of implant placement in relation to this healing process has been classified into four protocols:"
         ],
         "list": [
-          "Immediate placement (Type I) — the implant is placed at the same appointment as the tooth extraction. Reduces the total number of surgical appointments and preserves soft tissue contours, but requires good primary stability and careful patient selection.",
-          "Early placement with soft tissue healing (Type II) — placement occurs four to eight weeks after extraction, once the soft tissue has healed but before significant bone resorption has occurred.",
-          "Early placement with partial bone healing (Type III) — placement occurs twelve to sixteen weeks after extraction, once partial bone fill of the socket has taken place.",
-          "Late placement (Type IV) — placement occurs once the socket has fully healed, generally after four or more months. Requires the least surgical skill but allows more time for bone resorption to occur."
+          "Immediate placement (Type I)  -  the implant is placed at the same appointment as the tooth extraction. Reduces the total number of surgical appointments and preserves soft tissue contours, but requires good primary stability and careful patient selection.",
+          "Early placement with soft tissue healing (Type II)  -  placement occurs four to eight weeks after extraction, once the soft tissue has healed but before significant bone resorption has occurred.",
+          "Early placement with partial bone healing (Type III)  -  placement occurs twelve to sixteen weeks after extraction, once partial bone fill of the socket has taken place.",
+          "Late placement (Type IV)  -  placement occurs once the socket has fully healed, generally after four or more months. Requires the least surgical skill but allows more time for bone resorption to occur."
         ]
       },
       {
@@ -648,9 +648,9 @@ const MODULE_CONTENT = [
           "Loading refers to when the restoration is attached to the implant and begins to carry occlusal forces. There are three loading protocols:"
         ],
         "list": [
-          "Immediate loading — the restoration is placed within one week of implant placement. Provides immediate aesthetic and functional benefit but requires careful patient selection, excellent primary stability, and precise occlusal management to avoid overloading the implant during healing.",
-          "Early loading — the restoration is placed between one week and two months after implant placement. Suitable for cases where primary stability is good but immediate loading is not indicated.",
-          "Conventional loading — the restoration is placed after two or more months, once osseointegration is confirmed. The most conservative approach, appropriate for a wide range of cases."
+          "Immediate loading  -  the restoration is placed within one week of implant placement. Provides immediate aesthetic and functional benefit but requires careful patient selection, excellent primary stability, and precise occlusal management to avoid overloading the implant during healing.",
+          "Early loading  -  the restoration is placed between one week and two months after implant placement. Suitable for cases where primary stability is good but immediate loading is not indicated.",
+          "Conventional loading  -  the restoration is placed after two or more months, once osseointegration is confirmed. The most conservative approach, appropriate for a wide range of cases."
         ]
       },
       {
@@ -665,17 +665,17 @@ const MODULE_CONTENT = [
           {
             "src": "images/ball implant.jpg",
             "alt": "Ball abutment component showing the implant body and ball attachment head",
-            "caption": "A ball abutment — used to retain implant-supported overdentures."
+            "caption": "A ball abutment  -  used to retain implant-supported overdentures."
           },
           {
             "src": "images/Magnetic implant.jpg",
             "alt": "Magnetic snap attachment for an implant-retained denture",
-            "caption": "A magnetic snap attachment — one of the retention systems used to secure an implant-supported overdenture."
+            "caption": "A magnetic snap attachment  -  one of the retention systems used to secure an implant-supported overdenture."
           }
         ],
         "video": {
           "src": "videos/implant-retained-denture.mp4",
-          "caption": "Demonstration of a fixed implant-retained prosthesis — screwed directly onto the implants and not removable by the patient."
+          "caption": "Demonstration of a fixed implant-retained prosthesis  -  screwed directly onto the implants and not removable by the patient."
         }
       },
       {
@@ -776,14 +776,14 @@ const MODULE_CONTENT = [
           "caption": "A full implant surgical instrument tray laid out on a sterile blue drape, including the drill kit (top left), retractors, periosteal elevators, needle holders, and the surgical handpiece."
         },
         "list": [
-          "Periosteal elevator — used to raise the mucoperiosteal flap and reflect soft tissue from the underlying bone to expose the surgical site.",
-          "Implant drills and drill kit — a sequential set of drills used to prepare the implant socket to the correct width, depth and angulation. Each implant system has its own specific drill sequence and these must be followed precisely.",
-          "Torque wrench — used to place the implant fixture and components at the correct torque value, as specified by the implant manufacturer. Under or over torquing can lead to component failure or damage.",
-          "Implant carrier and mount — used to transfer the sterile implant from its packaging to the prepared socket without the implant being handled directly.",
-          "Depth gauge — used to measure the depth of the prepared socket to ensure the implant of the correct length is selected.",
-          "Suture materials and needle holders — used to close the flap following implant placement.",
-          "Surgical retractors — used to maintain visibility and retract soft tissue during the procedure.",
-          "Bone rongeurs and chisels — may be required for minor bone contouring."
+          "Periosteal elevator  -  used to raise the mucoperiosteal flap and reflect soft tissue from the underlying bone to expose the surgical site.",
+          "Implant drills and drill kit  -  a sequential set of drills used to prepare the implant socket to the correct width, depth and angulation. Each implant system has its own specific drill sequence and these must be followed precisely.",
+          "Torque wrench  -  used to place the implant fixture and components at the correct torque value, as specified by the implant manufacturer. Under or over torquing can lead to component failure or damage.",
+          "Implant carrier and mount  -  used to transfer the sterile implant from its packaging to the prepared socket without the implant being handled directly.",
+          "Depth gauge  -  used to measure the depth of the prepared socket to ensure the implant of the correct length is selected.",
+          "Suture materials and needle holders  -  used to close the flap following implant placement.",
+          "Surgical retractors  -  used to maintain visibility and retract soft tissue during the procedure.",
+          "Bone rongeurs and chisels  -  may be required for minor bone contouring."
         ]
       },
       {
@@ -795,7 +795,7 @@ const MODULE_CONTENT = [
           {
             "src": "images/implant machine.JPG",
             "alt": "W&H Implantmed surgical motor unit with saline irrigation bag on drip stand",
-            "caption": "The W&H Implantmed — a surgical motor unit with integrated irrigation, shown set up ready for use with a 500ml sodium chloride 0.9% bag."
+            "caption": "The W&H Implantmed  -  a surgical motor unit with integrated irrigation, shown set up ready for use with a 500ml sodium chloride 0.9% bag."
           },
           {
             "src": "images/implant tray (2).JPG",
@@ -810,13 +810,13 @@ const MODULE_CONTENT = [
           "The restorative stage of implant treatment requires a different set of instruments, many of which are specific to the implant system being used:"
         ],
         "list": [
-          "Abutment driver — used to tighten the abutment onto the implant fixture.",
-          "Impression copings — attached to the implant or abutment and used to transfer the exact position of the implant to the working model. They come in two main forms: open tray and closed tray, each requiring a different impression technique.",
-          "Impression trays — specialised open tray impression trays may be required to accommodate the impression copings.",
-          "Analogue — a replica of the implant or abutment that is incorporated into the working model to allow the laboratory technician to fabricate the restoration.",
-          "Scan bodies — used in digital impression workflows in place of impression copings, to capture the implant position using an intraoral scanner.",
-          "Occlusal registration materials — used to record the relationship between the upper and lower jaws for the laboratory.",
-          "Placement instruments for the final restoration — including screwdrivers and torque wrenches specific to the implant system."
+          "Abutment driver  -  used to tighten the abutment onto the implant fixture.",
+          "Impression copings  -  attached to the implant or abutment and used to transfer the exact position of the implant to the working model. They come in two main forms: open tray and closed tray, each requiring a different impression technique.",
+          "Impression trays  -  specialised open tray impression trays may be required to accommodate the impression copings.",
+          "Analogue  -  a replica of the implant or abutment that is incorporated into the working model to allow the laboratory technician to fabricate the restoration.",
+          "Scan bodies  -  used in digital impression workflows in place of impression copings, to capture the implant position using an intraoral scanner.",
+          "Occlusal registration materials  -  used to record the relationship between the upper and lower jaws for the laboratory.",
+          "Placement instruments for the final restoration  -  including screwdrivers and torque wrenches specific to the implant system."
         ]
       },
       {
@@ -1010,12 +1010,12 @@ const MODULE_CONTENT = [
           "Understanding the risk factors for peri-implantitis allows the dental team to identify high-risk patients and put appropriate preventive measures in place:"
         ],
         "list": [
-          "A history of periodontal disease — patients who have previously experienced periodontal disease are at significantly higher risk of developing peri-implantitis.",
-          "Poor oral hygiene — inadequate plaque removal is the primary driver of peri-implant disease.",
-          "Smoking — increases the risk of peri-implant disease significantly and is associated with more rapid bone loss.",
-          "Diabetes — uncontrolled diabetes is associated with impaired immune function and increased susceptibility to infection.",
-          "Excess cement — residual cement left around the implant-abutment interface can trigger an inflammatory reaction.",
-          "Bruxism — excessive occlusal forces may increase susceptibility to peri-implantitis in some patients."
+          "A history of periodontal disease  -  patients who have previously experienced periodontal disease are at significantly higher risk of developing peri-implantitis.",
+          "Poor oral hygiene  -  inadequate plaque removal is the primary driver of peri-implant disease.",
+          "Smoking  -  increases the risk of peri-implant disease significantly and is associated with more rapid bone loss.",
+          "Diabetes  -  uncontrolled diabetes is associated with impaired immune function and increased susceptibility to infection.",
+          "Excess cement  -  residual cement left around the implant-abutment interface can trigger an inflammatory reaction.",
+          "Bruxism  -  excessive occlusal forces may increase susceptibility to peri-implantitis in some patients."
         ]
       },
       {
@@ -1178,7 +1178,7 @@ const MODULE_CONTENT = [
           {
             "src": "images/IMG_20220330_125452.jpg",
             "alt": "Washer disinfector machine used for cleaning dental instruments",
-            "caption": "Washer-disinfector: the preferred method of instrument cleaning — more effective and safer than manual scrubbing."
+            "caption": "Washer-disinfector: the preferred method of instrument cleaning  -  more effective and safer than manual scrubbing."
           },
           {
             "src": "images/IMG_20220330_125120.jpg",
@@ -1464,11 +1464,11 @@ const MODULE_CONTENT = [
         ],
         "images": [
           { "src": "images/GTN_spray.jpg", "alt": "GTN glyceryl trinitrate sublingual spray 400mcg", "caption": "GTN (glyceryl trinitrate) sublingual spray 400mcg: administered under the tongue for an acute angina attack. Image: Whispyhistory, CC BY-SA 4.0." },
-          { "src": "images/IMG_20211216_191655.jpg", "alt": "EpiPen adrenaline auto-injector", "caption": "EpiPen (adrenaline auto-injector): used for anaphylaxis — administer into the outer mid-thigh." },
+          { "src": "images/IMG_20211216_191655.jpg", "alt": "EpiPen adrenaline auto-injector", "caption": "EpiPen (adrenaline auto-injector): used for anaphylaxis  -  administer into the outer mid-thigh." },
           { "src": "images/IMG_20211216_191825.jpg", "alt": "Glucagon emergency kit", "caption": "Glucagon kit: used for hypoglycaemia when the patient is unconscious and cannot swallow." },
           { "src": "images/IMG_20211216_191901.jpg", "alt": "Glucagon powder vial close-up", "caption": "Glucagon vial (powder for reconstitution): must be mixed with the provided diluent before intramuscular injection." },
           { "src": "images/IMG_20211216_191919.jpg", "alt": "Glucagon syringe close-up", "caption": "Glucagon syringe: pre-filled diluent syringe used to reconstitute the glucagon powder." },
-          { "src": "images/IMG_20211216_192231.jpg", "alt": "Aspirin 300mg tablets", "caption": "Aspirin 300mg: given for suspected myocardial infarction — patient chews (not swallows) the tablet." },
+          { "src": "images/IMG_20211216_192231.jpg", "alt": "Aspirin 300mg tablets", "caption": "Aspirin 300mg: given for suspected myocardial infarction  -  patient chews (not swallows) the tablet." },
           { "src": "images/IMG_20211216_192326.jpg", "alt": "Adrenaline (epinephrine) ampoule", "caption": "Adrenaline (epinephrine) 1:1000: the primary drug for anaphylaxis, given by intramuscular injection." },
           { "src": "images/IMG_20211216_192351.jpg", "alt": "Adrenaline (epinephrine) ampoule close-up", "caption": "Adrenaline ampoule close-up: check expiry date during routine emergency kit checks." },
           { "src": "images/IMG_20211216_192458.jpg", "alt": "Salbutamol inhaler", "caption": "Salbutamol (Ventolin) inhaler: first-line treatment for an acute asthma attack in the dental setting." }
