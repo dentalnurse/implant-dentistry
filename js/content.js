@@ -46,11 +46,6 @@ const MODULE_CONTENT = [
           "Abutment — the connector that attaches to the top of the implant fixture and provides the foundation for the restoration.",
           "Restoration — the visible replacement, which may be a single crown, a bridge spanning several missing teeth, or a denture retained by the implant."
         ],
-        "image": {
-          "src": "images/implants.jpg",
-          "alt": "Diagram showing single unit implant, implant-supported bridge, and All-on-X bridge",
-          "caption": "The three main prosthetic options: single unit crown, implant-supported bridge, and All-on-X implant-supported bridge. (Image: dentalillustration.co.uk)"
-        },
         "closing": [
           "The successful outcome of implant treatment depends on several factors including the quality and volume of available bone, the patient's general and oral health, lifestyle factors such as smoking, and the quality of the surgical and restorative work carried out. Careful patient selection and assessment are therefore central to implant dentistry, as you will explore further in Module 3."
         ]
@@ -595,9 +590,10 @@ const MODULE_CONTENT = [
           "A mucoperiosteal flap is raised to expose the underlying bone and a series of specially designed low-speed drills are used to prepare the implant socket to the precise width, depth and angulation determined during the planning stage. The drills are used in a sequential order, each one progressively widening the socket. Throughout this process copious sterile irrigation is essential to prevent bone heating.",
           "Once the socket is prepared, the chosen implant fixture is driven into place using torqued insert instruments. The tissue flap is then sutured back over the implant to allow healing to take place beneath the soft tissue. In some cases a healing cap or cover screw is placed over the top of the implant at this stage."
         ],
-        "video": {
-          "src": "videos/implant-surgery.mp4",
-          "caption": "Clinical footage of a dental implant surgical procedure."
+        "image": {
+          "src": "images/implants.jpg",
+          "alt": "Clinical photograph of a dental implant fixture in the jaw with no crown attached",
+          "caption": "A dental implant fixture fully placed in the jaw — the titanium screw is visible at the gum line prior to crown attachment."
         }
       },
       {
@@ -646,8 +642,8 @@ const MODULE_CONTENT = [
           },
           {
             "src": "images/Magnetic implant.jpg",
-            "alt": "Implant screwdriver and abutment driver tools",
-            "caption": "Abutment driver (top) and torque wrench adapter (bottom) — used to seat and tighten components to the correct torque value."
+            "alt": "Magnetic snap attachment for an implant-retained denture",
+            "caption": "A magnetic snap attachment — one of the retention systems used to secure an implant-supported overdenture."
           }
         ],
         "video": {
@@ -1124,18 +1120,11 @@ const MODULE_CONTENT = [
         "closing": [
           "All team members present during the surgical procedure must be appropriately attired. PPE must be changed between patients and disposed of or decontaminated appropriately."
         ],
-        "images": [
-          {
-            "src": "images/Isla.JPG",
-            "alt": "Dental nurse in full surgical PPE including sterile gown, surgical mask, gloves and cap",
-            "caption": "Full surgical PPE: fluid-resistant gown, surgical mask, sterile gloves, surgical cap and eye protection."
-          },
-          {
-            "src": "images/Isla 2.JPG",
-            "alt": "Dental nurse in surgical PPE ready to assist during an implant procedure",
-            "caption": "PPE must be donned before entering the surgical environment and changed between patients."
-          }
-        ]
+        "image": {
+          "src": "images/Isla.JPG",
+          "alt": "Dental nurse in full surgical PPE including sterile gown, surgical mask, gloves and cap",
+          "caption": "Full surgical PPE for an implant procedure: fluid-resistant gown, surgical mask, sterile gloves, surgical cap and eye protection."
+        }
       },
       {
         "heading": "Decontamination of Implant Instruments",
