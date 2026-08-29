@@ -1174,7 +1174,7 @@ const QUESTION_BANK = {
           "q": "Which of the following patients would be the most appropriate candidate for immediate implant placement?",
           "options": {
             "A": "A patient with a severely infected tooth requiring extraction",
-            "B": "A patient requiring extraction of a healthy tooth for orthodontic purposes with good bone volume",
+            "B": "A patient requiring extraction of a failing tooth due to root fracture with good surrounding bone volume",
             "C": "A patient requiring extraction of a tooth with a large periapical abscess",
             "D": "A patient with significant bone loss due to periodontal disease"
           },
