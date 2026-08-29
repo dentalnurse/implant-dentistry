@@ -1463,6 +1463,7 @@ const MODULE_CONTENT = [
           "Equipment: oxygen cylinders and delivery equipment including masks and tubing; automated external defibrillator (AED); oropharyngeal airways in a range of sizes; bag valve mask for assisted ventilation; pulse oximeter; blood glucose monitor"
         ],
         "images": [
+          { "src": "images/GTN_spray.jpg", "alt": "GTN glyceryl trinitrate sublingual spray 400mcg", "caption": "GTN (glyceryl trinitrate) sublingual spray 400mcg: administered under the tongue for an acute angina attack. Image: Whispyhistory, CC BY-SA 4.0." },
           { "src": "images/IMG_20211216_191655.jpg", "alt": "EpiPen adrenaline auto-injector", "caption": "EpiPen (adrenaline auto-injector): used for anaphylaxis — administer into the outer mid-thigh." },
           { "src": "images/IMG_20211216_191825.jpg", "alt": "Glucagon emergency kit", "caption": "Glucagon kit: used for hypoglycaemia when the patient is unconscious and cannot swallow." },
           { "src": "images/IMG_20211216_191901.jpg", "alt": "Glucagon powder vial close-up", "caption": "Glucagon vial (powder for reconstitution): must be mixed with the provided diluent before intramuscular injection." },
