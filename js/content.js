@@ -30,6 +30,11 @@ const MODULE_CONTENT = [
           "Adhesive bridges — use a minimal preparation technique, bonding to the back of adjacent teeth without cutting them. Generally used for single tooth replacement; can be dislodged more easily than conventional bridges.",
           "Implants — fixed replacements that do not rely on adjacent teeth for support. Placed directly into the jawbone and incorporated through osseointegration. Excellent aesthetics and longevity, the most expensive option, involve a surgical procedure, but preserve surrounding teeth and help maintain bone volume."
         ],
+        "image": {
+          "src": "images/implants.png",
+          "alt": "Diagram showing different types of dental implant restorations",
+          "caption": "The main implant restoration types: single tooth, implant-supported bridge, and full arch options."
+        }
       },
       {
         "heading": "How Do Dental Implants Work?",
