@@ -29,7 +29,12 @@ const MODULE_CONTENT = [
           "Conventional bridges — fixed replacements involving cutting down adjacent healthy teeth for support. Good aesthetics and longevity but require preparation of healthy tooth structure; if the bridge fails there can be damage to supporting teeth.",
           "Adhesive bridges — use a minimal preparation technique, bonding to the back of adjacent teeth without cutting them. Generally used for single tooth replacement; can be dislodged more easily than conventional bridges.",
           "Implants — fixed replacements that do not rely on adjacent teeth for support. Placed directly into the jawbone and incorporated through osseointegration. Excellent aesthetics and longevity, the most expensive option, involve a surgical procedure, but preserve surrounding teeth and help maintain bone volume."
-        ]
+        ],
+        "image": {
+          "src": "images/implants.png",
+          "alt": "Diagram showing different types of dental implant restorations",
+          "caption": "The main implant restoration types: single tooth, implant-supported bridge, and full arch options."
+        }
       },
       {
         "heading": "How Do Dental Implants Work?",
@@ -46,6 +51,11 @@ const MODULE_CONTENT = [
           "Abutment — the connector that attaches to the top of the implant fixture and provides the foundation for the restoration.",
           "Restoration — the visible replacement, which may be a single crown, a bridge spanning several missing teeth, or a denture retained by the implant."
         ],
+        "image": {
+          "src": "images/Gemini_Generated_Image_moercvmoercvmoer - Edited.jpg",
+          "alt": "Labelled diagram of a dental implant showing the fixture, abutment and crown",
+          "caption": "A labelled cross-section of a dental implant showing the three components: fixture (bone), abutment (connector), and crown (restoration)."
+        },
         "closing": [
           "The successful outcome of implant treatment depends on several factors including the quality and volume of available bone, the patient's general and oral health, lifestyle factors such as smoking, and the quality of the surgical and restorative work carried out. Careful patient selection and assessment are therefore central to implant dentistry, as you will explore further in Module 3."
         ]
@@ -573,7 +583,12 @@ const MODULE_CONTENT = [
           "Healing period to allow osseointegration",
           "Restorative stage, including impressions and placement of the final restoration",
           "Review and maintenance"
-        ]
+        ],
+        "image": {
+          "src": "images/Untitled design.png",
+          "alt": "Diagram showing the stages of dental implant treatment",
+          "caption": "The stages of implant treatment from placement through to the final restoration."
+        }
       },
       {
         "heading": "Preparation for Surgery",
@@ -590,11 +605,18 @@ const MODULE_CONTENT = [
           "A mucoperiosteal flap is raised to expose the underlying bone and a series of specially designed low-speed drills are used to prepare the implant socket to the precise width, depth and angulation determined during the planning stage. The drills are used in a sequential order, each one progressively widening the socket. Throughout this process copious sterile irrigation is essential to prevent bone heating.",
           "Once the socket is prepared, the chosen implant fixture is driven into place using torqued insert instruments. The tissue flap is then sutured back over the implant to allow healing to take place beneath the soft tissue. In some cases a healing cap or cover screw is placed over the top of the implant at this stage."
         ],
-        "image": {
-          "src": "images/implants.jpg",
-          "alt": "Clinical photograph of a dental implant fixture in the jaw with no crown attached",
-          "caption": "A dental implant fixture fully placed in the jaw — the titanium screw is visible at the gum line prior to crown attachment."
-        }
+        "images": [
+          {
+            "src": "images/volodymyr007-dental-3754769.jpg",
+            "alt": "Clinical photograph of a dental implant being placed into the jaw during surgery",
+            "caption": "An implant fixture mid-placement — the socket has been prepared and the titanium screw is being driven into position."
+          },
+          {
+            "src": "images/implants.jpg",
+            "alt": "Clinical photograph of a dental implant fixture in the jaw with no crown attached",
+            "caption": "A fully placed implant fixture — the titanium screw is visible at the gum line prior to osseointegration and crown attachment."
+          }
+        ]
       },
       {
         "heading": "One-Stage and Two-Stage Implant Placement",
