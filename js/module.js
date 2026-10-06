@@ -2,6 +2,94 @@ function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
 
+function buildSectionEl(section) {
+  const wrap = document.createElement('div');
+  wrap.className = 'content-section';
+
+  const heading = document.createElement('h3');
+  heading.textContent = section.heading;
+  wrap.appendChild(heading);
+
+  (section.paragraphs || []).forEach((p) => {
+    const para = document.createElement('p');
+    para.textContent = p;
+    wrap.appendChild(para);
+  });
+
+  if (section.list && section.list.length) {
+    const ul = document.createElement('ul');
+    section.list.forEach((item) => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      ul.appendChild(li);
+    });
+    wrap.appendChild(ul);
+  }
+
+  (section.closing || []).forEach((p) => {
+    const para = document.createElement('p');
+    para.textContent = p;
+    wrap.appendChild(para);
+  });
+
+  if (section.image) {
+    const fig = document.createElement('figure');
+    fig.className = 'section-media';
+    const img = document.createElement('img');
+    img.src = section.image.src;
+    img.alt = section.image.alt || '';
+    img.loading = 'lazy';
+    img.onerror = () => { fig.hidden = true; };
+    fig.appendChild(img);
+    if (section.image.caption) {
+      const cap = document.createElement('figcaption');
+      cap.textContent = section.image.caption;
+      fig.appendChild(cap);
+    }
+    wrap.appendChild(fig);
+  }
+
+  if (section.images) {
+    const gallery = document.createElement('div');
+    gallery.className = 'section-gallery';
+    section.images.forEach((imgData) => {
+      const fig = document.createElement('figure');
+      fig.className = 'section-media';
+      const img = document.createElement('img');
+      img.src = imgData.src;
+      img.alt = imgData.alt || '';
+      img.loading = 'lazy';
+      img.onerror = () => { fig.hidden = true; };
+      fig.appendChild(img);
+      if (imgData.caption) {
+        const cap = document.createElement('figcaption');
+        cap.textContent = imgData.caption;
+        fig.appendChild(cap);
+      }
+      gallery.appendChild(fig);
+    });
+    wrap.appendChild(gallery);
+  }
+
+  if (section.video) {
+    const fig = document.createElement('figure');
+    fig.className = 'section-media section-video';
+    const video = document.createElement('video');
+    video.src = section.video.src;
+    video.controls = true;
+    video.preload = 'metadata';
+    fig.appendChild(video);
+    if (section.video.caption) {
+      const cap = document.createElement('figcaption');
+      cap.textContent = section.video.caption;
+      fig.appendChild(cap);
+    }
+    wrap.appendChild(fig);
+  }
+
+  return wrap;
+}
+
 function renderModulePage() {
   const num = parseInt(getQueryParam('m'), 10);
   const moduleData = MODULE_CONTENT.find((m) => m.num === num);
@@ -18,6 +106,12 @@ function renderModulePage() {
   document.getElementById('mc-title').textContent = moduleData.title;
   document.getElementById('mc-intro').textContent = moduleData.intro;
 
+  // Build pages: objectives, each section, glossary
+  // page 0 = objectives; pages 1..n = sections; page n+1 = glossary
+  const totalPages = 1 + moduleData.sections.length + 1;
+  let currentPage = 0;
+
+  // Objectives content (page 0)
   const objectivesEl = document.getElementById('mc-objectives');
   moduleData.objectives.forEach((obj) => {
     const li = document.createElement('li');
@@ -25,95 +119,16 @@ function renderModulePage() {
     objectivesEl.appendChild(li);
   });
 
+  // Section elements
   const sectionsEl = document.getElementById('mc-sections');
-  moduleData.sections.forEach((section) => {
-    const wrap = document.createElement('div');
-    wrap.className = 'content-section';
-
-    const heading = document.createElement('h3');
-    heading.textContent = section.heading;
-    wrap.appendChild(heading);
-
-    (section.paragraphs || []).forEach((p) => {
-      const para = document.createElement('p');
-      para.textContent = p;
-      wrap.appendChild(para);
-    });
-
-    if (section.list && section.list.length) {
-      const ul = document.createElement('ul');
-      section.list.forEach((item) => {
-        const li = document.createElement('li');
-        li.textContent = item;
-        ul.appendChild(li);
-      });
-      wrap.appendChild(ul);
-    }
-
-    (section.closing || []).forEach((p) => {
-      const para = document.createElement('p');
-      para.textContent = p;
-      wrap.appendChild(para);
-    });
-
-    if (section.image) {
-      const fig = document.createElement('figure');
-      fig.className = 'section-media';
-      const img = document.createElement('img');
-      img.src = section.image.src;
-      img.alt = section.image.alt || '';
-      img.loading = 'lazy';
-      img.onerror = () => { fig.hidden = true; };
-      fig.appendChild(img);
-      if (section.image.caption) {
-        const cap = document.createElement('figcaption');
-        cap.textContent = section.image.caption;
-        fig.appendChild(cap);
-      }
-      wrap.appendChild(fig);
-    }
-
-    if (section.images) {
-      const gallery = document.createElement('div');
-      gallery.className = 'section-gallery';
-      section.images.forEach((imgData) => {
-        const fig = document.createElement('figure');
-        fig.className = 'section-media';
-        const img = document.createElement('img');
-        img.src = imgData.src;
-        img.alt = imgData.alt || '';
-        img.loading = 'lazy';
-        img.onerror = () => { fig.hidden = true; };
-        fig.appendChild(img);
-        if (imgData.caption) {
-          const cap = document.createElement('figcaption');
-          cap.textContent = imgData.caption;
-          fig.appendChild(cap);
-        }
-        gallery.appendChild(fig);
-      });
-      wrap.appendChild(gallery);
-    }
-
-    if (section.video) {
-      const fig = document.createElement('figure');
-      fig.className = 'section-media section-video';
-      const video = document.createElement('video');
-      video.src = section.video.src;
-      video.controls = true;
-      video.preload = 'metadata';
-      fig.appendChild(video);
-      if (section.video.caption) {
-        const cap = document.createElement('figcaption');
-        cap.textContent = section.video.caption;
-        fig.appendChild(cap);
-      }
-      wrap.appendChild(fig);
-    }
-
-    sectionsEl.appendChild(wrap);
+  const sectionEls = moduleData.sections.map((section) => {
+    const el = buildSectionEl(section);
+    el.style.display = 'none';
+    sectionsEl.appendChild(el);
+    return el;
   });
 
+  // Glossary content
   const glossaryEl = document.getElementById('mc-glossary');
   moduleData.glossary.forEach(([term, def]) => {
     const dt = document.createElement('dt');
@@ -127,9 +142,92 @@ function renderModulePage() {
     glossaryEl.appendChild(item);
   });
 
-  document.getElementById('mc-start-quiz').addEventListener('click', () => {
-    startModuleQuiz(num, moduleData);
+  // Wrap objectives and glossary for show/hide
+  const objectivesWrap = document.querySelector('.objectives-list');
+  const glossaryWrap = document.getElementById('mc-glossary').closest('div') ||
+    (() => {
+      const w = document.createElement('div');
+      glossaryEl.parentNode.insertBefore(w, glossaryEl);
+      w.appendChild(glossaryEl);
+      return w;
+    })();
+  const glossaryHeading = document.querySelector('#module-content-view h2[data-glossary]') ||
+    (() => {
+      const h = document.createElement('h2');
+      h.textContent = 'Module Glossary';
+      h.style.marginTop = '40px';
+      h.setAttribute('data-glossary', '1');
+      glossaryEl.parentNode.insertBefore(h, glossaryEl);
+      return h;
+    })();
+
+  // Remove static glossary heading already in HTML
+  const existingGlossaryH2 = document.querySelector('#module-content-view > h2');
+  if (existingGlossaryH2) existingGlossaryH2.remove();
+
+  // Progress bar + nav controls
+  const progressBar = document.createElement('div');
+  progressBar.className = 'step-progress';
+  progressBar.innerHTML = `
+    <div class="step-progress-track"><div class="step-progress-fill" id="step-fill"></div></div>
+    <span class="step-label" id="step-label"></span>
+  `;
+  const contentView = document.getElementById('module-content-view');
+  const badgeEl = document.getElementById('mc-badge');
+  badgeEl.parentNode.insertBefore(progressBar, badgeEl.nextSibling);
+
+  const navBar = document.createElement('div');
+  navBar.className = 'step-nav';
+  navBar.innerHTML = `
+    <button class="btn btn-outline" id="step-prev">&#8592; Previous</button>
+    <button class="btn btn-solid" id="step-next">Next &#8594;</button>
+  `;
+  contentView.appendChild(navBar);
+
+  const quizWrap = document.getElementById('mc-start-quiz').parentElement;
+  quizWrap.style.display = 'none';
+
+  function showPage(p) {
+    currentPage = p;
+    const isObjectives = p === 0;
+    const isGlossary = p === totalPages - 1;
+    const sectionIndex = p - 1;
+
+    objectivesWrap.style.display = isObjectives ? '' : 'none';
+    sectionEls.forEach((el, i) => { el.style.display = (i === sectionIndex) ? '' : 'none'; });
+    glossaryHeading.style.display = isGlossary ? '' : 'none';
+    glossaryEl.style.display = isGlossary ? '' : 'none';
+
+    const pct = Math.round((p / (totalPages - 1)) * 100);
+    document.getElementById('step-fill').style.width = pct + '%';
+    document.getElementById('step-label').textContent = `Step ${p + 1} of ${totalPages}`;
+
+    document.getElementById('step-prev').style.visibility = p === 0 ? 'hidden' : 'visible';
+    const nextBtn = document.getElementById('step-next');
+    if (p === totalPages - 1) {
+      nextBtn.textContent = 'Start Quiz';
+      nextBtn.className = 'btn btn-solid';
+    } else {
+      nextBtn.textContent = 'Next →';
+      nextBtn.className = 'btn btn-solid';
+    }
+
+    window.scrollTo(0, 0);
+  }
+
+  document.getElementById('step-prev').addEventListener('click', () => {
+    if (currentPage > 0) showPage(currentPage - 1);
   });
+
+  document.getElementById('step-next').addEventListener('click', () => {
+    if (currentPage < totalPages - 1) {
+      showPage(currentPage + 1);
+    } else {
+      startModuleQuiz(num, moduleData);
+    }
+  });
+
+  showPage(0);
 }
 
 function startModuleQuiz(num, moduleData) {
