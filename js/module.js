@@ -12,7 +12,7 @@ function renderModulePage() {
     return;
   }
 
-  document.title = `Module ${num}: ${moduleData.title} — DNT Implant Dentistry`;
+  document.title = `Module ${num}: ${moduleData.title} - DNT Implant Dentistry`;
   document.getElementById('mc-breadcrumb-title').textContent = `Module ${num}`;
   document.getElementById('mc-badge').textContent = `Module ${num} of ${TOTAL_MODULES}`;
   document.getElementById('mc-title').textContent = moduleData.title;
@@ -136,7 +136,7 @@ function startModuleQuiz(num, moduleData) {
   document.getElementById('module-content-view').style.display = 'none';
   document.getElementById('module-quiz-view').style.display = 'block';
   document.getElementById('mq-breadcrumb-title').textContent = `Module ${num}`;
-  document.getElementById('mq-title').textContent = `${moduleData.title} — Quiz`;
+  document.getElementById('mq-title').textContent = `${moduleData.title} - Quiz`;
 
   const pool = QUESTION_BANK.modules[String(num)].questions;
   const questions = pickRandomQuestions(pool, MODULE_QUIZ_SIZE);

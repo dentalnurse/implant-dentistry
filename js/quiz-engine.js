@@ -90,7 +90,7 @@ function renderQuiz(container, questions, passPct, onFinish) {
           <div class="score-pct">${scorePct}%</div>
           <div class="score-label">${correctCount}/${questions.length} correct</div>
         </div>
-        <h2>${passed ? 'Well done — you passed!' : 'Not quite there yet'}</h2>
+        <h2>${passed ? 'Well done - you passed!' : 'Not quite there yet'}</h2>
         <p>${passed
           ? 'You have met the pass mark of ' + passPct + '% for this assessment.'
           : 'You need ' + passPct + '% to pass. Review the module content and try again.'}</p>
