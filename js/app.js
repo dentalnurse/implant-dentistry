@@ -3,7 +3,7 @@ const PROGRESS_KEY = 'implantProgress';
 const MODULE_PASS_PCT = 75;
 const FINAL_PASS_PCT = 75;
 const MODULE_QUIZ_SIZE = 15;
-const FINAL_QUIZ_SIZE = 20;
+const FINAL_QUIZ_SIZE = 40;
 
 function loadProgress() {
   try {

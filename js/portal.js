@@ -64,7 +64,7 @@ function renderPortal() {
   finalCard.innerHTML = `
     <span class="module-number">F</span>
     <h3>Final Assessment</h3>
-    <p style="font-size:0.88rem; color:var(--text-muted); margin:0;">20 random questions drawn from a pool of 40, covering all ten modules. 75% required to pass.</p>
+    <p style="font-size:0.88rem; color:var(--text-muted); margin:0;">40 questions covering all ten modules. 75% required to pass.</p>
     ${finalStatusHtml}
   `;
 
