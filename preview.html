@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview - DNT Implant Dentistry</title>
+<style>
+  body { font-family: sans-serif; background: #06302f; color: #eaf6f4; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+  p { font-size: 1.1rem; }
+</style>
+</head>
+<body>
+<p>Setting up preview&hellip;</p>
+<script>
+(function () {
+  // Bypass PIN gate
+  localStorage.setItem('implantPinOk', 'yes');
+
+  // Mark all 10 modules as passed
+  var progress = {};
+  for (var i = 1; i <= 10; i++) {
+    progress[i] = { passed: true, bestScore: 100, attempts: 1 };
+  }
+  localStorage.setItem('implantProgress', JSON.stringify(progress));
+
+  // Redirect to portal
+  window.location.replace('portal.html');
+})();
+</script>
+</body>
+</html>
